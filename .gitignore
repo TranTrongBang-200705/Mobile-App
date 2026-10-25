@@ -21,8 +21,8 @@ scratch/
 dist/
 
 # Large raw benchmark data files (>25MB) from unrelated research datasets
-pcat/data/**/TotalData.csv
-pcat/data.rar
+backend/data/**/TotalData.csv
+backend/data.rar
 
 # Flutter & Dart Build Artifacts
 **/build/

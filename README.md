@@ -14,7 +14,7 @@
 │   ├── test/                 # Kiểm thử widget & luồng thi thích ứng
 │   └── pubspec.yaml          # Quản lý thư viện Flutter
 │
-├── pcat/                      # Máy chủ AI Backend (FastAPI + PyTorch)
+├── backend/                   # Máy chủ AI Backend (FastAPI + PyTorch)
 │   ├── pcat_server.py        # API Server phục vụ thi thích ứng & chẩn đoán
 │   ├── pcat_live_questions.json  # Ngân hàng 90 câu hỏi TOEIC chuẩn hóa 7 Parts
 │   ├── audio_cache/          # Nguồn âm thanh bản xứ cho Part 1-4 Listening
@@ -78,8 +78,8 @@ cd Mobile-App
 Mở một cửa sổ Terminal thứ nhất:
 
 ```bash
-# 1. Di chuyển vào thư mục backend PCAT
-cd pcat
+# 1. Di chuyển vào thư mục backend
+cd backend
 
 # 2. Tạo môi trường ảo Python (.venv)
 python -m venv .venv
