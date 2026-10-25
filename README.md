@@ -35,50 +35,124 @@
 
 ### 1. 📱 Frontend (Flutter)
 - **Thi thích ứng 2 chặng (45 phút)**:
-  - **Chặng 1**: 10 câu Medium (5 Listening + 5 Reading) khảo sát đa chiều.
-  - **Chặng 2**: Tự động rẽ nhánh sang đề Easy hoặc Hard dựa trên năng lực tức thời của thí sinh.
-- **Thanh điều hướng câu hỏi trực quan**: Cho phép chuyển nhanh giữa `Câu 1`, `Câu 2`, ..., hiển thị trạng thái hoàn thành từng câu.
+  - **Chặng 1**: 10 câu Medium (5 Listening + 5 Reading) khảo sát toàn diện các kỹ năng.
+  - **Chặng 2**: Thuật toán AI tự động phân nhánh sang đề Easy hoặc Hard dựa trên kết quả Chặng 1.
+- **Thanh điều hướng câu hỏi trực quan**: Cho phép chuyển nhanh giữa `Câu 1`, `Câu 2`, ..., hiển thị tích xanh các câu đã trả lời.
 - **Đoạn văn đọc hiểu & Trình phát Audio**:
   - Giao diện bài đọc font chữ lớn, nền trắng rõ ràng.
-  - Tích hợp phát audio nghe TOEIC bản xứ chuẩn Mỹ/Anh.
+  - Tích hợp trình phát audio nghe TOEIC bản xứ chuẩn Mỹ/Anh.
 - **Hồ sơ năng lực Radar (NCD Spider Chart)**:
   - Xuất phân tích trực quan điểm mạnh, điểm yếu trên 24 kỹ năng và từng Part TOEIC.
-- **Giao diện người dùng thuần Việt 100%**: Chuẩn hóa ngôn ngữ, mượt mà và thân thiện.
+- **Giao diện thuần Việt 100%**: Chuẩn hóa ngôn ngữ có dấu đầy đủ, tự nhiên và thân thiện.
 
 ### 2. 🧠 AI Backend (PCAT + NCD)
 - **Engine**: Xây dựng trên nền tảng FastAPI + PyTorch.
-- **Định tuyến thích ứng**: Tự động tính toán điểm năng lực tổng hợp và rẽ nhánh thông minh.
+- **Định tuyến thích ứng**: Tự động tính toán điểm năng lực tức thời và rẽ nhánh thông minh.
 - **Chẩn đoán nhận thức NCD**: Đo lường mức độ thuần thục của học viên trên từng khái niệm kiến thức ngữ pháp/từ vựng/kỹ năng nghe.
 
 ---
 
-## 🛠️ Hướng dẫn cài đặt & Chạy cục bộ
+## 📋 Yêu cầu môi trường (Prerequisites)
 
-### 1. Khởi chạy Backend PCAT
+Trước khi bắt đầu, hãy đảm bảo máy tính của bạn đã cài đặt:
+1. **Git**: [Tải về tại đây](https://git-scm.com/)
+2. **Python**: Phiên bản `3.10` trở lên (Khuyến nghị 3.10 - 3.12)
+3. **Flutter SDK**: Phiên bản `3.x` trở lên ([Hướng dẫn cài đặt Flutter](https://docs.flutter.dev/get-started/install))
+4. **Trình duyệt Web** (Google Chrome / Microsoft Edge) hoặc **Android Studio** (nếu muốn chạy app di động).
+
+---
+
+## 🛠️ Hướng dẫn từng bước khi Clone về máy (Step-by-Step Setup)
+
+### Bước 1: Clone dự án về máy tính
+Mở Terminal hoặc Command Prompt / PowerShell và gõ:
 ```bash
-cd pcat
-# Cài đặt thư viện phụ thuộc
-pip install -r requirements.txt
-
-# Khởi chạy server FastAPI (cổng 8000)
-python pcat_server.py
-# hoặc chạy file: start_server.bat
-```
-Server sẽ chạy tại: `http://127.0.0.1:8000` (Tài liệu API Swagger tại `/docs`).
-
-### 2. Khởi chạy Frontend Flutter
-```bash
-cd frontend
-# Cài đặt packages Flutter
-flutter pub get
-
-# Chạy trên trình duyệt Web (Port 5000)
-flutter run -d chrome --web-port 5000
-# hoặc chạy trên thiết bị di động / máy ảo
-flutter run
+git clone https://github.com/TranTrongBang-200705/Mobile-App.git
+cd Mobile-App
 ```
 
 ---
 
-## 📝 Bản quyền & Giấy phép
-Dự án được xây dựng phục vụ mục đích học tập, nghiên cứu và phát triển giải pháp EdTech cá nhân hóa.
+### Bước 2: Thiết lập và Chạy Backend (PCAT AI)
+
+Mở một cửa sổ Terminal thứ nhất:
+
+```bash
+# 1. Di chuyển vào thư mục backend PCAT
+cd pcat
+
+# 2. Tạo môi trường ảo Python (.venv)
+python -m venv .venv
+
+# 3. Kích hoạt môi trường ảo
+# Trên Windows (Command Prompt):
+.venv\Scripts\activate.bat
+# Trên Windows (PowerShell):
+.venv\Scripts\Activate.ps1
+# Trên macOS / Linux:
+source .venv/bin/activate
+
+# 4. Cài đặt các thư viện cần thiết
+pip install -r requirements.txt
+
+# 5. Khởi động Backend Server
+python pcat_server.py
+```
+> **Mẹo trên Windows**: Sau khi đã cài thư viện xong một lần, những lần sau bạn chỉ cần nhấp đúp chuột vào file `start_server.bat` để chạy server ngay lập tức!
+
+✅ **Kiểm tra**: Mở trình duyệt truy cập [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs). Nếu thấy trang Swagger UI hiện ra tức là Backend đã sẵn sàng!
+
+---
+
+### Bước 3: Thiết lập và Chạy Frontend (Flutter App)
+
+Mở một cửa sổ Terminal thứ hai (giữ nguyên cửa sổ Backend đang chạy):
+
+```bash
+# 1. Di chuyển vào thư mục frontend
+cd frontend
+
+# 2. Tải và cài đặt các package Flutter
+flutter pub get
+
+# 3. Chạy ứng dụng trên Trình duyệt Web (Port 5000)
+flutter run -d chrome --web-port 5000
+```
+
+> **Ghi chú chạy trên các nền tảng khác**:
+> - Chạy bằng Microsoft Edge: `flutter run -d edge --web-port 5000`
+> - Chạy web server độc lập: `flutter run -d web-server --web-port 5000 --web-hostname 127.0.0.1`
+> - Chạy trên thiết bị di động / máy ảo Android: 
+>   - Cắm điện thoại bật USB Debugging hoặc bật Android Emulator.
+>   - Chạy lệnh `flutter run`.
+>   - *(Lưu ý: Nếu chạy trên máy ảo Android, hãy vào `frontend/lib/man_hinh/kiem_tra_dau_vao.dart` đổi `http://127.0.0.1:8000` thành `http://10.0.2.2:8000` để máy ảo kết nối được vào máy tính chủ)*.
+
+---
+
+## 🧪 Chạy kiểm thử tự động (Running Tests)
+
+Để kiểm tra độ ổn định của ứng dụng và logic thích ứng:
+```bash
+cd frontend
+flutter test
+```
+
+---
+
+## ❓ Xử lý lỗi thường gặp (Troubleshooting)
+
+1. **Lỗi cổng 8000 hoặc 5000 đang bị chiếm dụng**:
+   - Windows PowerShell:
+     ```powershell
+     Get-Process -Id (Get-NetTCPConnection -LocalPort 8000).OwningProcess | Stop-Process -Force
+     Get-Process -Id (Get-NetTCPConnection -LocalPort 5000).OwningProcess | Stop-Process -Force
+     ```
+2. **Không nghe được Audio trên Web**:
+   - Trình duyệt Chrome có chính sách chặn tự động phát âm thanh (Autoplay Policy). Hãy bấm trực tiếp nút **Play** trên màn hình để nghe.
+3. **Lỗi `ExecutionPolicy` khi kích hoạt Virtualenv trên PowerShell**:
+   - Mở PowerShell quyền Administrator và chạy: `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`.
+
+---
+
+## 📝 Bản quyền & Đóng góp
+Dự án được xây dựng phục vụ mục đích học tập, nghiên cứu và phát triển giải pháp EdTech cá nhân hóa. Mọi đóng góp và báo lỗi xin vui lòng tạo Issue trên GitHub!
