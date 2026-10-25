@@ -1,0 +1,25 @@
+﻿concept_idx,concept_id,concept_name,domain,mapped_ednet_tags,verified_source_evidence,question_count_in_bank,question_indices,ednet_question_ids
+0,C00,TOEIC_Part_1,Part_1,,Official EdNet questions.csv part column,3,0;1;2,q176;q8074;q8098
+1,C01,TOEIC_Part_2,Part_2,,Official EdNet questions.csv part column,12,3;4;5;6;7;8;9;10;11;12;13;14,q200;q295;q722;q878;q952;q1193;q1279;q11249;q11259;q11261;q11262;q11263
+2,C02,TOEIC_Part_3,Part_3,,Official EdNet questions.csv part column,15,15;16;17;18;19;20;21;22;23;24;25;26;27;28;29,q1476;q1477;q1478;q1479;q1480;q1481;q1731;q1732;q1733;q1740;q1741;q1742;q2067;q2068;q2069
+3,C03,TOEIC_Part_4,Part_4,,Official EdNet questions.csv part column,9,30;31;32;33;34;35;36;37;38,q2628;q2629;q2630;q2991;q2992;q2993;q3411;q3412;q3413
+4,C04,TOEIC_Part_5,Part_5,,Official EdNet questions.csv part column,25,39;40;41;42;43;44;45;46;47;48;49;50;51;52;53;54;55;56;57;58;59;60;61;62;63,q3774;q3788;q3935;q4166;q4178;q4402;q4468;q4476;q4539;q4555;q4564;q4761;q4886;q5060;q5242;q5248;q5257;q5683;q6185;q6188;q6189;q6243;q6390;q6442;q9578
+5,C05,TOEIC_Part_6,Part_6,,Official EdNet questions.csv part column,12,64;65;66;67;68;69;70;71;72;73;74;75,q6829;q6830;q6831;q6832;q6945;q6946;q6947;q6948;q6949;q6950;q6951;q6952
+6,C06,TOEIC_Part_7,Part_7,,Official EdNet questions.csv part column,14,76;77;78;79;80;81;82;83;84;85;86;87;88;89,q7192;q7193;q7194;q7195;q7196;q7335;q7336;q7337;q7338;q7510;q7511;q7512;q7513;q7514
+7,C07,EdNet_Tag_181,Tag_dominant_Part_2,181,Official EdNet questions.csv expert-annotated tags column,10,3;4;5;6;8;11;12;15;16;17,q200;q295;q722;q878;q1193;q11259;q11261;q1476;q1477;q1478
+8,C08,EdNet_Tag_24,Tag_dominant_Part_2,24,Official EdNet questions.csv expert-annotated tags column,6,3;5;6;7;8;9,q200;q722;q878;q952;q1193;q1279
+9,C09,EdNet_Tag_44,Tag_dominant_Part_2,44,Official EdNet questions.csv expert-annotated tags column,5,10;11;12;13;14,q11249;q11259;q11261;q11262;q11263
+10,C10,EdNet_Tag_183,Tag_dominant_Part_3,183,Official EdNet questions.csv expert-annotated tags column,23,0;1;6;7;8;10;13;14;18;19;20;21;22;23;24;25;26;27;28;29;33;34;35,q176;q8074;q878;q952;q1193;q11249;q11262;q11263;q1479;q1480;q1481;q1731;q1732;q1733;q1740;q1741;q1742;q2067;q2068;q2069;q2991;q2992;q2993
+11,C11,EdNet_Tag_184,Tag_dominant_Part_3,184,Official EdNet questions.csv expert-annotated tags column,16,9;10;11;12;15;16;17;18;19;20;27;28;29;36;37;38,q1279;q11249;q11259;q11261;q1476;q1477;q1478;q1479;q1480;q1481;q2067;q2068;q2069;q3411;q3412;q3413
+12,C12,EdNet_Tag_52,Tag_dominant_Part_3,52,Official EdNet questions.csv expert-annotated tags column,13,15;16;18;19;21;25;27;29;30;33;35;37;38,q1476;q1477;q1479;q1480;q1731;q1741;q2067;q2069;q2628;q2991;q2993;q3412;q3413
+13,C13,EdNet_Tag_64,Tag_dominant_Part_4,64,Official EdNet questions.csv expert-annotated tags column,6,30;31;32;36;37;38,q2628;q2629;q2630;q3411;q3412;q3413
+14,C14,EdNet_Tag_185,Tag_dominant_Part_4,185,Official EdNet questions.csv expert-annotated tags column,5,3;5;30;31;32,q200;q722;q2628;q2629;q2630
+15,C15,EdNet_Tag_145,Tag_dominant_Part_5,145,Official EdNet questions.csv expert-annotated tags column,4,42;47;57;69,q4166;q4539;q6185;q6946
+16,C16,EdNet_Tag_179,Tag_dominant_Part_6,179,Official EdNet questions.csv expert-annotated tags column,9,29;64;65;66;67;68;69;70;71,q2069;q6829;q6830;q6831;q6832;q6945;q6946;q6947;q6948
+17,C17,EdNet_Tag_147,Tag_dominant_Part_7,147,Official EdNet questions.csv expert-annotated tags column,10,76;77;78;79;80;85;86;87;88;89,q7192;q7193;q7194;q7195;q7196;q7510;q7511;q7512;q7513;q7514
+18,C18,EdNet_Tag_149,Tag_dominant_Part_7,149,Official EdNet questions.csv expert-annotated tags column,7,76;78;79;80;81;87;88,q7192;q7194;q7195;q7196;q7335;q7512;q7513
+19,C19,EdNet_Tag_146,Tag_dominant_Part_7,146,Official EdNet questions.csv expert-annotated tags column,5,85;86;87;88;89,q7510;q7511;q7512;q7513;q7514
+20,C20,EdNet_Tag_182,EdNet_Tag,182,Official EdNet questions.csv expert-annotated tags column,12,2;4;7;9;13;14;21;22;23;24;25;26,q8098;q295;q952;q1279;q11262;q11263;q1731;q1732;q1733;q1740;q1741;q1742
+21,C21,EdNet_Tag_51,EdNet_Tag,51,Official EdNet questions.csv expert-annotated tags column,5,3;5;6;7;8,q200;q722;q878;q952;q1193
+22,C22,EdNet_Tag_159,EdNet_Tag,159,Official EdNet questions.csv expert-annotated tags column,5,76;77;78;79;80,q7192;q7193;q7194;q7195;q7196
+23,C23,EdNet_Tag_54,EdNet_Tag,54,Official EdNet questions.csv expert-annotated tags column,5,17;20;23;24;32,q1478;q1481;q1733;q1740;q2630

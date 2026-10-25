@@ -1,0 +1,17 @@
+The dataset for the current output file is:Dense_EdNetTOEIC_Balanced90_90d
+Disjoint Held-out Evaluation Questions (20 items): [0, 8, 9, 15, 16, 17, 30, 31, 32, 39, 40, 41, 64, 65, 66, 67, 81, 82, 83, 84]
+seed:20 | Split: Train=242, Test=61
+The selected final paper (max training AUC+ACC):[68, 69, 70, 71, 33, 34, 35, 4, 5, 6, 76, 77, 78, 79, 80, 24, 25, 26, 1, 12, 72, 73, 74, 75, 27, 28, 29, 36, 37, 38]
+The evaluation results on the test set: Heldout20_AUC:0.6649 Heldout20_ACC:0.6369 Untested70_AUC:0.7147 Untested70_ACC:0.6644 COV:0.8115, EXP:2.1184, assembly:58.03s, inference:0.6390s
+seed:21 | Split: Train=242, Test=61
+The selected final paper (max training AUC+ACC):[68, 69, 70, 71, 18, 19, 20, 33, 34, 35, 85, 86, 87, 88, 89, 24, 25, 26, 5, 12, 72, 73, 74, 75, 27, 28, 29, 36, 37, 38]
+The evaluation results on the test set: Heldout20_AUC:0.6955 Heldout20_ACC:0.6557 Untested70_AUC:0.7208 Untested70_ACC:0.6696 COV:0.8333, EXP:2.3762, assembly:59.28s, inference:0.6318s
+seed:22 | Split: Train=242, Test=61
+The selected final paper (max training AUC+ACC):[76, 77, 78, 79, 80, 21, 22, 23, 12, 3, 85, 86, 87, 88, 89, 68, 69, 70, 71, 10, 72, 73, 74, 75, 24, 25, 26, 1, 54, 42]
+The evaluation results on the test set: Heldout20_AUC:0.6783 Heldout20_ACC:0.6664 Untested70_AUC:0.7085 Untested70_ACC:0.6632 COV:0.7698, EXP:2.9735, assembly:61.22s, inference:0.5788s
+seed:23 | Split: Train=242, Test=61
+The selected final paper (max training AUC+ACC):[85, 86, 87, 88, 89, 10, 1, 12, 6, 52, 76, 77, 78, 79, 80, 72, 73, 74, 75, 14, 68, 69, 70, 71, 21, 22, 23, 36, 37, 38]
+The evaluation results on the test set: Heldout20_AUC:0.6858 Heldout20_ACC:0.6434 Untested70_AUC:0.7185 Untested70_ACC:0.6644 COV:0.6878, EXP:2.3826, assembly:60.12s, inference:0.7770s
+seed:24 | Split: Train=242, Test=61
+The selected final paper (max training AUC+ACC):[68, 69, 70, 71, 18, 19, 20, 36, 37, 38, 85, 86, 87, 88, 89, 24, 25, 26, 14, 12, 72, 73, 74, 75, 21, 22, 23, 27, 28, 29]
+The evaluation results on the test set: Heldout20_AUC:0.6435 Heldout20_ACC:0.6287 Untested70_AUC:0.7144 Untested70_ACC:0.6763 COV:0.6865, EXP:2.5533, assembly:55.29s, inference:0.6540s

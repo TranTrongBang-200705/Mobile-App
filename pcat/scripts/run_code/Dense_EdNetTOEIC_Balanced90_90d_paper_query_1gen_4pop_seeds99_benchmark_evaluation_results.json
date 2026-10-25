@@ -1,0 +1,285 @@
+{
+  "seeds_evaluated": [
+    99
+  ],
+  "split_ratio": "80% Train (242) / 20% Test (61)",
+  "methodology": {
+    "source": "https://doi.org/10.1145/3711896.3737073",
+    "routing": "NCD mastery percentile on medium-paper concepts; top half hard, bottom half easy",
+    "objectives": [
+      "AUC",
+      "ACC",
+      "COV",
+      "EXP"
+    ],
+    "paper_selection": "highest training AUC plus ACC from final Pareto population",
+    "population": 4,
+    "offspring": 2,
+    "generations": 1,
+    "query_protocol": "all unadministered items per learner after the simulated test",
+    "dataset_adaptation": "EdNet TOEIC, whole bundles, Q-matrix tags"
+  },
+  "query_questions_per_learner": 70,
+  "selectable_candidate_pool_size": 90,
+  "multi_seed_summary_mean_std": {
+    "1_Random_20_Items_NCD": {
+      "auc_mean": 0.6971,
+      "auc_std": 0.0,
+      "acc_mean": 0.6532,
+      "acc_std": 0.0,
+      "cov_mean": 0.7639,
+      "cov_std": 0.0,
+      "exp_mean": 3.1682,
+      "exp_std": 0.0
+    },
+    "2_Fixed_NonAdaptive_20_Items_NCD": {
+      "auc_mean": 0.7064,
+      "auc_std": 0.0,
+      "acc_mean": 0.6607,
+      "acc_std": 0.0,
+      "cov_mean": 0.625,
+      "cov_std": 0.0,
+      "exp_mean": 2.099,
+      "exp_std": 0.0
+    },
+    "3_PCAT_PaperMasteryRank_NCD": {
+      "auc_mean": 0.7174,
+      "auc_std": 0.0,
+      "acc_mean": 0.6677,
+      "acc_std": 0.0,
+      "cov_mean": 0.6673,
+      "cov_std": 0.0,
+      "exp_mean": 2.0823,
+      "exp_std": 0.0
+    },
+    "4_PCAT_PaperMasteryRank_NCD_ShrinkageAblation": {
+      "auc_mean": 0.7197,
+      "auc_std": 0.0,
+      "acc_mean": 0.667,
+      "acc_std": 0.0,
+      "cov_mean": 0.6673,
+      "cov_std": 0.0,
+      "exp_mean": 2.0823,
+      "exp_std": 0.0
+    }
+  },
+  "per_seed_details": {
+    "99": {
+      "paper_assembly_time_sec": 6.8,
+      "test_inference_time_sec": 0.445,
+      "selected_paper": {
+        "full_30": [
+          21,
+          22,
+          23,
+          10,
+          4,
+          2,
+          14,
+          11,
+          9,
+          8,
+          18,
+          19,
+          20,
+          24,
+          25,
+          26,
+          30,
+          31,
+          32,
+          5,
+          15,
+          16,
+          17,
+          27,
+          28,
+          29,
+          0,
+          1,
+          61,
+          47
+        ],
+        "stage1_medium_10": [
+          18,
+          19,
+          20,
+          24,
+          25,
+          26,
+          30,
+          31,
+          32,
+          5
+        ],
+        "stage2a_easy_10": [
+          21,
+          22,
+          23,
+          10,
+          4,
+          2,
+          14,
+          11,
+          9,
+          8
+        ],
+        "stage2b_hard_10": [
+          15,
+          16,
+          17,
+          27,
+          28,
+          29,
+          0,
+          1,
+          61,
+          47
+        ]
+      },
+      "methods": {
+        "1_Random_20_Items_NCD": {
+          "auc": 0.6970809838819875,
+          "acc": 0.6531615925058548,
+          "cov": 0.763888888888889,
+          "exp": 3.1681561323856875
+        },
+        "2_Fixed_NonAdaptive_20_Items_NCD": {
+          "auc": 0.7064492710857925,
+          "acc": 0.660655737704918,
+          "cov": 0.625,
+          "exp": 2.099023991604459,
+          "hard_branch_students": 0,
+          "easy_branch_students": 61,
+          "routing_rule": "fixed medium-plus-easy",
+          "paper1_easy": [
+            21,
+            22,
+            23,
+            10,
+            4,
+            2,
+            14,
+            11,
+            9,
+            8
+          ],
+          "paper2_medium": [
+            18,
+            19,
+            20,
+            24,
+            25,
+            26,
+            30,
+            31,
+            32,
+            5
+          ],
+          "paper3_hard": [
+            15,
+            16,
+            17,
+            27,
+            28,
+            29,
+            0,
+            1,
+            61,
+            47
+          ]
+        },
+        "3_PCAT_PaperMasteryRank_NCD": {
+          "auc": 0.71739975511223,
+          "acc": 0.6676814988290398,
+          "cov": 0.6673497267759563,
+          "exp": 2.0823189341797845,
+          "hard_branch_students": 31,
+          "easy_branch_students": 30,
+          "routing_rule": "top-half NCD mastery on medium-paper concepts",
+          "paper1_easy": [
+            21,
+            22,
+            23,
+            10,
+            4,
+            2,
+            14,
+            11,
+            9,
+            8
+          ],
+          "paper2_medium": [
+            18,
+            19,
+            20,
+            24,
+            25,
+            26,
+            30,
+            31,
+            32,
+            5
+          ],
+          "paper3_hard": [
+            15,
+            16,
+            17,
+            27,
+            28,
+            29,
+            0,
+            1,
+            61,
+            47
+          ]
+        },
+        "4_PCAT_PaperMasteryRank_NCD_ShrinkageAblation": {
+          "auc": 0.7196958079506747,
+          "acc": 0.6669789227166276,
+          "cov": 0.6673497267759563,
+          "exp": 2.0823189341797845,
+          "hard_branch_students": 31,
+          "easy_branch_students": 30,
+          "routing_rule": "top-half NCD mastery on medium-paper concepts",
+          "paper1_easy": [
+            21,
+            22,
+            23,
+            10,
+            4,
+            2,
+            14,
+            11,
+            9,
+            8
+          ],
+          "paper2_medium": [
+            18,
+            19,
+            20,
+            24,
+            25,
+            26,
+            30,
+            31,
+            32,
+            5
+          ],
+          "paper3_hard": [
+            15,
+            16,
+            17,
+            27,
+            28,
+            29,
+            0,
+            1,
+            61,
+            47
+          ]
+        }
+      }
+    }
+  }
+}

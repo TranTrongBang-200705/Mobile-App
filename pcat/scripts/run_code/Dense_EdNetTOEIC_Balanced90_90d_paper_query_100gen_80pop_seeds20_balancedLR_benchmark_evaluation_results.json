@@ -1,0 +1,408 @@
+{
+  "seeds_evaluated": [
+    20
+  ],
+  "split_ratio": "80% Train (242) / 20% Test (61)",
+  "methodology": {
+    "source": "https://doi.org/10.1145/3711896.3737073",
+    "routing": "NCD mastery percentile on medium-paper concepts; top half hard, bottom half easy",
+    "objectives": [
+      "AUC",
+      "ACC",
+      "COV",
+      "EXP"
+    ],
+    "paper_selection": "highest training AUC plus ACC from final Pareto population",
+    "population": 80,
+    "offspring": 50,
+    "generations": 100,
+    "query_protocol": "all unadministered items per learner after the simulated test",
+    "dataset_adaptation": "EdNet TOEIC, whole bundles, Q-matrix tags",
+    "content_balance": "5 Listening + 5 Reading in each 10-item stage"
+  },
+  "query_questions_per_learner": 70,
+  "selectable_candidate_pool_size": 90,
+  "timing_seed20": {
+    "nsga2_optimization_sec": 8612.15,
+    "test_inference_sec": 0.5278
+  },
+  "selected_paper_seed20": {
+    "full_30": [
+      15,
+      16,
+      17,
+      14,
+      9,
+      76,
+      77,
+      78,
+      79,
+      80,
+      24,
+      25,
+      26,
+      12,
+      1,
+      85,
+      86,
+      87,
+      88,
+      89,
+      30,
+      31,
+      32,
+      2,
+      4,
+      81,
+      82,
+      83,
+      84,
+      47
+    ],
+    "stage1_medium_10": [
+      24,
+      25,
+      26,
+      12,
+      1,
+      85,
+      86,
+      87,
+      88,
+      89
+    ],
+    "stage2a_easy_10": [
+      15,
+      16,
+      17,
+      14,
+      9,
+      76,
+      77,
+      78,
+      79,
+      80
+    ],
+    "stage2b_hard_10": [
+      30,
+      31,
+      32,
+      2,
+      4,
+      81,
+      82,
+      83,
+      84,
+      47
+    ],
+    "stage_content_counts": {
+      "medium": {
+        "listening": 5,
+        "reading": 5
+      },
+      "easy": {
+        "listening": 5,
+        "reading": 5
+      },
+      "hard": {
+        "listening": 5,
+        "reading": 5
+      }
+    },
+    "administered_path_content_counts": {
+      "medium_then_easy": {
+        "listening": 10,
+        "reading": 10
+      },
+      "medium_then_hard": {
+        "listening": 10,
+        "reading": 10
+      }
+    }
+  },
+  "multi_seed_summary_mean_std": {
+    "1_Random_20_Items_NCD": {
+      "auc_mean": 0.7025,
+      "auc_std": 0.0,
+      "acc_mean": 0.6566,
+      "acc_std": 0.0,
+      "cov_mean": 0.7639,
+      "cov_std": 0.0,
+      "exp_mean": 2.1248,
+      "exp_std": 0.0
+    },
+    "2_Fixed_NonAdaptive_20_Items_NCD": {
+      "auc_mean": 0.7245,
+      "auc_std": 0.0,
+      "acc_mean": 0.6735,
+      "acc_std": 0.0,
+      "cov_mean": 0.6667,
+      "cov_std": 0.0,
+      "exp_mean": 3.1235,
+      "exp_std": 0.0
+    },
+    "3_PCAT_PaperMasteryRank_NCD": {
+      "auc_mean": 0.7314,
+      "auc_std": 0.0,
+      "acc_mean": 0.6827,
+      "acc_std": 0.0,
+      "cov_mean": 0.7302,
+      "cov_std": 0.0,
+      "exp_mean": 2.4135,
+      "exp_std": 0.0
+    },
+    "4_PCAT_PaperMasteryRank_NCD_ShrinkageAblation": {
+      "auc_mean": 0.7369,
+      "auc_std": 0.0,
+      "acc_mean": 0.6862,
+      "acc_std": 0.0,
+      "cov_mean": 0.7302,
+      "cov_std": 0.0,
+      "exp_mean": 2.4135,
+      "exp_std": 0.0
+    }
+  },
+  "per_seed_details": {
+    "20": {
+      "paper_assembly_time_sec": 8612.15,
+      "test_inference_time_sec": 0.5278,
+      "selected_paper": {
+        "full_30": [
+          15,
+          16,
+          17,
+          14,
+          9,
+          76,
+          77,
+          78,
+          79,
+          80,
+          24,
+          25,
+          26,
+          12,
+          1,
+          85,
+          86,
+          87,
+          88,
+          89,
+          30,
+          31,
+          32,
+          2,
+          4,
+          81,
+          82,
+          83,
+          84,
+          47
+        ],
+        "stage1_medium_10": [
+          24,
+          25,
+          26,
+          12,
+          1,
+          85,
+          86,
+          87,
+          88,
+          89
+        ],
+        "stage2a_easy_10": [
+          15,
+          16,
+          17,
+          14,
+          9,
+          76,
+          77,
+          78,
+          79,
+          80
+        ],
+        "stage2b_hard_10": [
+          30,
+          31,
+          32,
+          2,
+          4,
+          81,
+          82,
+          83,
+          84,
+          47
+        ],
+        "stage_content_counts": {
+          "medium": {
+            "listening": 5,
+            "reading": 5
+          },
+          "easy": {
+            "listening": 5,
+            "reading": 5
+          },
+          "hard": {
+            "listening": 5,
+            "reading": 5
+          }
+        },
+        "administered_path_content_counts": {
+          "medium_then_easy": {
+            "listening": 10,
+            "reading": 10
+          },
+          "medium_then_hard": {
+            "listening": 10,
+            "reading": 10
+          }
+        }
+      },
+      "methods": {
+        "1_Random_20_Items_NCD": {
+          "auc": 0.7024729906845152,
+          "acc": 0.6565964090554255,
+          "cov": 0.7638888888888888,
+          "exp": 2.124847574145149
+        },
+        "2_Fixed_NonAdaptive_20_Items_NCD": {
+          "auc": 0.7244512526560261,
+          "acc": 0.673536299765808,
+          "cov": 0.6666666666666666,
+          "exp": 3.123475580088028,
+          "hard_branch_students": 0,
+          "easy_branch_students": 61,
+          "routing_rule": "fixed medium-plus-easy",
+          "paper1_easy": [
+            15,
+            16,
+            17,
+            14,
+            9,
+            76,
+            77,
+            78,
+            79,
+            80
+          ],
+          "paper2_medium": [
+            24,
+            25,
+            26,
+            12,
+            1,
+            85,
+            86,
+            87,
+            88,
+            89
+          ],
+          "paper3_hard": [
+            30,
+            31,
+            32,
+            2,
+            4,
+            81,
+            82,
+            83,
+            84,
+            47
+          ]
+        },
+        "3_PCAT_PaperMasteryRank_NCD": {
+          "auc": 0.73139399966849,
+          "acc": 0.6826697892271663,
+          "cov": 0.730191256830601,
+          "exp": 2.413465627014166,
+          "hard_branch_students": 31,
+          "easy_branch_students": 30,
+          "routing_rule": "top-half NCD mastery on medium-paper concepts",
+          "paper1_easy": [
+            15,
+            16,
+            17,
+            14,
+            9,
+            76,
+            77,
+            78,
+            79,
+            80
+          ],
+          "paper2_medium": [
+            24,
+            25,
+            26,
+            12,
+            1,
+            85,
+            86,
+            87,
+            88,
+            89
+          ],
+          "paper3_hard": [
+            30,
+            31,
+            32,
+            2,
+            4,
+            81,
+            82,
+            83,
+            84,
+            47
+          ]
+        },
+        "4_PCAT_PaperMasteryRank_NCD_ShrinkageAblation": {
+          "auc": 0.7369051853625809,
+          "acc": 0.6861826697892272,
+          "cov": 0.730191256830601,
+          "exp": 2.413465627014166,
+          "hard_branch_students": 31,
+          "easy_branch_students": 30,
+          "routing_rule": "top-half NCD mastery on medium-paper concepts",
+          "paper1_easy": [
+            15,
+            16,
+            17,
+            14,
+            9,
+            76,
+            77,
+            78,
+            79,
+            80
+          ],
+          "paper2_medium": [
+            24,
+            25,
+            26,
+            12,
+            1,
+            85,
+            86,
+            87,
+            88,
+            89
+          ],
+          "paper3_hard": [
+            30,
+            31,
+            32,
+            2,
+            4,
+            81,
+            82,
+            83,
+            84,
+            47
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+    "state":  "paused",
+    "process_id":  8216,
+    "seeds_requested":  [
+                            20,
+                            21,
+                            22,
+                            23,
+                            24
+                        ],
+    "configuration":  {
+                          "version":  1,
+                          "dataset":  "Dense_EdNetTOEIC_Balanced90_90d",
+                          "epochs":  100,
+                          "batch_size":  16,
+                          "test_length":  20,
+                          "threads":  1,
+                          "data_hashes":  {
+                                              "TotalData.csv":  "29303d240720c2a1ba348fff7577fb3dad7314e667f8525e4a935b023f2e41e3",
+                                              "q.csv":  "3b0d5c02bdc4e12406c66cdc4e76181e924f4163126202652f85b36fcc7e010f",
+                                              "toeic_question_catalog.csv":  "ecc470e0048ded6a3217aba2daf9bf7e5da530994712986624ba6eee7fa80e90",
+                                              "question_exposure.csv":  "4017c2032d35c2461080d30d66cc341d8c55a340196423655ab4c3430696d8a7"
+                                          },
+                          "source_hashes":  {
+                                                "scripts\\run_code\\run_bobcat_comparison.py":  "5cae0014b6725a7da6fb411096dd9acb0cf6b7cb51a8fb0a426943bfb8cbd008",
+                                                "scripts\\bobcat_train.py":  "42645c596b1e521540ffa96cfa5e777c362bbca8715187988317cf5f1169c24b",
+                                                "model\\utils.py":  "ac79bb950cf047ef052b934f24ea431b0510e9328b08581e844c3d429db084b7",
+                                                "model\\NCD.py":  "bd6cac162c1dfe585578dd102521972b1fecaddcc6b454cedc109c3b0f455a76",
+                                                "scripts\\pcat_routing.py":  "ad0356c4d8404795c56fa76a8f738bc2729c45193f4ea29840556d16c3b68770"
+                                            },
+                          "reference_sha256":  "1bb8a248820e534a2d8ce687e4f4225c6255bac1b2570c6806ae1037094fd322"
+                      },
+    "progress":  {
+                     "20":  {
+                                "phase":  "training",
+                                "completed_epoch":  17,
+                                "training_elapsed_sec":  175.11893610004336
+                            }
+                 },
+    "updated_utc":  "2026-10-24T04:15:26.1721983Z",
+    "pause_reason":  "User requested pause. Resume only on explicit user instruction.",
+    "stopped_process_ids":  [
+                                21388,
+                                8216
+                            ],
+    "checkpoint_note":  "Training stopped immediately; resume from last successfully saved checkpoint. Unsaved epochs may need replay."
+}

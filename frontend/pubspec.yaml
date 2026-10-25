@@ -1,0 +1,20 @@
+name: getgoals_frontend
+description: "Giao dien Flutter cho he thong GetGoals - Hoc va luyen thi TOEIC"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.17.0 <4.0.0'
+
+dependencies:
+  audioplayers: ^6.8.1
+  flutter:
+    sdk: flutter
+  http: ^1.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

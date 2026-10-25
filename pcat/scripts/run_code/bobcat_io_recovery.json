@@ -1,0 +1,11 @@
+{
+  "time_utc": "2026-10-24T04:13:51.508663+00:00",
+  "epoch": 10,
+  "change": "Only runner I/O retry/status reporting changed; weights, optimizers, RNG, data and scoring unchanged",
+  "checkpoint_backup": "C:\\Users\\bangt\\OneDrive\\Desktop\\GG\\pcat\\model\\ckpt\\bobcat_Dense_EdNetTOEIC_Balanced90_90d_full_seed20.before_io_fix.pt",
+  "old_checkpoint_sha256": "87540f55484efc2647c08f69fd1f3f1f24d4e044b8c53c0ece1f299c07883075",
+  "new_checkpoint_sha256": "b6b0f1f2350afad5979a5c512dc42b39645043bbd733e52c91e467dd88095035",
+  "previous_runner_sha256": "74343aa2742c3a1750f4ffaf8b8a93d823edd76a25d4cc910b54dbd46a247e5d",
+  "current_runner_sha256": "5cae0014b6725a7da6fb411096dd9acb0cf6b7cb51a8fb0a426943bfb8cbd008",
+  "unchanged_training_state_verified": true
+}

@@ -1,0 +1,1340 @@
+{
+  "12": {
+    "part": 2,
+    "part_name": "Listening (Part 2: Question & Response)",
+    "context": "Audio: Question 12",
+    "question_text": "When will the marketing team finalize the promotional video?",
+    "options": [
+      "A. Yes, they did a great job.",
+      "B. By the end of this week, hopefully.",
+      "C. At the downtown studio."
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Cau hoi thoi gian (When will...) -> Tra loi ve moc thoi gian: By the end of this week.",
+    "question_id": "q11261"
+  },
+  "18": {
+    "part": 3,
+    "part_name": "Listening (Part 3: Short Conversations)",
+    "context": "Audio Dialogue (Questions 18-20):\n[Man]: Hello Sarah, did you hear back from the catering service about tomorrow lunch meeting?\n[Woman]: Not yet. I called them twice this morning, but their line was busy. I am concerned they might not deliver on time.\n[Man]: In that case, let us have a backup plan. There is an Italian restaurant across the street that prepares sandwich platters quickly.",
+    "question_text": "Why is the woman concerned?",
+    "options": [
+      "A. The meeting room is too small.",
+      "B. The budget was reduced.",
+      "C. The catering company has not confirmed.",
+      "D. The client cancelled the meeting."
+    ],
+    "correct_answer_index": 2,
+    "explanation": "Nguoi phu nu lo lang vi chua nhan duoc xac nhan tu ben dat tiec.",
+    "question_id": "q1479"
+  },
+  "19": {
+    "part": 3,
+    "part_name": "Listening (Part 3: Short Conversations)",
+    "context": "Audio Dialogue (Questions 18-20):\n[Man]: Hello Sarah, did you hear back from the catering service about tomorrow lunch meeting?\n[Woman]: Not yet. I called them twice this morning, but their line was busy. I am concerned they might not deliver on time.\n[Man]: In that case, let us have a backup plan. There is an Italian restaurant across the street that prepares sandwich platters quickly.",
+    "question_text": "What does the man suggest doing?",
+    "options": [
+      "A. Rescheduling the meeting to next week.",
+      "B. Ordering from a nearby Italian restaurant.",
+      "C. Asking attendees to bring their own lunch.",
+      "D. Calling the catering manager directly."
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Nguoi dan ong de xuat phuong an du phong: dat do an tai nha hang Y doi dien.",
+    "question_id": "q1480"
+  },
+  "20": {
+    "part": 3,
+    "part_name": "Listening (Part 3: Short Conversations)",
+    "context": "Audio Dialogue (Questions 18-20):\n[Man]: Hello Sarah, did you hear back from the catering service about tomorrow lunch meeting?\n[Woman]: Not yet. I called them twice this morning, but their line was busy. I am concerned they might not deliver on time.\n[Man]: In that case, let us have a backup plan. There is an Italian restaurant across the street that prepares sandwich platters quickly.",
+    "question_text": "When is the event scheduled to take place?",
+    "options": [
+      "A. Tomorrow afternoon.",
+      "B. Later this evening.",
+      "C. Next Monday morning.",
+      "D. On Friday."
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Cuoc hop dien ra vao ngay mai (tomorrow lunch meeting).",
+    "question_id": "q1481"
+  },
+  "24": {
+    "part": 3,
+    "part_name": "Listening (Part 3: Short Conversations)",
+    "context": "Audio Dialogue (Questions 24-26):\n[Woman]: Hi Alex, could you inspect the printing machine on the 3rd floor? It keeps jamming paper.\n[Man]: Sure, but I am currently replacing the toner cartridges in the accounting department. I can take a look right after lunch around 1:30 PM.\n[Woman]: That should be fine. I will put an Out of Order note on it so colleagues know not to use it.",
+    "question_text": "What problem does the woman report?",
+    "options": [
+      "A. A paper jam in a printer.",
+      "B. A computer software malfunction.",
+      "C. Missing office supplies.",
+      "D. An internet connection failure."
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Nguoi phu nu bao cao may in o tang 3 bi ket giay (jamming paper).",
+    "question_id": "q1740"
+  },
+  "25": {
+    "part": 3,
+    "part_name": "Listening (Part 3: Short Conversations)",
+    "context": "Audio Dialogue (Questions 24-26):\n[Woman]: Hi Alex, could you inspect the printing machine on the 3rd floor? It keeps jamming paper.\n[Man]: Sure, but I am currently replacing the toner cartridges in the accounting department. I can take a look right after lunch around 1:30 PM.\n[Woman]: That should be fine. I will put an Out of Order note on it so colleagues know not to use it.",
+    "question_text": "What is the man currently doing?",
+    "options": [
+      "A. Having lunch with colleagues.",
+      "B. Attending an equipment workshop.",
+      "C. Preparing an invoice report.",
+      "D. Changing toner in another department."
+    ],
+    "correct_answer_index": 3,
+    "explanation": "Nguoi dan ong dang thay hop muc (replacing toner cartridges) cho phong ke toan.",
+    "question_id": "q1741"
+  },
+  "26": {
+    "part": 3,
+    "part_name": "Listening (Part 3: Short Conversations)",
+    "context": "Audio Dialogue (Questions 24-26):\n[Woman]: Hi Alex, could you inspect the printing machine on the 3rd floor? It keeps jamming paper.\n[Man]: Sure, but I am currently replacing the toner cartridges in the accounting department. I can take a look right after lunch around 1:30 PM.\n[Woman]: That should be fine. I will put an Out of Order note on it so colleagues know not to use it.",
+    "question_text": "What will the woman do next?",
+    "options": [
+      "A. Post a warning notice on the machine.",
+      "B. Call the manufacturer for warranty.",
+      "C. Purchase additional printer paper.",
+      "D. Send an email to the whole staff."
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Nguoi phu nu se dan bien bao hong (Out of Order note) len may in.",
+    "question_id": "q1742"
+  },
+  "30": {
+    "part": 4,
+    "part_name": "Listening (Part 4: Short Talks)",
+    "context": "Audio Announcement (Questions 30-32):\n[Speaker]: Good morning passengers. This is an announcement from Metro Transit. Due to track maintenance between Station Square and Central Park, all Green Line trains will operate on a 20-minute delay today. Shuttle buses are running every 5 minutes outside Entrance B. We sincerely apologize for the inconvenience and advise commuters headed to the airport to take Express Route 12 instead.",
+    "question_text": "What is the announcement mainly about?",
+    "options": [
+      "A. A new subway station opening.",
+      "B. An increase in commuter transit fares.",
+      "C. Schedule delays caused by track repairs.",
+      "D. Weather-related flight cancellations."
+    ],
+    "correct_answer_index": 2,
+    "explanation": "Thong bao ve viec tau dien bi tre chuyen do bao tri duong ray (track maintenance).",
+    "question_id": "q2628"
+  },
+  "31": {
+    "part": 4,
+    "part_name": "Listening (Part 4: Short Talks)",
+    "context": "Audio Announcement (Questions 30-32):\n[Speaker]: Good morning passengers. This is an announcement from Metro Transit. Due to track maintenance between Station Square and Central Park, all Green Line trains will operate on a 20-minute delay today. Shuttle buses are running every 5 minutes outside Entrance B. We sincerely apologize for the inconvenience and advise commuters headed to the airport to take Express Route 12 instead.",
+    "question_text": "What alternative service is available at Entrance B?",
+    "options": [
+      "A. Bicycle rentals.",
+      "B. Taxi stands.",
+      "C. Express train tickets.",
+      "D. Shuttle buses."
+    ],
+    "correct_answer_index": 3,
+    "explanation": "Xe buyt trung chuyen (Shuttle buses) hoat dong moi 5 phut tai Cong B.",
+    "question_id": "q2629"
+  },
+  "32": {
+    "part": 4,
+    "part_name": "Listening (Part 4: Short Talks)",
+    "context": "Audio Announcement (Questions 30-32):\n[Speaker]: Good morning passengers. This is an announcement from Metro Transit. Due to track maintenance between Station Square and Central Park, all Green Line trains will operate on a 20-minute delay today. Shuttle buses are running every 5 minutes outside Entrance B. We sincerely apologize for the inconvenience and advise commuters headed to the airport to take Express Route 12 instead.",
+    "question_text": "Who is recommended to take Express Route 12?",
+    "options": [
+      "A. University students.",
+      "B. Travelers going to the airport.",
+      "C. Passengers visiting Central Park.",
+      "D. Construction personnel."
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Hanh khach den san bay (headed to the airport) duoc khuyen di tuyen so 12.",
+    "question_id": "q2630"
+  },
+  "1": {
+    "part": 1,
+    "part_name": "Listening (Part 1: Photographs)",
+    "context": "Photo 1: A man wearing safety gear is holding a blueprint at a construction site.",
+    "question_text": "Look at the picture and select the best statement.",
+    "options": [
+      "A. He is driving a vehicle.",
+      "B. He is installing a window frame.",
+      "C. He is examining a construction document.",
+      "D. He is painting an exterior wall."
+    ],
+    "correct_answer_index": 2,
+    "explanation": "Nguoi dan ong dang xem ban ve ky thuat (examining a construction document).",
+    "question_id": "q8074"
+  },
+  "2": {
+    "part": 1,
+    "part_name": "Listening (Part 1: Photographs)",
+    "context": "Photo 2: Several commuters are waiting on an outdoor railway platform with luggage.",
+    "question_text": "Look at the picture and select the best statement.",
+    "options": [
+      "A. Passengers are boarding an airplane.",
+      "B. People are standing on a train platform.",
+      "C. Bags are being loaded into a truck.",
+      "D. Tickets are being sold at the counter."
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Moi nguoi dang dung tren san ga tau hoa (standing on a train platform).",
+    "question_id": "q8098"
+  },
+  "5": {
+    "part": 2,
+    "part_name": "Listening (Part 2: Question & Response)",
+    "context": "Audio: Question 5",
+    "question_text": "Did you remember to send the invoice to Ms. Johnson?",
+    "options": [
+      "A. Yes, I emailed it first thing this morning.",
+      "B. About two hundred dollars.",
+      "C. No, she lives in Boston."
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Cau hoi Yes/No xac nhan hanh dong gui hoa don -> Yes, I emailed it this morning.",
+    "question_id": "q722"
+  },
+  "6": {
+    "part": 2,
+    "part_name": "Listening (Part 2: Question & Response)",
+    "context": "Audio: Question 6",
+    "question_text": "Who is leading the quarterly budget review meeting?",
+    "options": [
+      "A. In the main conference hall.",
+      "B. Mr. Davis from the finance team.",
+      "C. It starts at three o'clock."
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Cau hoi chu the (Who is leading...) -> Tra loi ve nguoi: Mr. Davis.",
+    "question_id": "q878"
+  },
+  "9": {
+    "part": 2,
+    "part_name": "Listening (Part 2: Question & Response)",
+    "context": "Audio: Question 9",
+    "question_text": "Where can I find the extra presentation folders?",
+    "options": [
+      "A. The topic was very engaging.",
+      "B. Yes, we printed thirty copies.",
+      "C. In the supply cabinet near the copy machine."
+    ],
+    "correct_answer_index": 2,
+    "explanation": "Cau hoi noi chon (Where can I find...) -> Tra loi vi tri: In the supply cabinet.",
+    "question_id": "q1279"
+  },
+  "10": {
+    "part": 2,
+    "part_name": "Listening (Part 2: Question & Response)",
+    "context": "Audio: Question 10",
+    "question_text": "Would you like coffee or tea before the session starts?",
+    "options": [
+      "A. At the reception desk.",
+      "B. A cup of black coffee would be great, thanks.",
+      "C. The speaker has already arrived."
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Cau hoi lua chon (coffee or tea) -> Chon ca phe.",
+    "question_id": "q11249"
+  },
+  "14": {
+    "part": 2,
+    "part_name": "Listening (Part 2: Question & Response)",
+    "context": "Audio: Question 14",
+    "question_text": "Has the delivery truck arrived at the loading dock yet?",
+    "options": [
+      "A. A shipment of office chairs.",
+      "B. No, the driver called to say there is heavy traffic.",
+      "C. On the fifth floor."
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Cau hoi Yes/No ve xe giao hang -> No, there is heavy traffic.",
+    "question_id": "q11263"
+  },
+  "15": {
+    "part": 3,
+    "part_name": "Listening (Part 3: Short Conversations)",
+    "context": "Audio Dialogue (Questions 15-17):\n[Man]: Excuse me, I am looking for the workshop on digital marketing strategies.\n[Woman]: That session was moved to Room 204 because of high attendance.\n[Man]: Thank you! Do you know if handouts are provided, or should I take notes on my laptop?\n[Woman]: All materials and slide summaries will be emailed to registered attendees tonight.",
+    "question_text": "Where is the digital marketing session taking place?",
+    "options": [
+      "A. In the main auditorium.",
+      "B. In Room 204.",
+      "C. In the exhibition gallery.",
+      "D. In the outdoor pavilion."
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Buoi hoi thao chuyen sang phong 204 (moved to Room 204).",
+    "question_id": "q1476"
+  },
+  "16": {
+    "part": 3,
+    "part_name": "Listening (Part 3: Short Conversations)",
+    "context": "Audio Dialogue (Questions 15-17):\n[Man]: Excuse me, I am looking for the workshop on digital marketing strategies.\n[Woman]: That session was moved to Room 204 because of high attendance.\n[Man]: Thank you! Do you know if handouts are provided, or should I take notes on my laptop?\n[Woman]: All materials and slide summaries will be emailed to registered attendees tonight.",
+    "question_text": "Why was the location changed?",
+    "options": [
+      "A. The projector was broken.",
+      "B. Many people registered for the event.",
+      "C. The presenter arrived late.",
+      "D. Renovation was underway."
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Vi so luong nguoi tham gia dong (because of high attendance).",
+    "question_id": "q1477"
+  },
+  "17": {
+    "part": 3,
+    "part_name": "Listening (Part 3: Short Conversations)",
+    "context": "Audio Dialogue (Questions 15-17):\n[Man]: Excuse me, I am looking for the workshop on digital marketing strategies.\n[Woman]: That session was moved to Room 204 because of high attendance.\n[Man]: Thank you! Do you know if handouts are provided, or should I take notes on my laptop?\n[Woman]: All materials and slide summaries will be emailed to registered attendees tonight.",
+    "question_text": "How will attendees receive the presentation materials?",
+    "options": [
+      "A. Printed handouts at the door.",
+      "B. Via email later this evening.",
+      "C. By downloading an app.",
+      "D. From a USB drive."
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Tai lieu se duoc gui qua email toi nay (emailed to registered attendees tonight).",
+    "question_id": "q1478"
+  },
+  "0": {
+    "part": 1,
+    "part_name": "Listening (Part 1: Photographs)",
+    "context": "Photo: Detailed laboratory setting with scientists manipulating microscopes and recording test tubes.",
+    "question_text": "Look at the picture and select the best statement.",
+    "options": [
+      "A. The glassware is being cleaned in a sink.",
+      "B. Spectators are applauding in a lecture room.",
+      "C. Samples are being packed into cardboard boxes.",
+      "D. Researchers are conducting an experiment in a laboratory."
+    ],
+    "correct_answer_index": 3,
+    "explanation": "Cac nha nghien cuu dang lam thi nghiem trong phong thi nghiem.",
+    "question_id": "q176"
+  },
+  "7": {
+    "part": 2,
+    "part_name": "Listening (Part 2: Question & Response)",
+    "context": "Audio: Question 7",
+    "question_text": "Haven't we received the revised engineering specifications from the contractor yet?",
+    "options": [
+      "A. It was a very productive discussion.",
+      "B. Actually, their project manager sent them over late yesterday.",
+      "C. We usually hire external contractors for repairs."
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Cau hoi phu dinh (Haven't we received...?) -> Actually, their manager sent them late yesterday.",
+    "question_id": "q952"
+  },
+  "21": {
+    "part": 3,
+    "part_name": "Listening (Part 3: Short Conversations)",
+    "context": "Audio Dialogue (Questions 21-23):\n[Woman]: Marcus, I reviewed the third-quarter regional sales figures. While the European market expanded by 12%, our domestic revenue fell noticeably short of targets.\n[Man]: Yes, the supply chain bottlenecks delayed shipment of our new smart thermostat line for nearly six weeks.\n[Woman]: We need to convene an executive strategy session this Thursday to reallocate marketing budgets toward domestic retail channels.",
+    "question_text": "What performance disparity does the woman highlight?",
+    "options": [
+      "A. Domestic sales declined while European revenue expanded.",
+      "B. Online sales outpaced in-store purchases.",
+      "C. Production costs exceeded quarterly revenue.",
+      "D. Customer return rates doubled unexpectedly."
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Doanh thu trong nuoc giam trong khi thi truong chau Au tang 12%.",
+    "question_id": "q1731"
+  },
+  "22": {
+    "part": 3,
+    "part_name": "Listening (Part 3: Short Conversations)",
+    "context": "Audio Dialogue (Questions 21-23):\n[Woman]: Marcus, I reviewed the third-quarter regional sales figures. While the European market expanded by 12%, our domestic revenue fell noticeably short of targets.\n[Man]: Yes, the supply chain bottlenecks delayed shipment of our new smart thermostat line for nearly six weeks.\n[Woman]: We need to convene an executive strategy session this Thursday to reallocate marketing budgets toward domestic retail channels.",
+    "question_text": "What was the primary cause of product delivery delays?",
+    "options": [
+      "A. Severe winter weather conditions.",
+      "B. Bottlenecks in the supply chain network.",
+      "C. Quality control inspections at customs.",
+      "D. Labor shortages at the central factory."
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Do tac nghen chuoi cung ung (supply chain bottlenecks).",
+    "question_id": "q1732"
+  },
+  "23": {
+    "part": 3,
+    "part_name": "Listening (Part 3: Short Conversations)",
+    "context": "Audio Dialogue (Questions 21-23):\n[Woman]: Marcus, I reviewed the third-quarter regional sales figures. While the European market expanded by 12%, our domestic revenue fell noticeably short of targets.\n[Man]: Yes, the supply chain bottlenecks delayed shipment of our new smart thermostat line for nearly six weeks.\n[Woman]: We need to convene an executive strategy session this Thursday to reallocate marketing budgets toward domestic retail channels.",
+    "question_text": "What action does the woman propose taking on Thursday?",
+    "options": [
+      "A. Conducting performance reviews for sales representatives.",
+      "B. Interviewing logistics software vendors.",
+      "C. Reallocating marketing expenditure in a leadership meeting.",
+      "D. Halting further production of smart thermostats."
+    ],
+    "correct_answer_index": 2,
+    "explanation": "To chuc hop lanh dao de phan bo lai ngan sach marketing cho thi truong noi dia.",
+    "question_id": "q1733"
+  },
+  "27": {
+    "part": 3,
+    "part_name": "Listening (Part 3: Short Conversations)",
+    "context": "Audio Dialogue (Questions 27-29):\n[Man]: Dr. Patel, the clinical trial data for our proprietary enzyme formula showed remarkable efficacy, but the chemical stability degrades above 25 degrees Celsius.\n[Woman]: That presents substantial refrigerated transport hurdles for our international distribution partners.\n[Man]: If we microencapsulate the active peptides, we could preserve room-temperature stability for up to 18 months.",
+    "question_text": "What technical limitation is identified in the enzyme formula?",
+    "options": [
+      "A. It produces adverse side effects at high dosages.",
+      "B. Its chemical stability deteriorates at elevated temperatures.",
+      "C. It requires expensive raw mineral additives.",
+      "D. It reacts negatively with standard saline solution."
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Do ben hoa hoc bi suy giam khi vuot qua 25 do C.",
+    "question_id": "q2067"
+  },
+  "28": {
+    "part": 3,
+    "part_name": "Listening (Part 3: Short Conversations)",
+    "context": "Audio Dialogue (Questions 27-29):\n[Man]: Dr. Patel, the clinical trial data for our proprietary enzyme formula showed remarkable efficacy, but the chemical stability degrades above 25 degrees Celsius.\n[Woman]: That presents substantial refrigerated transport hurdles for our international distribution partners.\n[Man]: If we microencapsulate the active peptides, we could preserve room-temperature stability for up to 18 months.",
+    "question_text": "What solution does the man recommend?",
+    "options": [
+      "A. Microencapsulating the active chemical compounds.",
+      "B. Requiring distributors to use insulated containers.",
+      "C. Shortening product shelf life to three months.",
+      "D. Reformulating the compound with synthetic binders."
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Dong goi vi mo cac peptide hoat tinh (microencapsulate the active peptides).",
+    "question_id": "q2068"
+  },
+  "29": {
+    "part": 3,
+    "part_name": "Listening (Part 3: Short Conversations)",
+    "context": "Audio Dialogue (Questions 27-29):\n[Man]: Dr. Patel, the clinical trial data for our proprietary enzyme formula showed remarkable efficacy, but the chemical stability degrades above 25 degrees Celsius.\n[Woman]: That presents substantial refrigerated transport hurdles for our international distribution partners.\n[Man]: If we microencapsulate the active peptides, we could preserve room-temperature stability for up to 18 months.",
+    "question_text": "How long could the modified formula remain stable at room temperature?",
+    "options": [
+      "A. Six months.",
+      "B. Nine months.",
+      "C. One full year.",
+      "D. Up to eighteen months."
+    ],
+    "correct_answer_index": 3,
+    "explanation": "Duy tri do on dinh o nhiet do phong len toi 18 thang (up to 18 months).",
+    "question_id": "q2069"
+  },
+  "47": {
+    "part": 5,
+    "part_name": "Reading (Part 5: Incomplete Sentences)",
+    "context": "Reading Grammar & Lexical Precision",
+    "question_text": "Despite initial supply setbacks, the newly developed logistics facility has operated _____ since its grand inauguration last month.",
+    "options": [
+      "A. flawlessly",
+      "B. flawless",
+      "C. flawlessness",
+      "D. flaw"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Can mot trang tu (Adverb) de bo nghia cho cum dong tu has operated -> flawlessly.",
+    "question_id": "q4539"
+  },
+  "61": {
+    "part": 5,
+    "part_name": "Reading (Part 5: Incomplete Sentences)",
+    "context": "Reading Grammar & Advanced Structures",
+    "question_text": "Had the regulatory compliance committee _____ of the structural defect earlier, the scheduled building demolition would have been averted.",
+    "options": [
+      "A. informs",
+      "B. been informed",
+      "C. informing",
+      "D. inform"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Dao ngu cau dieu kien loai 3 o the bi dong: Had + S + been + V3/ed -> Had the committee been informed.",
+    "question_id": "q6390"
+  },
+  "46": {
+    "part": 5,
+    "part_name": "Reading (Part 5: Incomplete Sentences)",
+    "context": "Grammar: Possessive Pronoun in Business Context",
+    "question_text": "Ms. Davis requested that all department managers submit _____ quarterly budget projections by Friday afternoon.",
+    "options": [
+      "A. they",
+      "B. theirs",
+      "C. their",
+      "D. them"
+    ],
+    "correct_answer_index": 2,
+    "explanation": "Can tinh tu so huu dung truoc cum danh tu quarterly budget projections -> chon C (their).",
+    "question_id": "q4476"
+  },
+  "64": {
+    "part": 6,
+    "part_name": "Reading (Part 6: Text Completion)",
+    "context": "Notice: Annual City Health & Wellness Fair\nThe Greenville Community Center is pleased to announce its upcoming Annual Health Fair on Saturday, November 12. Admission is completely [64] _____ to all residents and visitors. Local medical professionals will provide free health screenings, blood pressure checks, and nutritional advice. [65] _____. In addition, free fitness workshops will take place every hour in the main gymnasium. Participants are asked to register [66] _____ upon arrival at the reception desk. We look forward to seeing you and your family at this [67] _____ community event!",
+    "question_text": "Select the best word to complete blank [64]:",
+    "options": [
+      "A. free",
+      "B. freely",
+      "C. freed",
+      "D. freedom"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Cum \"completely free to all residents\" (hoan toan mien phi cho moi cu dan).",
+    "question_id": "q6829"
+  },
+  "65": {
+    "part": 6,
+    "part_name": "Reading (Part 6: Text Completion)",
+    "context": "Notice: Annual City Health & Wellness Fair\nThe Greenville Community Center is pleased to announce its upcoming Annual Health Fair on Saturday, November 12. Admission is completely [64] _____ to all residents and visitors. Local medical professionals will provide free health screenings, blood pressure checks, and nutritional advice. [65] _____. In addition, free fitness workshops will take place every hour in the main gymnasium. Participants are asked to register [66] _____ upon arrival at the reception desk. We look forward to seeing you and your family at this [67] _____ community event!",
+    "question_text": "Select the best sentence to fill in blank [65]:",
+    "options": [
+      "A. Severe thunderstorms caused the event to be rescheduled.",
+      "B. Tickets for next year's concert tour go on sale tomorrow.",
+      "C. The cafeteria requires all visitors to pay a deposit.",
+      "D. Informational brochures and wellness samples will also be distributed."
+    ],
+    "correct_answer_index": 3,
+    "explanation": "Cau D phu hop mach y gioi thieu cac dich vu va tai lieu cham soc suc khoe tai su kien.",
+    "question_id": "q6830"
+  },
+  "66": {
+    "part": 6,
+    "part_name": "Reading (Part 6: Text Completion)",
+    "context": "Notice: Annual City Health & Wellness Fair\nThe Greenville Community Center is pleased to announce its upcoming Annual Health Fair on Saturday, November 12. Admission is completely [64] _____ to all residents and visitors. Local medical professionals will provide free health screenings, blood pressure checks, and nutritional advice. [65] _____. In addition, free fitness workshops will take place every hour in the main gymnasium. Participants are asked to register [66] _____ upon arrival at the reception desk. We look forward to seeing you and your family at this [67] _____ community event!",
+    "question_text": "Select the best word to complete blank [66]:",
+    "options": [
+      "A. prompt",
+      "B. promptly",
+      "C. prompter",
+      "D. promptness"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Can trang tu bo nghia cho dong tu register -> chon B (promptly - kip thoi/ngay khi).",
+    "question_id": "q6831"
+  },
+  "67": {
+    "part": 6,
+    "part_name": "Reading (Part 6: Text Completion)",
+    "context": "Notice: Annual City Health & Wellness Fair\nThe Greenville Community Center is pleased to announce its upcoming Annual Health Fair on Saturday, November 12. Admission is completely [64] _____ to all residents and visitors. Local medical professionals will provide free health screenings, blood pressure checks, and nutritional advice. [65] _____. In addition, free fitness workshops will take place every hour in the main gymnasium. Participants are asked to register [66] _____ upon arrival at the reception desk. We look forward to seeing you and your family at this [67] _____ community event!",
+    "question_text": "Select the best word to complete blank [67]:",
+    "options": [
+      "A. exciting",
+      "B. excites",
+      "C. excited",
+      "D. excitement"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Tinh tu mieu ta tinh chat cua su kien cong dong -> chon A (exciting).",
+    "question_id": "q6832"
+  },
+  "68": {
+    "part": 6,
+    "part_name": "Reading (Part 6: Text Completion)",
+    "context": "Memo to Apex Financial Services Employees\nFrom: Human Resources Department\nTo: All Staff\nDate: October 15\nSubject: Upcoming Headquarters Renovation\n\nPlease be advised that the main office building on 5th Avenue will undergo comprehensive electrical and interior upgrades starting next Monday. [68] _____. Consequently, employees are encouraged to work remotely during the two-week maintenance window. If you require access to company servers from home, please [69] _____ with the IT Helpdesk before Friday to verify your VPN credentials. We deeply appreciate your patience and [70] _____ as we modernize our workspaces. If you have any pressing concerns, do not [71] _____ to contact your team supervisor.",
+    "question_text": "Select the best sentence to fill in blank [68]:",
+    "options": [
+      "A. The cafeteria will expand its lunch menu options next semester.",
+      "B. Annual salary bonuses will be processed next week.",
+      "C. All floors will experience intermittent power outages during this period.",
+      "D. Parking spaces are available on a first-come, first-served basis."
+    ],
+    "correct_answer_index": 2,
+    "explanation": "Cau C giai thich nguyen nhan tai sao nhan vien duoc khuyen khich lam viec tu xa (cat dien luan phien).",
+    "question_id": "q6945"
+  },
+  "69": {
+    "part": 6,
+    "part_name": "Reading (Part 6: Text Completion)",
+    "context": "Memo to Apex Financial Services Employees\nFrom: Human Resources Department\nTo: All Staff\nDate: October 15\nSubject: Upcoming Headquarters Renovation\n\nPlease be advised that the main office building on 5th Avenue will undergo comprehensive electrical and interior upgrades starting next Monday. [68] _____. Consequently, employees are encouraged to work remotely during the two-week maintenance window. If you require access to company servers from home, please [69] _____ with the IT Helpdesk before Friday to verify your VPN credentials. We deeply appreciate your patience and [70] _____ as we modernize our workspaces. If you have any pressing concerns, do not [71] _____ to contact your team supervisor.",
+    "question_text": "Select the best word to complete blank [69]:",
+    "options": [
+      "A. consults",
+      "B. consulting",
+      "C. consult",
+      "D. consultation"
+    ],
+    "correct_answer_index": 2,
+    "explanation": "Cau truc menh lenh sau please dung dong tu nguyen mau khong to -> chon C (consult).",
+    "question_id": "q6946"
+  },
+  "70": {
+    "part": 6,
+    "part_name": "Reading (Part 6: Text Completion)",
+    "context": "Memo to Apex Financial Services Employees\nFrom: Human Resources Department\nTo: All Staff\nDate: October 15\nSubject: Upcoming Headquarters Renovation\n\nPlease be advised that the main office building on 5th Avenue will undergo comprehensive electrical and interior upgrades starting next Monday. [68] _____. Consequently, employees are encouraged to work remotely during the two-week maintenance window. If you require access to company servers from home, please [69] _____ with the IT Helpdesk before Friday to verify your VPN credentials. We deeply appreciate your patience and [70] _____ as we modernize our workspaces. If you have any pressing concerns, do not [71] _____ to contact your team supervisor.",
+    "question_text": "Select the best word to complete blank [70]:",
+    "options": [
+      "A. cooperation",
+      "B. cooperative",
+      "C. cooperatively",
+      "D. cooperate"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Cum danh tu sau tinh tu so huu: your patience and cooperation -> chon A (cooperation).",
+    "question_id": "q6947"
+  },
+  "71": {
+    "part": 6,
+    "part_name": "Reading (Part 6: Text Completion)",
+    "context": "Memo to Apex Financial Services Employees\nFrom: Human Resources Department\nTo: All Staff\nDate: October 15\nSubject: Upcoming Headquarters Renovation\n\nPlease be advised that the main office building on 5th Avenue will undergo comprehensive electrical and interior upgrades starting next Monday. [68] _____. Consequently, employees are encouraged to work remotely during the two-week maintenance window. If you require access to company servers from home, please [69] _____ with the IT Helpdesk before Friday to verify your VPN credentials. We deeply appreciate your patience and [70] _____ as we modernize our workspaces. If you have any pressing concerns, do not [71] _____ to contact your team supervisor.",
+    "question_text": "Select the best word to complete blank [71]:",
+    "options": [
+      "A. reluctant",
+      "B. hesitate",
+      "C. postpone",
+      "D. delay"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Thanh ngu quen thuoc: do not hesitate to contact -> chon B (hesitate).",
+    "question_id": "q6948"
+  },
+  "81": {
+    "part": 7,
+    "part_name": "Reading (Part 7: Reading Comprehension)",
+    "context": "Email Correspondence\nFrom: Rachel Vance (r.vance@vancetech.com)\nTo: Marcus Sterling (msterling@sterlingmachinery.com)\nDate: November 3\nSubject: Incomplete Shipment - Order #TK-9804\n\nDear Mr. Sterling,\nI am writing to express urgent concern regarding purchase order #TK-9804 delivered to our assembly facility yesterday afternoon. According to the original invoice dated October 20, our order included 50 heavy-duty hydraulic actuators and 12 digital pressure gauges.\nHowever, upon inspecting the freight containers, our warehouse supervisor discovered that only 35 hydraulic actuators were included, and none of the pressure gauges were present. Furthermore, two of the delivered units sustained exterior casing cracks during transit.\nBecause our production lines are scheduled to start full fabrication on November 10, any further delays will result in substantial financial penalties. Please arrange an express replacement for the missing items and damaged units by November 7 at the latest, at no additional shipping expense to Vance Technologies.\n\nSincerely,\nRachel Vance, Director of Global Procurement",
+    "question_text": "What is the primary purpose of Ms. Vance's email?",
+    "options": [
+      "A. To negotiate an extended payment deadline",
+      "B. To request a price catalog for digital pressure gauges",
+      "C. To report discrepancies and damages in a recent delivery",
+      "D. To confirm the successful installation of hydraulic actuators"
+    ],
+    "correct_answer_index": 2,
+    "explanation": "Muc dich chinh la bao cao sai sot va hu hai trong don giao hang -> chon C.",
+    "question_id": "q7335"
+  },
+  "82": {
+    "part": 7,
+    "part_name": "Reading (Part 7: Reading Comprehension)",
+    "context": "Email Correspondence\nFrom: Rachel Vance (r.vance@vancetech.com)\nTo: Marcus Sterling (msterling@sterlingmachinery.com)\nDate: November 3\nSubject: Incomplete Shipment - Order #TK-9804\n\nDear Mr. Sterling,\nI am writing to express urgent concern regarding purchase order #TK-9804 delivered to our assembly facility yesterday afternoon. According to the original invoice dated October 20, our order included 50 heavy-duty hydraulic actuators and 12 digital pressure gauges.\nHowever, upon inspecting the freight containers, our warehouse supervisor discovered that only 35 hydraulic actuators were included, and none of the pressure gauges were present. Furthermore, two of the delivered units sustained exterior casing cracks during transit.\nBecause our production lines are scheduled to start full fabrication on November 10, any further delays will result in substantial financial penalties. Please arrange an express replacement for the missing items and damaged units by November 7 at the latest, at no additional shipping expense to Vance Technologies.\n\nSincerely,\nRachel Vance, Director of Global Procurement",
+    "question_text": "How many hydraulic actuators were originally ordered by Vance Technologies?",
+    "options": [
+      "A. 12",
+      "B. 20",
+      "C. 35",
+      "D. 50"
+    ],
+    "correct_answer_index": 3,
+    "explanation": "Doan 1 neu ro: our order included 50 heavy-duty hydraulic actuators -> chon D (50).",
+    "question_id": "q7336"
+  },
+  "83": {
+    "part": 7,
+    "part_name": "Reading (Part 7: Reading Comprehension)",
+    "context": "Email Correspondence\nFrom: Rachel Vance (r.vance@vancetech.com)\nTo: Marcus Sterling (msterling@sterlingmachinery.com)\nDate: November 3\nSubject: Incomplete Shipment - Order #TK-9804\n\nDear Mr. Sterling,\nI am writing to express urgent concern regarding purchase order #TK-9804 delivered to our assembly facility yesterday afternoon. According to the original invoice dated October 20, our order included 50 heavy-duty hydraulic actuators and 12 digital pressure gauges.\nHowever, upon inspecting the freight containers, our warehouse supervisor discovered that only 35 hydraulic actuators were included, and none of the pressure gauges were present. Furthermore, two of the delivered units sustained exterior casing cracks during transit.\nBecause our production lines are scheduled to start full fabrication on November 10, any further delays will result in substantial financial penalties. Please arrange an express replacement for the missing items and damaged units by November 7 at the latest, at no additional shipping expense to Vance Technologies.\n\nSincerely,\nRachel Vance, Director of Global Procurement",
+    "question_text": "What problem is NOT mentioned regarding the delivered shipment?",
+    "options": [
+      "A. Units were missing from the order",
+      "B. Digital pressure gauges were not delivered",
+      "C. Some items suffered physical damage during transport",
+      "D. The invoice contained an erroneous billing rate"
+    ],
+    "correct_answer_index": 3,
+    "explanation": "Thu neu giao thieu hang, hu hong vat ly; khong de cap loi don gia hoa don -> chon D.",
+    "question_id": "q7337"
+  },
+  "84": {
+    "part": 7,
+    "part_name": "Reading (Part 7: Reading Comprehension)",
+    "context": "Email Correspondence\nFrom: Rachel Vance (r.vance@vancetech.com)\nTo: Marcus Sterling (msterling@sterlingmachinery.com)\nDate: November 3\nSubject: Incomplete Shipment - Order #TK-9804\n\nDear Mr. Sterling,\nI am writing to express urgent concern regarding purchase order #TK-9804 delivered to our assembly facility yesterday afternoon. According to the original invoice dated October 20, our order included 50 heavy-duty hydraulic actuators and 12 digital pressure gauges.\nHowever, upon inspecting the freight containers, our warehouse supervisor discovered that only 35 hydraulic actuators were included, and none of the pressure gauges were present. Furthermore, two of the delivered units sustained exterior casing cracks during transit.\nBecause our production lines are scheduled to start full fabrication on November 10, any further delays will result in substantial financial penalties. Please arrange an express replacement for the missing items and damaged units by November 7 at the latest, at no additional shipping expense to Vance Technologies.\n\nSincerely,\nRachel Vance, Director of Global Procurement",
+    "question_text": "By what date does Ms. Vance expect the replacement items to arrive?",
+    "options": [
+      "A. October 20",
+      "B. November 3",
+      "C. November 10",
+      "D. November 7"
+    ],
+    "correct_answer_index": 3,
+    "explanation": "Yeu cau: arrange an express replacement ... by November 7 at the latest -> chon D.",
+    "question_id": "q7338"
+  },
+  "3": {
+    "part": 2,
+    "part_name": "Listening (Part 2: Question-Response)",
+    "context": "Audio: Question 3",
+    "question_text": "Did you hear that the corporate merger was approved by the board?",
+    "options": [
+      "A. Yes, at three o'clock.",
+      "B. We need more printer paper.",
+      "C. Really? That is fantastic news."
+    ],
+    "correct_answer_index": 2,
+    "explanation": "Câu hỏi tường thuật cảm xúc về tin sáp nhập được thông qua -> Câu C ('Thật sao? Đó là tin tuyệt vời') là phản hồi tự nhiên nhất.",
+    "question_id": "q200"
+  },
+  "4": {
+    "part": 2,
+    "part_name": "Listening (Part 2: Question-Response)",
+    "context": "Audio: Question 4",
+    "question_text": "Where can I find the replacement cartridges for the photocopier?",
+    "options": [
+      "A. Around twenty pages.",
+      "B. Tomorrow afternoon.",
+      "C. In the supply cabinet near the breakroom."
+    ],
+    "correct_answer_index": 2,
+    "explanation": "Câu hỏi vị trí 'Where' -> Chọn C chỉ địa điểm cụ thể ('Trong tủ vật tư cạnh phòng nghỉ').",
+    "question_id": "q295"
+  },
+  "8": {
+    "part": 2,
+    "part_name": "Listening (Part 2: Question-Response)",
+    "context": "Audio: Question 8",
+    "question_text": "Why hasn't the quarterly financial summary been distributed yet?",
+    "options": [
+      "A. In the conference hall.",
+      "B. Mr. Patel is still verifying the audit figures.",
+      "C. Yes, we received fifty copies."
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Câu hỏi lý do 'Why' -> Chọn B giải thích nguyên nhân chậm trễ ('Ông Patel vẫn đang kiểm tra lại số liệu kiểm toán').",
+    "question_id": "q1193"
+  },
+  "11": {
+    "part": 2,
+    "part_name": "Listening (Part 2: Question-Response)",
+    "context": "Audio: Question 11",
+    "question_text": "Would you like me to book your hotel reservation for the Chicago conference?",
+    "options": [
+      "A. It was a very productive session.",
+      "B. Thank you, but our travel coordinator already handled it.",
+      "C. Flight 402 departs at noon."
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Lời đề nghị giúp đỡ -> Phản hồi lịch sự từ chối có lý do: 'Cảm ơn, nhưng người điều phối du lịch của chúng tôi đã xử lý rồi'.",
+    "question_id": "q11259"
+  },
+  "13": {
+    "part": 2,
+    "part_name": "Listening (Part 2: Question-Response)",
+    "context": "Audio: Question 13",
+    "question_text": "Could you review this draft proposal before the client meeting?",
+    "options": [
+      "A. Sure, I can look it over right after lunch.",
+      "B. The client arrived yesterday.",
+      "C. No, I prefer tea."
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Lời nhờ vả xem lại bản đề xuất -> Chọn A ('Chắc chắn rồi, tôi có thể xem qua ngay sau bữa trưa').",
+    "question_id": "q11262"
+  },
+  "33": {
+    "part": 4,
+    "part_name": "Listening (Part 4: Short Talks)",
+    "context": "Audio: Airport Flight Delay Announcement (Questions 33-35)\nAttention all passengers waiting for flight UA-492 to Seattle. Due to severe wind conditions along the northern flight corridor, departure has been rescheduled from 3:15 PM to 5:45 PM. Ground crew are currently inspecting aircraft instruments at Gate 14. In appreciation for your patience, complimentary meal vouchers valued at $15 are being distributed at the customer service desk across from Gate 12. Please present your boarding pass to claim your voucher.",
+    "question_text": "Why has flight UA-492 been delayed?",
+    "options": [
+      "A. Mechanical failure in the engine",
+      "B. Lack of available flight crew",
+      "C. Adverse wind and weather conditions",
+      "D. An air traffic controller strike"
+    ],
+    "correct_answer_index": 2,
+    "explanation": "Đoạn thông báo nêu rõ: 'Due to severe wind conditions along the northern flight corridor' -> Chọn C.",
+    "question_id": "q2991"
+  },
+  "34": {
+    "part": 4,
+    "part_name": "Listening (Part 4: Short Talks)",
+    "context": "Audio: Airport Flight Delay Announcement (Questions 33-35)\nAttention all passengers waiting for flight UA-492 to Seattle. Due to severe wind conditions along the northern flight corridor, departure has been rescheduled from 3:15 PM to 5:45 PM. Ground crew are currently inspecting aircraft instruments at Gate 14. In appreciation for your patience, complimentary meal vouchers valued at $15 are being distributed at the customer service desk across from Gate 12. Please present your boarding pass to claim your voucher.",
+    "question_text": "What are ground staff offering to affected passengers?",
+    "options": [
+      "A. Complimentary meal vouchers",
+      "B. Free hotel accommodations",
+      "C. Discount coupons for future flights",
+      "D. Immediate cash refunds"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Thông báo: 'complimentary meal vouchers valued at $15 are being distributed' -> Chọn A.",
+    "question_id": "q2992"
+  },
+  "35": {
+    "part": 4,
+    "part_name": "Listening (Part 4: Short Talks)",
+    "context": "Audio: Airport Flight Delay Announcement (Questions 33-35)\nAttention all passengers waiting for flight UA-492 to Seattle. Due to severe wind conditions along the northern flight corridor, departure has been rescheduled from 3:15 PM to 5:45 PM. Ground crew are currently inspecting aircraft instruments at Gate 14. In appreciation for your patience, complimentary meal vouchers valued at $15 are being distributed at the customer service desk across from Gate 12. Please present your boarding pass to claim your voucher.",
+    "question_text": "Where should passengers go to collect the voucher?",
+    "options": [
+      "A. Gate 14 boarding area",
+      "B. The customer service desk across from Gate 12",
+      "C. Baggage claim carousel 3",
+      "D. The main airport security checkpoint"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Thông báo: 'at the customer service desk across from Gate 12' -> Chọn B.",
+    "question_id": "q2993"
+  },
+  "36": {
+    "part": 4,
+    "part_name": "Listening (Part 4: Short Talks)",
+    "context": "Audio: Conference Opening Keynote (Questions 36-38)\nGood morning and welcome to the 14th Annual Global Tech Summit. My name is Arthur Pendelton, and I am honored to chair this year keynote program. Over the next three days, more than 80 industry pioneers will discuss scalable artificial intelligence, sustainable cloud computing, and cybersecurity frameworks. Before we introduce our first keynote speaker, Dr. Evelyn Chen, please ensure your mobile devices are silenced. Printed session itineraries are available at the registration foyer, or you may download our interactive conference app by scanning the QR code on your attendee badge.",
+    "question_text": "Who is most likely addressing the audience?",
+    "options": [
+      "A. A software product salesperson",
+      "B. An audiovisual technician",
+      "C. The conference chairperson",
+      "D. A university graduate student"
+    ],
+    "correct_answer_index": 2,
+    "explanation": "Người nói giới thiệu: 'My name is Arthur Pendelton, and I am honored to chair this year keynote program' -> Chọn C.",
+    "question_id": "q3411"
+  },
+  "37": {
+    "part": 4,
+    "part_name": "Listening (Part 4: Short Talks)",
+    "context": "Audio: Conference Opening Keynote (Questions 36-38)\nGood morning and welcome to the 14th Annual Global Tech Summit. My name is Arthur Pendelton, and I am honored to chair this year keynote program. Over the next three days, more than 80 industry pioneers will discuss scalable artificial intelligence, sustainable cloud computing, and cybersecurity frameworks. Before we introduce our first keynote speaker, Dr. Evelyn Chen, please ensure your mobile devices are silenced. Printed session itineraries are available at the registration foyer, or you may download our interactive conference app by scanning the QR code on your attendee badge.",
+    "question_text": "What are attendees instructed to do before the presentation begins?",
+    "options": [
+      "A. Mute their electronic devices",
+      "B. Register their vehicles at parking",
+      "C. Submit conference evaluation surveys",
+      "D. Relocate to the auditorium front row"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Người nói yêu cầu: 'please ensure your mobile devices are silenced' -> Chọn A.",
+    "question_id": "q3412"
+  },
+  "38": {
+    "part": 4,
+    "part_name": "Listening (Part 4: Short Talks)",
+    "context": "Audio: Conference Opening Keynote (Questions 36-38)\nGood morning and welcome to the 14th Annual Global Tech Summit. My name is Arthur Pendelton, and I am honored to chair this year keynote program. Over the next three days, more than 80 industry pioneers will discuss scalable artificial intelligence, sustainable cloud computing, and cybersecurity frameworks. Before we introduce our first keynote speaker, Dr. Evelyn Chen, please ensure your mobile devices are silenced. Printed session itineraries are available at the registration foyer, or you may download our interactive conference app by scanning the QR code on your attendee badge.",
+    "question_text": "How can participants access the digital conference schedule?",
+    "options": [
+      "A. By asking an usher for a copy",
+      "B. By sending an email inquiry to support",
+      "C. By checking the venue bulletin board",
+      "D. By scanning the QR code printed on their badge"
+    ],
+    "correct_answer_index": 3,
+    "explanation": "Thông báo nêu: 'download our interactive conference app by scanning the QR code on your attendee badge' -> Chọn D.",
+    "question_id": "q3413"
+  },
+  "39": {
+    "part": 5,
+    "part_name": "Reading (Part 5: Incomplete Sentences)",
+    "context": "Grammar: Comparative & Modifiers",
+    "question_text": "The executive board agreed that _____ international market expansion requires careful fiscal assessment.",
+    "options": [
+      "A. further",
+      "B. farther",
+      "C. furthest",
+      "D. fathom"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Từ 'further' mang nghĩa 'sâu hơn/thêm nữa' bổ nghĩa cho danh từ expansion -> Chọn A.",
+    "question_id": "q3774"
+  },
+  "40": {
+    "part": 5,
+    "part_name": "Reading (Part 5: Incomplete Sentences)",
+    "context": "Grammar: Prepositions of Time",
+    "question_text": "All employees who wish to attend the leadership retreat must notify human resources _____ Wednesday morning.",
+    "options": [
+      "A. until",
+      "B. since",
+      "C. during",
+      "D. by"
+    ],
+    "correct_answer_index": 3,
+    "explanation": "Chỉ thời hạn chót hoàn thành hành động (deadline) dùng 'by' (trước/vào lúc) -> Chọn D.",
+    "question_id": "q3788"
+  },
+  "41": {
+    "part": 5,
+    "part_name": "Reading (Part 5: Incomplete Sentences)",
+    "context": "Grammar: Conjunctions of Concession",
+    "question_text": "_____ the severe blizzard caused widespread airport closures, several international delegates managed to arrive on time.",
+    "options": [
+      "A. Although",
+      "B. Despite",
+      "C. Because",
+      "D. Whereas"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Phía sau là một mệnh đề hoàn chỉnh (S + V) chỉ sự tương phản -> Dùng liên từ 'Although' -> Chọn A.",
+    "question_id": "q3935"
+  },
+  "42": {
+    "part": 5,
+    "part_name": "Reading (Part 5: Incomplete Sentences)",
+    "context": "Grammar: Participial Adjectives",
+    "question_text": "The revised employee handbook includes _____ regulations concerning information technology security protocols.",
+    "options": [
+      "A. update",
+      "B. updated",
+      "C. updating",
+      "D. updater"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Cần một phân từ quá khứ đóng vai trò tính từ mang nghĩa bị động ('các quy định đã được cập nhật') -> 'updated regulations' -> Chọn B.",
+    "question_id": "q4166"
+  },
+  "43": {
+    "part": 5,
+    "part_name": "Reading (Part 5: Incomplete Sentences)",
+    "context": "Grammar: Subjunctive Mood after recommend",
+    "question_text": "The project manager recommended that we _____ the deployment deadline to permit additional quality testing.",
+    "options": [
+      "A. extended",
+      "B. extend",
+      "C. extends",
+      "D. extension"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Cấu trúc giả định thức: recommend that + S + (should) + V nguyên mẫu -> Chọn B (extend).",
+    "question_id": "q4178"
+  },
+  "44": {
+    "part": 5,
+    "part_name": "Reading (Part 5: Incomplete Sentences)",
+    "context": "Vocabulary: Business Collocations",
+    "question_text": "Customers who register for our loyalty program will receive _____ shipping on all future purchases.",
+    "options": [
+      "A. complimentary",
+      "B. compliment",
+      "C. complimenting",
+      "D. complimentarily"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Cụm danh từ 'complimentary shipping' mang nghĩa 'miễn phí vận chuyển' -> Cần tính từ 'complimentary' -> Chọn A.",
+    "question_id": "q4402"
+  },
+  "45": {
+    "part": 5,
+    "part_name": "Reading (Part 5: Incomplete Sentences)",
+    "context": "Grammar: Prepositions",
+    "question_text": "The software installation wizard will guide users _____ each stage of the workstation configuration process.",
+    "options": [
+      "A. among",
+      "B. between",
+      "C. through",
+      "D. into"
+    ],
+    "correct_answer_index": 2,
+    "explanation": "Cụm động từ 'guide somebody through something' (hướng dẫn ai trải qua từng bước) -> Chọn C (through).",
+    "question_id": "q4468"
+  },
+  "48": {
+    "part": 5,
+    "part_name": "Reading (Part 5: Incomplete Sentences)",
+    "context": "Grammar: Adverbs modifying Adjectives",
+    "question_text": "Ms. Tanaka proved to be an _____ valuable asset during the corporate acquisition negotiations.",
+    "options": [
+      "A. exception",
+      "B. exceptional",
+      "C. exceptions",
+      "D. exceptionally"
+    ],
+    "correct_answer_index": 3,
+    "explanation": "Cần trạng từ bổ nghĩa cho tính từ 'valuable' -> Chọn D (exceptionally - đặc biệt/vô cùng giá trị).",
+    "question_id": "q4555"
+  },
+  "49": {
+    "part": 5,
+    "part_name": "Reading (Part 5: Incomplete Sentences)",
+    "context": "Grammar: Compound Relative Adverbs",
+    "question_text": "The laboratory supervisor stressed that safety goggles must be worn _____ chemical experiments are conducted.",
+    "options": [
+      "A. whenever",
+      "B. whoever",
+      "C. however",
+      "D. whichever"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Nghĩa thời gian 'bất cứ khi nào tiến hành thí nghiệm' -> Chọn A (whenever).",
+    "question_id": "q4564"
+  },
+  "50": {
+    "part": 5,
+    "part_name": "Reading (Part 5: Incomplete Sentences)",
+    "context": "Grammar: Predicate Adjectives",
+    "question_text": "The architectural design committee found that the contractor's cost estimates were remarkably _____.",
+    "options": [
+      "A. accuracy",
+      "B. accurate",
+      "C. accurately",
+      "D. accurateness"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Sau động từ to be 'were' và trạng từ 'remarkably' cần một tính từ -> Chọn B (accurate - chính xác).",
+    "question_id": "q4761"
+  },
+  "51": {
+    "part": 5,
+    "part_name": "Reading (Part 5: Incomplete Sentences)",
+    "context": "Vocabulary: Compound Nouns",
+    "question_text": "Representatives from the sales department will meet with the overseas client to discuss contract _____.",
+    "options": [
+      "A. renewable",
+      "B. renew",
+      "C. renewing",
+      "D. renewal"
+    ],
+    "correct_answer_index": 3,
+    "explanation": "Cụm danh từ 'contract renewal' (việc gia hạn hợp đồng) -> Chọn D (renewal).",
+    "question_id": "q4886"
+  },
+  "52": {
+    "part": 5,
+    "part_name": "Reading (Part 5: Incomplete Sentences)",
+    "context": "Grammar: Prepositions of Duration",
+    "question_text": "The facility maintenance team worked _____ the weekend to repair the malfunctioning ventilation cooling tower.",
+    "options": [
+      "A. across",
+      "B. along",
+      "C. throughout",
+      "D. onto"
+    ],
+    "correct_answer_index": 2,
+    "explanation": "'Throughout the weekend' mang nghĩa 'làm việc suốt cả cuối tuần' -> Chọn C.",
+    "question_id": "q5060"
+  },
+  "53": {
+    "part": 5,
+    "part_name": "Reading (Part 5: Incomplete Sentences)",
+    "context": "Grammar: Parallel Structure with Adjectives",
+    "question_text": "The new electric delivery vans have proven to be both energy-efficient and highly _____.",
+    "options": [
+      "A. reliable",
+      "B. rely",
+      "C. reliance",
+      "D. reliantly"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Cấu trúc song hành 'both A and B' sau to be: A là tính từ (energy-efficient) thì B cũng phải là tính từ -> Chọn A (reliable).",
+    "question_id": "q5242"
+  },
+  "54": {
+    "part": 5,
+    "part_name": "Reading (Part 5: Incomplete Sentences)",
+    "context": "Grammar: Participial Adjectives",
+    "question_text": "Please forward your completed expense reimbursement report directly to the _____ finance coordinator.",
+    "options": [
+      "A. designated",
+      "B. designation",
+      "C. designating",
+      "D. designates"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Cần tính từ 'designated' (được chỉ định/được giao quyền) bổ nghĩa cho danh từ coordinator -> Chọn A.",
+    "question_id": "q5248"
+  },
+  "55": {
+    "part": 5,
+    "part_name": "Reading (Part 5: Incomplete Sentences)",
+    "context": "Grammar: Infinitive after Vote",
+    "question_text": "The city council voted unanimously to _____ funds for the historic district revitalization initiative.",
+    "options": [
+      "A. allocate",
+      "B. allocation",
+      "C. allocating",
+      "D. allocated"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Cấu trúc 'vote to do something' (bỏ phiếu quyết định làm gì) -> Chọn A (allocate - phân bổ ngân sách).",
+    "question_id": "q5257"
+  },
+  "56": {
+    "part": 5,
+    "part_name": "Reading (Part 5: Incomplete Sentences)",
+    "context": "Grammar: Conjunctions of Time",
+    "question_text": "_____ the regional manager arrives from London, the annual executive review will commence immediately.",
+    "options": [
+      "A. As soon as",
+      "B. In spite of",
+      "C. As well as",
+      "D. In order to"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Mệnh đề chỉ thời gian tương lai: 'Ngay khi quản lý vùng đến, cuộc họp sẽ bắt đầu' -> Chọn A (As soon as).",
+    "question_id": "q5683"
+  },
+  "57": {
+    "part": 5,
+    "part_name": "Reading (Part 5: Incomplete Sentences)",
+    "context": "Grammar: Adverbs of Manner",
+    "question_text": "The patent attorney advised that the proprietary battery technology be patented _____ to prevent intellectual theft.",
+    "options": [
+      "A. prompt",
+      "B. prompter",
+      "C. promptly",
+      "D. promptness"
+    ],
+    "correct_answer_index": 2,
+    "explanation": "Cần trạng từ bổ nghĩa cho động từ 'be patented' -> Chọn C (promptly - nhanh chóng/kịp thời).",
+    "question_id": "q6185"
+  },
+  "58": {
+    "part": 5,
+    "part_name": "Reading (Part 5: Incomplete Sentences)",
+    "context": "Vocabulary: Adjectives modifying Nouns",
+    "question_text": "Dr. Alvarez will deliver a comprehensive lecture on sustainable manufacturing practices at the _____ convention.",
+    "options": [
+      "A. come",
+      "B. comes",
+      "C. came",
+      "D. upcoming"
+    ],
+    "correct_answer_index": 3,
+    "explanation": "Cần tính từ 'upcoming' mang nghĩa 'sắp tới' bổ nghĩa cho danh từ convention -> Chọn D.",
+    "question_id": "q6188"
+  },
+  "59": {
+    "part": 5,
+    "part_name": "Reading (Part 5: Incomplete Sentences)",
+    "context": "Vocabulary: Business Terminology",
+    "question_text": "The hotel reception desk is staffed twenty-four hours a day to assist guests with any _____ they may have.",
+    "options": [
+      "A. inquiries",
+      "B. inquiring",
+      "C. inquirers",
+      "D. inquired"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Danh từ số nhiều 'inquiries' (các thắc mắc/câu hỏi cần giải đáp của khách) -> Chọn A.",
+    "question_id": "q6189"
+  },
+  "60": {
+    "part": 5,
+    "part_name": "Reading (Part 5: Incomplete Sentences)",
+    "context": "Idiomatic Prepositional Phrases",
+    "question_text": "The CEO commended the engineering division for finishing the prototype well _____ the projected deadline.",
+    "options": [
+      "A. prior",
+      "B. former",
+      "C. beyond",
+      "D. ahead of"
+    ],
+    "correct_answer_index": 3,
+    "explanation": "Cụm thành ngữ 'ahead of the deadline' (hoàn thành trước thời hạn) -> Chọn D.",
+    "question_id": "q6243"
+  },
+  "62": {
+    "part": 5,
+    "part_name": "Reading (Part 5: Incomplete Sentences)",
+    "context": "Grammar: Adverbs modifying Verbs",
+    "question_text": "The newly installed solar arrays have reduced the commercial facility's monthly utility bills _____.",
+    "options": [
+      "A. consider",
+      "B. consideration",
+      "C. considerable",
+      "D. considerably"
+    ],
+    "correct_answer_index": 3,
+    "explanation": "Cần trạng từ đứng cuối câu bổ nghĩa cho động từ 'have reduced' -> Chọn D (considerably - một cách đáng kể).",
+    "question_id": "q6442"
+  },
+  "63": {
+    "part": 5,
+    "part_name": "Reading (Part 5: Incomplete Sentences)",
+    "context": "Grammar: Adverbs modifying Passive Verbs",
+    "question_text": "The corporate procurement policy dictates that bids from at least three different suppliers be _____ reviewed.",
+    "options": [
+      "A. thorough",
+      "B. thoroughness",
+      "C. thoroughly",
+      "D. rigorously"
+    ],
+    "correct_answer_index": 3,
+    "explanation": "Cần trạng từ bổ nghĩa cho động từ 'reviewed' -> Chọn D (rigorously - được xem xét một cách nghiêm ngặt/kỹ lưỡng).",
+    "question_id": "q9578"
+  },
+  "72": {
+    "part": 6,
+    "part_name": "Reading (Part 6: Text Completion)",
+    "context": "Internal Memo: IT Security Policy Upgrade\nTo: All Corporate Staff\nFrom: Chief Information Security Officer\nDate: November 8\nSubject: Mandatory Two-Factor Authentication Rollout\nOver the past year, cyber threats targeting enterprise networks have increased substantially. In response, our IT security department is implementing mandatory Two-Factor Authentication (2FA) for all user accounts beginning December 1. [72] _____.\nEmployees will be required to download the enterprise authenticator application onto their company-issued mobile devices. The configuration procedure is straightforward and takes less than five minutes to complete. We have prepared an illustrated step-by-step user guide, which is [73] _____ on the internal company portal under the 'Tech Support' tab.\nPlease be reminded that failing to configure your authentication credentials prior to the December 1 deadline will [74] _____ in temporary account suspension until verified by IT support. We understand this transition requires an adjustment in your daily workflow. [75] _____, this measure is vital to safeguarding our clients' sensitive financial records.",
+    "question_text": "Select the best sentence to fill in blank [72]:",
+    "options": [
+      "A. The annual company banquet has been postponed to January.",
+      "B. New parking permits will be issued at the main gate tomorrow.",
+      "C. All desktop monitors will be replaced during the weekend.",
+      "D. This security protocol will protect both company databases and client communications."
+    ],
+    "correct_answer_index": 3,
+    "explanation": "Câu D giải thích mục đích và lợi ích cốt lõi của giao thức bảo mật 2FA -> Chọn D.",
+    "question_id": "q6949"
+  },
+  "73": {
+    "part": 6,
+    "part_name": "Reading (Part 6: Text Completion)",
+    "context": "Internal Memo: IT Security Policy Upgrade\nTo: All Corporate Staff\nFrom: Chief Information Security Officer\nDate: November 8\nSubject: Mandatory Two-Factor Authentication Rollout\nOver the past year, cyber threats targeting enterprise networks have increased substantially. In response, our IT security department is implementing mandatory Two-Factor Authentication (2FA) for all user accounts beginning December 1. [72] _____.\nEmployees will be required to download the enterprise authenticator application onto their company-issued mobile devices. The configuration procedure is straightforward and takes less than five minutes to complete. We have prepared an illustrated step-by-step user guide, which is [73] _____ on the internal company portal under the 'Tech Support' tab.\nPlease be reminded that failing to configure your authentication credentials prior to the December 1 deadline will [74] _____ in temporary account suspension until verified by IT support. We understand this transition requires an adjustment in your daily workflow. [75] _____, this measure is vital to safeguarding our clients' sensitive financial records.",
+    "question_text": "Select the best word to complete blank [73]:",
+    "options": [
+      "A. available",
+      "B. availability",
+      "C. avail",
+      "D. availably"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Sau động từ to be 'is' cần tính từ miêu tả tài liệu hướng dẫn có sẵn -> 'is available on portal' -> Chọn A.",
+    "question_id": "q6950"
+  },
+  "74": {
+    "part": 6,
+    "part_name": "Reading (Part 6: Text Completion)",
+    "context": "Internal Memo: IT Security Policy Upgrade\nTo: All Corporate Staff\nFrom: Chief Information Security Officer\nDate: November 8\nSubject: Mandatory Two-Factor Authentication Rollout\nOver the past year, cyber threats targeting enterprise networks have increased substantially. In response, our IT security department is implementing mandatory Two-Factor Authentication (2FA) for all user accounts beginning December 1. [72] _____.\nEmployees will be required to download the enterprise authenticator application onto their company-issued mobile devices. The configuration procedure is straightforward and takes less than five minutes to complete. We have prepared an illustrated step-by-step user guide, which is [73] _____ on the internal company portal under the 'Tech Support' tab.\nPlease be reminded that failing to configure your authentication credentials prior to the December 1 deadline will [74] _____ in temporary account suspension until verified by IT support. We understand this transition requires an adjustment in your daily workflow. [75] _____, this measure is vital to safeguarding our clients' sensitive financial records.",
+    "question_text": "Select the best word to complete blank [74]:",
+    "options": [
+      "A. lead",
+      "B. cause",
+      "C. produce",
+      "D. result"
+    ],
+    "correct_answer_index": 3,
+    "explanation": "Cụm động từ đi với giới từ in: 'result in temporary suspension' (dẫn đến việc bị tạm khóa tài khoản) -> Chọn D.",
+    "question_id": "q6951"
+  },
+  "75": {
+    "part": 6,
+    "part_name": "Reading (Part 6: Text Completion)",
+    "context": "Internal Memo: IT Security Policy Upgrade\nTo: All Corporate Staff\nFrom: Chief Information Security Officer\nDate: November 8\nSubject: Mandatory Two-Factor Authentication Rollout\nOver the past year, cyber threats targeting enterprise networks have increased substantially. In response, our IT security department is implementing mandatory Two-Factor Authentication (2FA) for all user accounts beginning December 1. [72] _____.\nEmployees will be required to download the enterprise authenticator application onto their company-issued mobile devices. The configuration procedure is straightforward and takes less than five minutes to complete. We have prepared an illustrated step-by-step user guide, which is [73] _____ on the internal company portal under the 'Tech Support' tab.\nPlease be reminded that failing to configure your authentication credentials prior to the December 1 deadline will [74] _____ in temporary account suspension until verified by IT support. We understand this transition requires an adjustment in your daily workflow. [75] _____, this measure is vital to safeguarding our clients' sensitive financial records.",
+    "question_text": "Select the best transition word for blank [75]:",
+    "options": [
+      "A. In conclusion",
+      "B. Nevertheless",
+      "C. Furthermore",
+      "D. For example"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Quan hệ tương phản nhượng bộ: Dù gây chút phiền toái, tuy nhiên biện pháp này rất cần thiết -> Chọn B (Nevertheless).",
+    "question_id": "q6952"
+  },
+  "76": {
+    "part": 7,
+    "part_name": "Reading (Part 7: Reading Comprehension)",
+    "context": "Commercial Real Estate Advertisement: Horizon Tower\nPremier Downtown Office Space Available for Lease\nLocation: The Horizon Tower, 450 Commerce Boulevard, Metro City\nProperty Highlights:\nThe Horizon Tower is Metro City's newest LEED Gold-certified commercial landmark, offering premium office suites ranging from 2,500 to 18,000 square feet. Floor 14 through Floor 18 are immediately ready for tenant occupancy.\nKey Amenities:\n- High-speed fiber-optic connectivity and dedicated server backup rooms on each floor.\n- Floor-to-ceiling panoramic glass windows with automated solar shades.\n- 24/7 biometric security access, executive concierge lobby, and subterranean reserved parking.\n- Ground-floor upscale dining, gourmet espresso bar, and state-of-the-art wellness fitness center free for building tenants.\nLease Terms:\nStandard lease agreements are offered on a 3-year, 5-year, or 10-year basis. Tenants signing a 5-year lease before November 30 will receive two months of rent-free occupancy and customized interior architectural build-out subsidies up to $50,000.\nPrivate tours can be scheduled Monday through Friday by contacting Marcus Sterling, Senior Leasing Director, at m.sterling@horizontower.com or calling (555) 019-4822.",
+    "question_text": "What type of property is advertised for lease?",
+    "options": [
+      "A. Modern commercial office space",
+      "B. Residential apartment units",
+      "C. Industrial manufacturing warehouse",
+      "D. Retail shopping mall storefronts"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Tiêu đề ghi rõ: 'Premier Downtown Office Space Available for Lease' -> Chọn A.",
+    "question_id": "q7192"
+  },
+  "77": {
+    "part": 7,
+    "part_name": "Reading (Part 7: Reading Comprehension)",
+    "context": "Commercial Real Estate Advertisement: Horizon Tower\nPremier Downtown Office Space Available for Lease\nLocation: The Horizon Tower, 450 Commerce Boulevard, Metro City\nProperty Highlights:\nThe Horizon Tower is Metro City's newest LEED Gold-certified commercial landmark, offering premium office suites ranging from 2,500 to 18,000 square feet. Floor 14 through Floor 18 are immediately ready for tenant occupancy.\nKey Amenities:\n- High-speed fiber-optic connectivity and dedicated server backup rooms on each floor.\n- Floor-to-ceiling panoramic glass windows with automated solar shades.\n- 24/7 biometric security access, executive concierge lobby, and subterranean reserved parking.\n- Ground-floor upscale dining, gourmet espresso bar, and state-of-the-art wellness fitness center free for building tenants.\nLease Terms:\nStandard lease agreements are offered on a 3-year, 5-year, or 10-year basis. Tenants signing a 5-year lease before November 30 will receive two months of rent-free occupancy and customized interior architectural build-out subsidies up to $50,000.\nPrivate tours can be scheduled Monday through Friday by contacting Marcus Sterling, Senior Leasing Director, at m.sterling@horizontower.com or calling (555) 019-4822.",
+    "question_text": "Which floors are currently available for immediate move-in?",
+    "options": [
+      "A. Floors 1 to 5",
+      "B. Floors 14 to 18",
+      "C. Floors 20 to 25",
+      "D. Floors 30 to 35"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Đoạn 1 nêu: 'Floor 14 through Floor 18 are immediately ready for tenant occupancy' -> Chọn B.",
+    "question_id": "q7193"
+  },
+  "78": {
+    "part": 7,
+    "part_name": "Reading (Part 7: Reading Comprehension)",
+    "context": "Commercial Real Estate Advertisement: Horizon Tower\nPremier Downtown Office Space Available for Lease\nLocation: The Horizon Tower, 450 Commerce Boulevard, Metro City\nProperty Highlights:\nThe Horizon Tower is Metro City's newest LEED Gold-certified commercial landmark, offering premium office suites ranging from 2,500 to 18,000 square feet. Floor 14 through Floor 18 are immediately ready for tenant occupancy.\nKey Amenities:\n- High-speed fiber-optic connectivity and dedicated server backup rooms on each floor.\n- Floor-to-ceiling panoramic glass windows with automated solar shades.\n- 24/7 biometric security access, executive concierge lobby, and subterranean reserved parking.\n- Ground-floor upscale dining, gourmet espresso bar, and state-of-the-art wellness fitness center free for building tenants.\nLease Terms:\nStandard lease agreements are offered on a 3-year, 5-year, or 10-year basis. Tenants signing a 5-year lease before November 30 will receive two months of rent-free occupancy and customized interior architectural build-out subsidies up to $50,000.\nPrivate tours can be scheduled Monday through Friday by contacting Marcus Sterling, Senior Leasing Director, at m.sterling@horizontower.com or calling (555) 019-4822.",
+    "question_text": "What amenity is offered free of charge to building tenants?",
+    "options": [
+      "A. Subterranean valet parking services",
+      "B. Access to the on-site wellness fitness center",
+      "C. Daily executive helicopter transport",
+      "D. Complimentary conference room catering"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Mục tiện ích: 'state-of-the-art wellness fitness center free for building tenants' -> Chọn B.",
+    "question_id": "q7194"
+  },
+  "79": {
+    "part": 7,
+    "part_name": "Reading (Part 7: Reading Comprehension)",
+    "context": "Commercial Real Estate Advertisement: Horizon Tower\nPremier Downtown Office Space Available for Lease\nLocation: The Horizon Tower, 450 Commerce Boulevard, Metro City\nProperty Highlights:\nThe Horizon Tower is Metro City's newest LEED Gold-certified commercial landmark, offering premium office suites ranging from 2,500 to 18,000 square feet. Floor 14 through Floor 18 are immediately ready for tenant occupancy.\nKey Amenities:\n- High-speed fiber-optic connectivity and dedicated server backup rooms on each floor.\n- Floor-to-ceiling panoramic glass windows with automated solar shades.\n- 24/7 biometric security access, executive concierge lobby, and subterranean reserved parking.\n- Ground-floor upscale dining, gourmet espresso bar, and state-of-the-art wellness fitness center free for building tenants.\nLease Terms:\nStandard lease agreements are offered on a 3-year, 5-year, or 10-year basis. Tenants signing a 5-year lease before November 30 will receive two months of rent-free occupancy and customized interior architectural build-out subsidies up to $50,000.\nPrivate tours can be scheduled Monday through Friday by contacting Marcus Sterling, Senior Leasing Director, at m.sterling@horizontower.com or calling (555) 019-4822.",
+    "question_text": "What incentive is available for tenants who sign a 5-year lease before November 30?",
+    "options": [
+      "A. A fifty percent discount on monthly utilities",
+      "B. Free corporate furniture delivery",
+      "C. Lifetime building maintenance guarantee",
+      "D. Two months of rent-free occupancy and architectural subsidies"
+    ],
+    "correct_answer_index": 3,
+    "explanation": "Mục Lease Terms: 'receive two months of rent-free occupancy and customized interior architectural build-out subsidies' -> Chọn D.",
+    "question_id": "q7195"
+  },
+  "80": {
+    "part": 7,
+    "part_name": "Reading (Part 7: Reading Comprehension)",
+    "context": "Commercial Real Estate Advertisement: Horizon Tower\nPremier Downtown Office Space Available for Lease\nLocation: The Horizon Tower, 450 Commerce Boulevard, Metro City\nProperty Highlights:\nThe Horizon Tower is Metro City's newest LEED Gold-certified commercial landmark, offering premium office suites ranging from 2,500 to 18,000 square feet. Floor 14 through Floor 18 are immediately ready for tenant occupancy.\nKey Amenities:\n- High-speed fiber-optic connectivity and dedicated server backup rooms on each floor.\n- Floor-to-ceiling panoramic glass windows with automated solar shades.\n- 24/7 biometric security access, executive concierge lobby, and subterranean reserved parking.\n- Ground-floor upscale dining, gourmet espresso bar, and state-of-the-art wellness fitness center free for building tenants.\nLease Terms:\nStandard lease agreements are offered on a 3-year, 5-year, or 10-year basis. Tenants signing a 5-year lease before November 30 will receive two months of rent-free occupancy and customized interior architectural build-out subsidies up to $50,000.\nPrivate tours can be scheduled Monday through Friday by contacting Marcus Sterling, Senior Leasing Director, at m.sterling@horizontower.com or calling (555) 019-4822.",
+    "question_text": "How can prospective tenants arrange an on-site viewing?",
+    "options": [
+      "A. By visiting the building security desk on weekends",
+      "B. By contacting the senior leasing director via email or telephone",
+      "C. By registering at the municipal commercial property office",
+      "D. By submitting a formal written tender"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Đoạn cuối: 'Private tours can be scheduled ... by contacting Marcus Sterling, Senior Leasing Director, at m.sterling@horizontower.com or calling (555) 019-4822' -> Chọn B.",
+    "question_id": "q7196"
+  },
+  "85": {
+    "part": 7,
+    "part_name": "Reading (Part 7: Reading Comprehension)",
+    "context": "Product Warranty & User Guide: OmniTech Laser Projector (Model: PT-9200X)\nThank you for purchasing the OmniTech PT-9200X Laser Projector. OmniTech Electronics guarantees that this product is free from defects in material and workmanship under normal commercial usage for a period of three (3) years from the original purchase date.\nWarranty Terms & Limitations:\n1. Optical Laser Light Source: Guaranteed for 20,000 operational hours or three years, whichever occurs first. If the laser engine output drops below 50% of rated luminosity within this timeframe, OmniTech will replace the optical module at no cost.\n2. Physical Damage: This warranty does not cover damage resulting from accidental drops, liquid spills, unauthorized disassembly, power surges, or failure to clean the intake air filters according to the schedule in Section 4.\n3. Warranty Claims Process:\nTo initiate a warranty repair or replacement claim:\n- Register your product serial number at www.omnitechelectronics.com/warranty within 30 days of purchase.\n- Contact our Technical Support Center at 1-800-555-OMNI to receive a Return Merchandise Authorization (RMA) tracking number.\n- Ship the unit in its original protective packaging to our regional repair hub in Denver, Colorado. OmniTech covers all return freight charges for verified warranty services.\nNote on Air Filter Maintenance:\nAir filters must be inspected and vacuumed every 100 operating hours to prevent internal thermal throttling. Replacement filter packs (Part #FL-402) can be ordered directly from our website.",
+    "question_text": "How long is the standard warranty period for the PT-9200X projector?",
+    "options": [
+      "A. One year",
+      "B. Two years",
+      "C. Three years",
+      "D. Five years"
+    ],
+    "correct_answer_index": 2,
+    "explanation": "Đoạn đầu: 'for a period of three (3) years from the original purchase date' -> Chọn C.",
+    "question_id": "q7510"
+  },
+  "86": {
+    "part": 7,
+    "part_name": "Reading (Part 7: Reading Comprehension)",
+    "context": "Product Warranty & User Guide: OmniTech Laser Projector (Model: PT-9200X)\nThank you for purchasing the OmniTech PT-9200X Laser Projector. OmniTech Electronics guarantees that this product is free from defects in material and workmanship under normal commercial usage for a period of three (3) years from the original purchase date.\nWarranty Terms & Limitations:\n1. Optical Laser Light Source: Guaranteed for 20,000 operational hours or three years, whichever occurs first. If the laser engine output drops below 50% of rated luminosity within this timeframe, OmniTech will replace the optical module at no cost.\n2. Physical Damage: This warranty does not cover damage resulting from accidental drops, liquid spills, unauthorized disassembly, power surges, or failure to clean the intake air filters according to the schedule in Section 4.\n3. Warranty Claims Process:\nTo initiate a warranty repair or replacement claim:\n- Register your product serial number at www.omnitechelectronics.com/warranty within 30 days of purchase.\n- Contact our Technical Support Center at 1-800-555-OMNI to receive a Return Merchandise Authorization (RMA) tracking number.\n- Ship the unit in its original protective packaging to our regional repair hub in Denver, Colorado. OmniTech covers all return freight charges for verified warranty services.\nNote on Air Filter Maintenance:\nAir filters must be inspected and vacuumed every 100 operating hours to prevent internal thermal throttling. Replacement filter packs (Part #FL-402) can be ordered directly from our website.",
+    "question_text": "Under what condition will OmniTech replace the optical laser engine free of charge?",
+    "options": [
+      "A. If the remote control receiver fails",
+      "B. If the power cable becomes loose",
+      "C. If the light output drops below 50% within the warranty period",
+      "D. If the exterior casing is scratched during setup"
+    ],
+    "correct_answer_index": 2,
+    "explanation": "Mục 1: 'If the laser engine output drops below 50% of rated luminosity within this timeframe, OmniTech will replace the optical module at no cost' -> Chọn C.",
+    "question_id": "q7511"
+  },
+  "87": {
+    "part": 7,
+    "part_name": "Reading (Part 7: Reading Comprehension)",
+    "context": "Product Warranty & User Guide: OmniTech Laser Projector (Model: PT-9200X)\nThank you for purchasing the OmniTech PT-9200X Laser Projector. OmniTech Electronics guarantees that this product is free from defects in material and workmanship under normal commercial usage for a period of three (3) years from the original purchase date.\nWarranty Terms & Limitations:\n1. Optical Laser Light Source: Guaranteed for 20,000 operational hours or three years, whichever occurs first. If the laser engine output drops below 50% of rated luminosity within this timeframe, OmniTech will replace the optical module at no cost.\n2. Physical Damage: This warranty does not cover damage resulting from accidental drops, liquid spills, unauthorized disassembly, power surges, or failure to clean the intake air filters according to the schedule in Section 4.\n3. Warranty Claims Process:\nTo initiate a warranty repair or replacement claim:\n- Register your product serial number at www.omnitechelectronics.com/warranty within 30 days of purchase.\n- Contact our Technical Support Center at 1-800-555-OMNI to receive a Return Merchandise Authorization (RMA) tracking number.\n- Ship the unit in its original protective packaging to our regional repair hub in Denver, Colorado. OmniTech covers all return freight charges for verified warranty services.\nNote on Air Filter Maintenance:\nAir filters must be inspected and vacuumed every 100 operating hours to prevent internal thermal throttling. Replacement filter packs (Part #FL-402) can be ordered directly from our website.",
+    "question_text": "What situation is EXCLUDED from warranty coverage?",
+    "options": [
+      "A. Factory component soldering defects",
+      "B. Optical lens alignment errors during assembly",
+      "C. Internal power regulation circuit failure",
+      "D. Damage caused by liquid spills or improper filter maintenance"
+    ],
+    "correct_answer_index": 3,
+    "explanation": "Mục 2: 'does not cover damage resulting from accidental drops, liquid spills ... or failure to clean the intake air filters' -> Chọn D.",
+    "question_id": "q7512"
+  },
+  "88": {
+    "part": 7,
+    "part_name": "Reading (Part 7: Reading Comprehension)",
+    "context": "Product Warranty & User Guide: OmniTech Laser Projector (Model: PT-9200X)\nThank you for purchasing the OmniTech PT-9200X Laser Projector. OmniTech Electronics guarantees that this product is free from defects in material and workmanship under normal commercial usage for a period of three (3) years from the original purchase date.\nWarranty Terms & Limitations:\n1. Optical Laser Light Source: Guaranteed for 20,000 operational hours or three years, whichever occurs first. If the laser engine output drops below 50% of rated luminosity within this timeframe, OmniTech will replace the optical module at no cost.\n2. Physical Damage: This warranty does not cover damage resulting from accidental drops, liquid spills, unauthorized disassembly, power surges, or failure to clean the intake air filters according to the schedule in Section 4.\n3. Warranty Claims Process:\nTo initiate a warranty repair or replacement claim:\n- Register your product serial number at www.omnitechelectronics.com/warranty within 30 days of purchase.\n- Contact our Technical Support Center at 1-800-555-OMNI to receive a Return Merchandise Authorization (RMA) tracking number.\n- Ship the unit in its original protective packaging to our regional repair hub in Denver, Colorado. OmniTech covers all return freight charges for verified warranty services.\nNote on Air Filter Maintenance:\nAir filters must be inspected and vacuumed every 100 operating hours to prevent internal thermal throttling. Replacement filter packs (Part #FL-402) can be ordered directly from our website.",
+    "question_text": "What must a customer obtain before shipping the product for repair?",
+    "options": [
+      "A. An export customs clearance certificate",
+      "B. A Return Merchandise Authorization (RMA) number",
+      "C. A notarized proof of purchase certificate",
+      "D. An endorsement from a certified local electrician"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Mục 3: 'Contact our Technical Support Center ... to receive a Return Merchandise Authorization (RMA) tracking number' -> Chọn B.",
+    "question_id": "q7513"
+  },
+  "89": {
+    "part": 7,
+    "part_name": "Reading (Part 7: Reading Comprehension)",
+    "context": "Product Warranty & User Guide: OmniTech Laser Projector (Model: PT-9200X)\nThank you for purchasing the OmniTech PT-9200X Laser Projector. OmniTech Electronics guarantees that this product is free from defects in material and workmanship under normal commercial usage for a period of three (3) years from the original purchase date.\nWarranty Terms & Limitations:\n1. Optical Laser Light Source: Guaranteed for 20,000 operational hours or three years, whichever occurs first. If the laser engine output drops below 50% of rated luminosity within this timeframe, OmniTech will replace the optical module at no cost.\n2. Physical Damage: This warranty does not cover damage resulting from accidental drops, liquid spills, unauthorized disassembly, power surges, or failure to clean the intake air filters according to the schedule in Section 4.\n3. Warranty Claims Process:\nTo initiate a warranty repair or replacement claim:\n- Register your product serial number at www.omnitechelectronics.com/warranty within 30 days of purchase.\n- Contact our Technical Support Center at 1-800-555-OMNI to receive a Return Merchandise Authorization (RMA) tracking number.\n- Ship the unit in its original protective packaging to our regional repair hub in Denver, Colorado. OmniTech covers all return freight charges for verified warranty services.\nNote on Air Filter Maintenance:\nAir filters must be inspected and vacuumed every 100 operating hours to prevent internal thermal throttling. Replacement filter packs (Part #FL-402) can be ordered directly from our website.",
+    "question_text": "How frequently does the manual recommend inspecting the air filters?",
+    "options": [
+      "A. Every 50 hours of use",
+      "B. Every 100 hours of use",
+      "C. Once every six months",
+      "D. Only when a thermal warning indicator flashes"
+    ],
+    "correct_answer_index": 1,
+    "explanation": "Ghi chú cuối: 'Air filters must be inspected and vacuumed every 100 operating hours' -> Chọn B.",
+    "question_id": "q7514"
+  }
+}

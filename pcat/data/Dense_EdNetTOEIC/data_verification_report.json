@@ -1,0 +1,56 @@
+{
+  "dataset": "Dense_EdNetTOEIC",
+  "source_raw_log_file": "raw_kt1_subset.csv",
+  "source_raw_log_sha256": "37bfd0c78af2107cdc340a5edfa991e6c0a03b9412799e2febcd48157a3a4c31",
+  "total_data_csv_sha256": "3feb112df2d8a8e27ab7f61557d38ac2b6b5cc24a48960bd3047816ca25e08fb",
+  "num_students": 179,
+  "num_unique_ednet_subjects": 179,
+  "num_questions": 94,
+  "num_concepts": 24,
+  "total_interactions": 16826,
+  "verified_raw_kt1_matches": 16826,
+  "valid_user_answer_abcd_count": 16826,
+  "valid_timestamp_count": 16826,
+  "imputed_interactions": 0,
+  "imputation_rate": 0.0,
+  "overall_positive_rate": 0.5817,
+  "q_matrix_unique_columns": 24,
+  "q_matrix_min_concept_support": 3,
+  "q_matrix_max_concept_support": 75,
+  "q_matrix_avg_concepts_per_question": 2.19,
+  "part_distribution": {
+    "Part_1": 3,
+    "Part_3": 3,
+    "Part_4": 9,
+    "Part_5": 75,
+    "Part_7": 4
+  },
+  "multi_question_bundles": {
+    "b1623": [
+      1,
+      2,
+      3
+    ],
+    "b1810": [
+      4,
+      5,
+      6
+    ],
+    "b1931": [
+      7,
+      8,
+      9
+    ],
+    "b2071": [
+      10,
+      11,
+      12
+    ],
+    "b5322": [
+      87,
+      88,
+      89,
+      90
+    ]
+  }
+}

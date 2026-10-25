@@ -1,0 +1,46 @@
+{
+  "state": "complete",
+  "updated_utc": "2026-10-24T18:16:48.629636+00:00",
+  "configuration": {
+    "dataset": "Dense_EdNetTOEIC_Balanced90_90d",
+    "generations": 100,
+    "population": 80,
+    "offspring": 50,
+    "seeds": [
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "content_balance": "listening_reading",
+    "max_workers": 2
+  },
+  "progress": {
+    "20": {
+      "last_completed_generation": 100,
+      "result_ready": true,
+      "stderr_tail": ""
+    },
+    "21": {
+      "last_completed_generation": 100,
+      "result_ready": true,
+      "stderr_tail": ""
+    },
+    "22": {
+      "last_completed_generation": 100,
+      "result_ready": true,
+      "stderr_tail": ""
+    },
+    "23": {
+      "last_completed_generation": 100,
+      "result_ready": true,
+      "stderr_tail": ""
+    },
+    "24": {
+      "last_completed_generation": 100,
+      "result_ready": true,
+      "stderr_tail": ""
+    }
+  }
+}

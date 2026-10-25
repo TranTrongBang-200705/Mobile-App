@@ -1,0 +1,5 @@
+The dataset for the current output file is:Dense_EdNetTOEIC_Balanced90_90d
+Query set: each learner's unadministered questions from the full question bank
+seed:20 | Split: Train=242, Test=61
+The selected final paper (max training AUC+ACC):[15, 16, 17, 2, 10, 9, 14, 5, 6, 1, 18, 19, 20, 24, 25, 26, 30, 31, 32, 12, 21, 22, 23, 27, 28, 29, 7, 0, 47, 61]
+The evaluation results on the test set: Query70_AUC:0.7266 Query70_ACC:0.6775 COV:0.6885, EXP:2.0606, assembly:12945.41s, inference:0.5964s

@@ -1,0 +1,55 @@
+{
+  "dataset": "Dense_EdNetTOEIC_Full94",
+  "source": "https://huggingface.co/datasets/mgor/EDNet",
+  "source_scan_manifest": "scratch\\ednet_reselection\\scan_manifest.json",
+  "selection_uses_response_labels": false,
+  "attempt_rule": "first recorded attempt by timestamp per student and question",
+  "num_students": 2063,
+  "num_questions": 94,
+  "num_concepts": 24,
+  "total_interactions": 193922,
+  "imputed_interactions": 0,
+  "complete_matrix": true,
+  "correctness_verified_against_official_item_answers": true,
+  "raw_kt1_subset_sha256": "d65ca30ae9afe3a8bcff4a7034531ca9a7cceb0aca62b53a2900ce99fdd9d227",
+  "total_data_sha256": "e8ab69d457f1b6e688e59281559dc169eefb72533ec910fe90173e66436154e9",
+  "positive_rate": 0.4248,
+  "part_distribution": {
+    "Part_1": 3,
+    "Part_3": 3,
+    "Part_4": 9,
+    "Part_5": 75,
+    "Part_7": 4
+  },
+  "min_concept_support": 3,
+  "max_concept_support": 75,
+  "mean_concepts_per_question": 2.19,
+  "multi_item_bundles": {
+    "b1623": [
+      1,
+      2,
+      3
+    ],
+    "b1810": [
+      4,
+      5,
+      6
+    ],
+    "b1931": [
+      7,
+      8,
+      9
+    ],
+    "b2071": [
+      10,
+      11,
+      12
+    ],
+    "b5322": [
+      87,
+      88,
+      89,
+      90
+    ]
+  }
+}

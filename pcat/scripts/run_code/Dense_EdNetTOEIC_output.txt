@@ -1,0 +1,11 @@
+The dataset for the current output file is:Dense_EdNetTOEIC
+Disjoint Held-out Evaluation Questions (20 items): [10, 11, 12, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 92, 93]
+seed:20 | Split: Train=125, Val=26, Test=28
+The selected final paper (via Validation set):[1, 2, 3, 64, 70, 48, 62, 71, 49, 66, 87, 88, 89, 90, 91, 57, 40, 59, 53, 26, 4, 5, 6, 65, 23, 69, 37, 63, 15, 21]
+The evaluation results on the test set: Heldout20_AUC:0.6332 Heldout20_ACC:0.5964 Untested74_AUC:0.6768 Untested74_ACC:0.6462 COV:0.7054, online:33.94s, offline:0.1906s
+seed:21 | Split: Train=125, Val=26, Test=28
+The selected final paper (via Validation set):[1, 2, 3, 35, 32, 24, 56, 62, 39, 66, 87, 88, 89, 90, 91, 33, 65, 29, 60, 59, 4, 5, 6, 16, 25, 26, 57, 68, 63, 22]
+The evaluation results on the test set: Heldout20_AUC:0.6458 Heldout20_ACC:0.6143 Untested74_AUC:0.6869 Untested74_ACC:0.6525 COV:0.7232, online:33.82s, offline:0.2176s
+seed:22 | Split: Train=125, Val=26, Test=28
+The selected final paper (via Validation set):[4, 5, 6, 13, 61, 46, 39, 52, 42, 64, 87, 88, 89, 90, 91, 58, 65, 67, 23, 68, 1, 2, 3, 7, 8, 9, 57, 69, 47, 45]
+The evaluation results on the test set: Heldout20_AUC:0.6877 Heldout20_ACC:0.6446 Untested74_AUC:0.6868 Untested74_ACC:0.6622 COV:0.7396, online:34.67s, offline:0.2246s

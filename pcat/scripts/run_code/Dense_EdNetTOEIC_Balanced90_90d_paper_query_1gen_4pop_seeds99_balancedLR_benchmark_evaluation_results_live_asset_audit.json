@@ -1,0 +1,32 @@
+{
+  "benchmark": "pcat\\scripts\\run_code\\Dense_EdNetTOEIC_Balanced90_90d_paper_query_1gen_4pop_seeds99_balancedLR_benchmark_evaluation_results.json",
+  "note": "A complete display asset set alone does not validate NCD on locally authored content.",
+  "per_seed": {
+    "99": {
+      "missing_content_ids": [
+        4,
+        11,
+        42,
+        76,
+        77,
+        78,
+        79,
+        80,
+        85,
+        86,
+        87,
+        88,
+        89
+      ],
+      "missing_audio_ids": [],
+      "missing_image_ids": [
+        0,
+        2
+      ],
+      "mismatched_answer_key_ids": [],
+      "display_assets_complete": false,
+      "original_ednet_item_content_verified": false,
+      "live_ncd_metrics_validated_for_this_content": false
+    }
+  }
+}

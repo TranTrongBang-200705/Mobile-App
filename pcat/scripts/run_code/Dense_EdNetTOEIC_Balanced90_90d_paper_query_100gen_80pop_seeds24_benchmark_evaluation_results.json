@@ -1,0 +1,359 @@
+{
+  "seeds_evaluated": [
+    24
+  ],
+  "split_ratio": "80% Train (242) / 20% Test (61)",
+  "methodology": {
+    "source": "https://doi.org/10.1145/3711896.3737073",
+    "routing": "NCD mastery percentile on medium-paper concepts; top half hard, bottom half easy",
+    "objectives": [
+      "AUC",
+      "ACC",
+      "COV",
+      "EXP"
+    ],
+    "paper_selection": "highest training AUC plus ACC from final Pareto population",
+    "population": 80,
+    "offspring": 50,
+    "generations": 100,
+    "query_protocol": "all unadministered items per learner after the simulated test",
+    "dataset_adaptation": "EdNet TOEIC, whole bundles, Q-matrix tags"
+  },
+  "query_questions_per_learner": 70,
+  "selectable_candidate_pool_size": 90,
+  "timing_seed20": {
+    "nsga2_optimization_sec": 7299.0,
+    "test_inference_sec": 0.4057
+  },
+  "selected_paper_seed20": {
+    "full_30": [
+      24,
+      25,
+      26,
+      10,
+      4,
+      2,
+      5,
+      9,
+      8,
+      14,
+      15,
+      16,
+      17,
+      30,
+      31,
+      32,
+      1,
+      12,
+      7,
+      47,
+      21,
+      22,
+      23,
+      36,
+      37,
+      38,
+      33,
+      34,
+      35,
+      63
+    ],
+    "stage1_medium_10": [
+      15,
+      16,
+      17,
+      30,
+      31,
+      32,
+      1,
+      12,
+      7,
+      47
+    ],
+    "stage2a_easy_10": [
+      24,
+      25,
+      26,
+      10,
+      4,
+      2,
+      5,
+      9,
+      8,
+      14
+    ],
+    "stage2b_hard_10": [
+      21,
+      22,
+      23,
+      36,
+      37,
+      38,
+      33,
+      34,
+      35,
+      63
+    ]
+  },
+  "multi_seed_summary_mean_std": {
+    "1_Random_20_Items_NCD": {
+      "auc_mean": 0.6841,
+      "auc_std": 0.0,
+      "acc_mean": 0.6472,
+      "acc_std": 0.0,
+      "cov_mean": 0.7083,
+      "cov_std": 0.0,
+      "exp_mean": 3.1312,
+      "exp_std": 0.0
+    },
+    "2_Fixed_NonAdaptive_20_Items_NCD": {
+      "auc_mean": 0.7036,
+      "auc_std": 0.0,
+      "acc_mean": 0.6686,
+      "acc_std": 0.0,
+      "cov_mean": 0.7083,
+      "cov_std": 0.0,
+      "exp_mean": 1.7723,
+      "exp_std": 0.0
+    },
+    "3_PCAT_PaperMasteryRank_NCD": {
+      "auc_mean": 0.7037,
+      "auc_std": 0.0,
+      "acc_mean": 0.6651,
+      "acc_std": 0.0,
+      "cov_mean": 0.7083,
+      "cov_std": 0.0,
+      "exp_mean": 1.6386,
+      "exp_std": 0.0
+    },
+    "4_PCAT_PaperMasteryRank_NCD_ShrinkageAblation": {
+      "auc_mean": 0.7126,
+      "auc_std": 0.0,
+      "acc_mean": 0.6698,
+      "acc_std": 0.0,
+      "cov_mean": 0.7083,
+      "cov_std": 0.0,
+      "exp_mean": 1.6386,
+      "exp_std": 0.0
+    }
+  },
+  "per_seed_details": {
+    "24": {
+      "paper_assembly_time_sec": 7299.0,
+      "test_inference_time_sec": 0.4057,
+      "selected_paper": {
+        "full_30": [
+          24,
+          25,
+          26,
+          10,
+          4,
+          2,
+          5,
+          9,
+          8,
+          14,
+          15,
+          16,
+          17,
+          30,
+          31,
+          32,
+          1,
+          12,
+          7,
+          47,
+          21,
+          22,
+          23,
+          36,
+          37,
+          38,
+          33,
+          34,
+          35,
+          63
+        ],
+        "stage1_medium_10": [
+          15,
+          16,
+          17,
+          30,
+          31,
+          32,
+          1,
+          12,
+          7,
+          47
+        ],
+        "stage2a_easy_10": [
+          24,
+          25,
+          26,
+          10,
+          4,
+          2,
+          5,
+          9,
+          8,
+          14
+        ],
+        "stage2b_hard_10": [
+          21,
+          22,
+          23,
+          36,
+          37,
+          38,
+          33,
+          34,
+          35,
+          63
+        ]
+      },
+      "methods": {
+        "1_Random_20_Items_NCD": {
+          "auc": 0.6840740111267284,
+          "acc": 0.6471506635441062,
+          "cov": 0.7083333333333334,
+          "exp": 3.1312469899362956
+        },
+        "2_Fixed_NonAdaptive_20_Items_NCD": {
+          "auc": 0.7036482718798976,
+          "acc": 0.6686182669789227,
+          "cov": 0.7083333333333334,
+          "exp": 1.772283450296632,
+          "hard_branch_students": 0,
+          "easy_branch_students": 61,
+          "routing_rule": "fixed medium-plus-easy",
+          "paper1_easy": [
+            24,
+            25,
+            26,
+            10,
+            4,
+            2,
+            5,
+            9,
+            8,
+            14
+          ],
+          "paper2_medium": [
+            15,
+            16,
+            17,
+            30,
+            31,
+            32,
+            1,
+            12,
+            7,
+            47
+          ],
+          "paper3_hard": [
+            21,
+            22,
+            23,
+            36,
+            37,
+            38,
+            33,
+            34,
+            35,
+            63
+          ]
+        },
+        "3_PCAT_PaperMasteryRank_NCD": {
+          "auc": 0.7036746100004088,
+          "acc": 0.6651053864168618,
+          "cov": 0.7083333333333334,
+          "exp": 1.6386327534140825,
+          "hard_branch_students": 31,
+          "easy_branch_students": 30,
+          "routing_rule": "top-half NCD mastery on medium-paper concepts",
+          "paper1_easy": [
+            24,
+            25,
+            26,
+            10,
+            4,
+            2,
+            5,
+            9,
+            8,
+            14
+          ],
+          "paper2_medium": [
+            15,
+            16,
+            17,
+            30,
+            31,
+            32,
+            1,
+            12,
+            7,
+            47
+          ],
+          "paper3_hard": [
+            21,
+            22,
+            23,
+            36,
+            37,
+            38,
+            33,
+            34,
+            35,
+            63
+          ]
+        },
+        "4_PCAT_PaperMasteryRank_NCD_ShrinkageAblation": {
+          "auc": 0.7126218398593325,
+          "acc": 0.6697892271662763,
+          "cov": 0.7083333333333334,
+          "exp": 1.6386327534140825,
+          "hard_branch_students": 31,
+          "easy_branch_students": 30,
+          "routing_rule": "top-half NCD mastery on medium-paper concepts",
+          "paper1_easy": [
+            24,
+            25,
+            26,
+            10,
+            4,
+            2,
+            5,
+            9,
+            8,
+            14
+          ],
+          "paper2_medium": [
+            15,
+            16,
+            17,
+            30,
+            31,
+            32,
+            1,
+            12,
+            7,
+            47
+          ],
+          "paper3_hard": [
+            21,
+            22,
+            23,
+            36,
+            37,
+            38,
+            33,
+            34,
+            35,
+            63
+          ]
+        }
+      }
+    }
+  }
+}

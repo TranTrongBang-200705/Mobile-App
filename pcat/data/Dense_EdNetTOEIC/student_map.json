@@ -1,0 +1,1792 @@
+{
+  "0": {
+    "stu_idx": 0,
+    "ednet_subject_id": "u101774",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5106,
+    "min_timestamp": 1516775592817,
+    "max_timestamp": 1549290315929,
+    "mean_elapsed_time_ms": 23234.0
+  },
+  "1": {
+    "stu_idx": 1,
+    "ednet_subject_id": "u104654",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.4468,
+    "min_timestamp": 1516290355233,
+    "max_timestamp": 1535011489343,
+    "mean_elapsed_time_ms": 30914.9
+  },
+  "2": {
+    "stu_idx": 2,
+    "ednet_subject_id": "u112698",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5213,
+    "min_timestamp": 1516972494693,
+    "max_timestamp": 1521885765485,
+    "mean_elapsed_time_ms": 30478.7
+  },
+  "3": {
+    "stu_idx": 3,
+    "ednet_subject_id": "u11575",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.7553,
+    "min_timestamp": 1498974354791,
+    "max_timestamp": 1503043004275,
+    "mean_elapsed_time_ms": 24308.5
+  },
+  "4": {
+    "stu_idx": 4,
+    "ednet_subject_id": "u117075",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.6064,
+    "min_timestamp": 1517234973528,
+    "max_timestamp": 1524531111508,
+    "mean_elapsed_time_ms": 22989.3
+  },
+  "5": {
+    "stu_idx": 5,
+    "ednet_subject_id": "u119580",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.4362,
+    "min_timestamp": 1517477450833,
+    "max_timestamp": 1520299550546,
+    "mean_elapsed_time_ms": 21106.4
+  },
+  "6": {
+    "stu_idx": 6,
+    "ednet_subject_id": "u1211",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.4043,
+    "min_timestamp": 1530428374572,
+    "max_timestamp": 1569598172163,
+    "mean_elapsed_time_ms": 36297.8
+  },
+  "7": {
+    "stu_idx": 7,
+    "ednet_subject_id": "u122069",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5319,
+    "min_timestamp": 1517805225196,
+    "max_timestamp": 1523751220977,
+    "mean_elapsed_time_ms": 16414.9
+  },
+  "8": {
+    "stu_idx": 8,
+    "ednet_subject_id": "u122506",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5638,
+    "min_timestamp": 1517839122697,
+    "max_timestamp": 1572532584783,
+    "mean_elapsed_time_ms": 23648.9
+  },
+  "9": {
+    "stu_idx": 9,
+    "ednet_subject_id": "u123276",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5957,
+    "min_timestamp": 1517930795970,
+    "max_timestamp": 1524845862267,
+    "mean_elapsed_time_ms": 21553.1
+  },
+  "10": {
+    "stu_idx": 10,
+    "ednet_subject_id": "u123562",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5957,
+    "min_timestamp": 1517999268216,
+    "max_timestamp": 1548901017733,
+    "mean_elapsed_time_ms": 39755.3
+  },
+  "11": {
+    "stu_idx": 11,
+    "ednet_subject_id": "u124322",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.4149,
+    "min_timestamp": 1518079640219,
+    "max_timestamp": 1539937712909,
+    "mean_elapsed_time_ms": 23319.1
+  },
+  "12": {
+    "stu_idx": 12,
+    "ednet_subject_id": "u128263",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.6702,
+    "min_timestamp": 1518736790185,
+    "max_timestamp": 1533232076007,
+    "mean_elapsed_time_ms": 26585.1
+  },
+  "13": {
+    "stu_idx": 13,
+    "ednet_subject_id": "u129587",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5532,
+    "min_timestamp": 1519189753370,
+    "max_timestamp": 1547508885482,
+    "mean_elapsed_time_ms": 25648.9
+  },
+  "14": {
+    "stu_idx": 14,
+    "ednet_subject_id": "u130241",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5638,
+    "min_timestamp": 1520859743728,
+    "max_timestamp": 1542889951569,
+    "mean_elapsed_time_ms": 24936.1
+  },
+  "15": {
+    "stu_idx": 15,
+    "ednet_subject_id": "u133030",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5426,
+    "min_timestamp": 1519471023243,
+    "max_timestamp": 1526044870732,
+    "mean_elapsed_time_ms": 33223.4
+  },
+  "16": {
+    "stu_idx": 16,
+    "ednet_subject_id": "u134376",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.6915,
+    "min_timestamp": 1519886051644,
+    "max_timestamp": 1525840656828,
+    "mean_elapsed_time_ms": 30297.9
+  },
+  "17": {
+    "stu_idx": 17,
+    "ednet_subject_id": "u136836",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.266,
+    "min_timestamp": 1520239953491,
+    "max_timestamp": 1533891850140,
+    "mean_elapsed_time_ms": 33170.2
+  },
+  "18": {
+    "stu_idx": 18,
+    "ednet_subject_id": "u139599",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.7234,
+    "min_timestamp": 1520734430530,
+    "max_timestamp": 1526126681807,
+    "mean_elapsed_time_ms": 30074.4
+  },
+  "19": {
+    "stu_idx": 19,
+    "ednet_subject_id": "u139992",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.6915,
+    "min_timestamp": 1530763914377,
+    "max_timestamp": 1542872759034,
+    "mean_elapsed_time_ms": 33744.7
+  },
+  "20": {
+    "stu_idx": 20,
+    "ednet_subject_id": "u140577",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.4362,
+    "min_timestamp": 1520902332420,
+    "max_timestamp": 1530599400542,
+    "mean_elapsed_time_ms": 21638.2
+  },
+  "21": {
+    "stu_idx": 21,
+    "ednet_subject_id": "u1409",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5106,
+    "min_timestamp": 1505027813993,
+    "max_timestamp": 1566653530966,
+    "mean_elapsed_time_ms": 13074.4
+  },
+  "22": {
+    "stu_idx": 22,
+    "ednet_subject_id": "u141230",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5638,
+    "min_timestamp": 1521027280394,
+    "max_timestamp": 1555426441910,
+    "mean_elapsed_time_ms": 26425.5
+  },
+  "23": {
+    "stu_idx": 23,
+    "ednet_subject_id": "u143305",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5851,
+    "min_timestamp": 1521479965570,
+    "max_timestamp": 1533832596960,
+    "mean_elapsed_time_ms": 33063.8
+  },
+  "24": {
+    "stu_idx": 24,
+    "ednet_subject_id": "u14545",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.8617,
+    "min_timestamp": 1514711801757,
+    "max_timestamp": 1565586693488,
+    "mean_elapsed_time_ms": 25936.2
+  },
+  "25": {
+    "stu_idx": 25,
+    "ednet_subject_id": "u145695",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.4362,
+    "min_timestamp": 1522069311385,
+    "max_timestamp": 1533856781197,
+    "mean_elapsed_time_ms": 31436.1
+  },
+  "26": {
+    "stu_idx": 26,
+    "ednet_subject_id": "u147691",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.4894,
+    "min_timestamp": 1522572264470,
+    "max_timestamp": 1545754984130,
+    "mean_elapsed_time_ms": 24606.3
+  },
+  "27": {
+    "stu_idx": 27,
+    "ednet_subject_id": "u148856",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.7447,
+    "min_timestamp": 1522895409448,
+    "max_timestamp": 1528181706399,
+    "mean_elapsed_time_ms": 25510.6
+  },
+  "28": {
+    "stu_idx": 28,
+    "ednet_subject_id": "u15265",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.6277,
+    "min_timestamp": 1515469439325,
+    "max_timestamp": 1571177475000,
+    "mean_elapsed_time_ms": 28106.4
+  },
+  "29": {
+    "stu_idx": 29,
+    "ednet_subject_id": "u153070",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.6809,
+    "min_timestamp": 1523946768299,
+    "max_timestamp": 1531229879740,
+    "mean_elapsed_time_ms": 23106.3
+  },
+  "30": {
+    "stu_idx": 30,
+    "ednet_subject_id": "u155670",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.6277,
+    "min_timestamp": 1524624338216,
+    "max_timestamp": 1530151799776,
+    "mean_elapsed_time_ms": 30478.7
+  },
+  "31": {
+    "stu_idx": 31,
+    "ednet_subject_id": "u1557",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5532,
+    "min_timestamp": 1521513870102,
+    "max_timestamp": 1563064038571,
+    "mean_elapsed_time_ms": 27606.4
+  },
+  "32": {
+    "stu_idx": 32,
+    "ednet_subject_id": "u155756",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5532,
+    "min_timestamp": 1524650547262,
+    "max_timestamp": 1548384937589,
+    "mean_elapsed_time_ms": 34382.9
+  },
+  "33": {
+    "stu_idx": 33,
+    "ednet_subject_id": "u156713",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.4255,
+    "min_timestamp": 1524915549393,
+    "max_timestamp": 1544339827026,
+    "mean_elapsed_time_ms": 27925.5
+  },
+  "34": {
+    "stu_idx": 34,
+    "ednet_subject_id": "u157035",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.4255,
+    "min_timestamp": 1524987586984,
+    "max_timestamp": 1549540063002,
+    "mean_elapsed_time_ms": 19031.9
+  },
+  "35": {
+    "stu_idx": 35,
+    "ednet_subject_id": "u157307",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.7021,
+    "min_timestamp": 1525055056018,
+    "max_timestamp": 1531293762999,
+    "mean_elapsed_time_ms": 23117.0
+  },
+  "36": {
+    "stu_idx": 36,
+    "ednet_subject_id": "u159247",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.617,
+    "min_timestamp": 1525603965365,
+    "max_timestamp": 1533997606266,
+    "mean_elapsed_time_ms": 29053.1
+  },
+  "37": {
+    "stu_idx": 37,
+    "ednet_subject_id": "u161054",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.7021,
+    "min_timestamp": 1526198226177,
+    "max_timestamp": 1534976646220,
+    "mean_elapsed_time_ms": 25074.4
+  },
+  "38": {
+    "stu_idx": 38,
+    "ednet_subject_id": "u161926",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5426,
+    "min_timestamp": 1526452066736,
+    "max_timestamp": 1537099592784,
+    "mean_elapsed_time_ms": 31946.8
+  },
+  "39": {
+    "stu_idx": 39,
+    "ednet_subject_id": "u163717",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.6383,
+    "min_timestamp": 1527080038590,
+    "max_timestamp": 1533848781035,
+    "mean_elapsed_time_ms": 37053.1
+  },
+  "40": {
+    "stu_idx": 40,
+    "ednet_subject_id": "u164164",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5106,
+    "min_timestamp": 1527235454856,
+    "max_timestamp": 1541752220017,
+    "mean_elapsed_time_ms": 23351.0
+  },
+  "41": {
+    "stu_idx": 41,
+    "ednet_subject_id": "u164609",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.4574,
+    "min_timestamp": 1527379981075,
+    "max_timestamp": 1542169424024,
+    "mean_elapsed_time_ms": 19723.3
+  },
+  "42": {
+    "stu_idx": 42,
+    "ednet_subject_id": "u167794",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.6064,
+    "min_timestamp": 1528993287453,
+    "max_timestamp": 1531579531975,
+    "mean_elapsed_time_ms": 23106.4
+  },
+  "43": {
+    "stu_idx": 43,
+    "ednet_subject_id": "u167807",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.3617,
+    "min_timestamp": 1528911546257,
+    "max_timestamp": 1533723560920,
+    "mean_elapsed_time_ms": 25489.3
+  },
+  "44": {
+    "stu_idx": 44,
+    "ednet_subject_id": "u168576",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.4043,
+    "min_timestamp": 1529723692322,
+    "max_timestamp": 1554054379546,
+    "mean_elapsed_time_ms": 24978.7
+  },
+  "45": {
+    "stu_idx": 45,
+    "ednet_subject_id": "u168673",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5319,
+    "min_timestamp": 1529740030930,
+    "max_timestamp": 1547595347628,
+    "mean_elapsed_time_ms": 30659.5
+  },
+  "46": {
+    "stu_idx": 46,
+    "ednet_subject_id": "u172000",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.4574,
+    "min_timestamp": 1529920862739,
+    "max_timestamp": 1533801042715,
+    "mean_elapsed_time_ms": 16000.0
+  },
+  "47": {
+    "stu_idx": 47,
+    "ednet_subject_id": "u173457",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.734,
+    "min_timestamp": 1530112061182,
+    "max_timestamp": 1542851883415,
+    "mean_elapsed_time_ms": 18276.5
+  },
+  "48": {
+    "stu_idx": 48,
+    "ednet_subject_id": "u173720",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5319,
+    "min_timestamp": 1530082606686,
+    "max_timestamp": 1551690025574,
+    "mean_elapsed_time_ms": 24042.5
+  },
+  "49": {
+    "stu_idx": 49,
+    "ednet_subject_id": "u178324",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.6277,
+    "min_timestamp": 1530666395491,
+    "max_timestamp": 1533614294532,
+    "mean_elapsed_time_ms": 19968.0
+  },
+  "50": {
+    "stu_idx": 50,
+    "ednet_subject_id": "u179248",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.4894,
+    "min_timestamp": 1530368276471,
+    "max_timestamp": 1537085841260,
+    "mean_elapsed_time_ms": 24510.6
+  },
+  "51": {
+    "stu_idx": 51,
+    "ednet_subject_id": "u18148",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.6489,
+    "min_timestamp": 1527004342553,
+    "max_timestamp": 1546655936150,
+    "mean_elapsed_time_ms": 20468.0
+  },
+  "52": {
+    "stu_idx": 52,
+    "ednet_subject_id": "u181487",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.6064,
+    "min_timestamp": 1530513440509,
+    "max_timestamp": 1544498580586,
+    "mean_elapsed_time_ms": 35170.2
+  },
+  "53": {
+    "stu_idx": 53,
+    "ednet_subject_id": "u183585",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5745,
+    "min_timestamp": 1530661241226,
+    "max_timestamp": 1533285450990,
+    "mean_elapsed_time_ms": 28585.1
+  },
+  "54": {
+    "stu_idx": 54,
+    "ednet_subject_id": "u183784",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.4043,
+    "min_timestamp": 1530675719462,
+    "max_timestamp": 1547129192933,
+    "mean_elapsed_time_ms": 22723.4
+  },
+  "55": {
+    "stu_idx": 55,
+    "ednet_subject_id": "u185087",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.4787,
+    "min_timestamp": 1530779671378,
+    "max_timestamp": 1557984118607,
+    "mean_elapsed_time_ms": 23840.4
+  },
+  "56": {
+    "stu_idx": 56,
+    "ednet_subject_id": "u187078",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.6064,
+    "min_timestamp": 1530849785510,
+    "max_timestamp": 1566661154905,
+    "mean_elapsed_time_ms": 24382.9
+  },
+  "57": {
+    "stu_idx": 57,
+    "ednet_subject_id": "u187084",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.6702,
+    "min_timestamp": 1530846582659,
+    "max_timestamp": 1536191838028,
+    "mean_elapsed_time_ms": 26968.0
+  },
+  "58": {
+    "stu_idx": 58,
+    "ednet_subject_id": "u18956",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.4787,
+    "min_timestamp": 1534922365932,
+    "max_timestamp": 1567736963024,
+    "mean_elapsed_time_ms": 23308.5
+  },
+  "59": {
+    "stu_idx": 59,
+    "ednet_subject_id": "u19601",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5851,
+    "min_timestamp": 1515711428770,
+    "max_timestamp": 1574093424327,
+    "mean_elapsed_time_ms": 20755.3
+  },
+  "60": {
+    "stu_idx": 60,
+    "ednet_subject_id": "u199923",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5638,
+    "min_timestamp": 1531361962258,
+    "max_timestamp": 1543203050562,
+    "mean_elapsed_time_ms": 16531.9
+  },
+  "61": {
+    "stu_idx": 61,
+    "ednet_subject_id": "u204797",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.883,
+    "min_timestamp": 1531498875029,
+    "max_timestamp": 1539414374140,
+    "mean_elapsed_time_ms": 18085.1
+  },
+  "62": {
+    "stu_idx": 62,
+    "ednet_subject_id": "u209379",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.766,
+    "min_timestamp": 1531732890753,
+    "max_timestamp": 1535096137275,
+    "mean_elapsed_time_ms": 22882.9
+  },
+  "63": {
+    "stu_idx": 63,
+    "ednet_subject_id": "u210492",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 1.0,
+    "min_timestamp": 1539256959653,
+    "max_timestamp": 1570978968861,
+    "mean_elapsed_time_ms": 10042.5
+  },
+  "64": {
+    "stu_idx": 64,
+    "ednet_subject_id": "u210617",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.6383,
+    "min_timestamp": 1531816741101,
+    "max_timestamp": 1532838865541,
+    "mean_elapsed_time_ms": 22744.7
+  },
+  "65": {
+    "stu_idx": 65,
+    "ednet_subject_id": "u21206",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.6277,
+    "min_timestamp": 1495160134399,
+    "max_timestamp": 1500696621723,
+    "mean_elapsed_time_ms": 33393.6
+  },
+  "66": {
+    "stu_idx": 66,
+    "ednet_subject_id": "u212432",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5319,
+    "min_timestamp": 1531916621092,
+    "max_timestamp": 1536417823483,
+    "mean_elapsed_time_ms": 35329.7
+  },
+  "67": {
+    "stu_idx": 67,
+    "ednet_subject_id": "u21584",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5319,
+    "min_timestamp": 1495790535031,
+    "max_timestamp": 1511055974387,
+    "mean_elapsed_time_ms": 22457.4
+  },
+  "68": {
+    "stu_idx": 68,
+    "ednet_subject_id": "u217159",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.2979,
+    "min_timestamp": 1532266092054,
+    "max_timestamp": 1542102742031,
+    "mean_elapsed_time_ms": 18031.9
+  },
+  "69": {
+    "stu_idx": 69,
+    "ednet_subject_id": "u21819",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5745,
+    "min_timestamp": 1498845388782,
+    "max_timestamp": 1503492660930,
+    "mean_elapsed_time_ms": 29148.9
+  },
+  "70": {
+    "stu_idx": 70,
+    "ednet_subject_id": "u218625",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5745,
+    "min_timestamp": 1532381348942,
+    "max_timestamp": 1536181834920,
+    "mean_elapsed_time_ms": 34797.9
+  },
+  "71": {
+    "stu_idx": 71,
+    "ednet_subject_id": "u22135",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.4894,
+    "min_timestamp": 1498912455640,
+    "max_timestamp": 1505457031340,
+    "mean_elapsed_time_ms": 33787.2
+  },
+  "72": {
+    "stu_idx": 72,
+    "ednet_subject_id": "u22227",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.6277,
+    "min_timestamp": 1498926618173,
+    "max_timestamp": 1535075897856,
+    "mean_elapsed_time_ms": 54787.2
+  },
+  "73": {
+    "stu_idx": 73,
+    "ednet_subject_id": "u22430",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.7234,
+    "min_timestamp": 1498974297167,
+    "max_timestamp": 1501594318961,
+    "mean_elapsed_time_ms": 18106.3
+  },
+  "74": {
+    "stu_idx": 74,
+    "ednet_subject_id": "u228163",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.7979,
+    "min_timestamp": 1533121263048,
+    "max_timestamp": 1534915485413,
+    "mean_elapsed_time_ms": 20861.6
+  },
+  "75": {
+    "stu_idx": 75,
+    "ednet_subject_id": "u231637",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.3617,
+    "min_timestamp": 1533457066280,
+    "max_timestamp": 1540851329736,
+    "mean_elapsed_time_ms": 22904.2
+  },
+  "76": {
+    "stu_idx": 76,
+    "ednet_subject_id": "u231797",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5745,
+    "min_timestamp": 1533547624553,
+    "max_timestamp": 1554005056189,
+    "mean_elapsed_time_ms": 28000.0
+  },
+  "77": {
+    "stu_idx": 77,
+    "ednet_subject_id": "u237023",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5638,
+    "min_timestamp": 1534418846632,
+    "max_timestamp": 1548232746947,
+    "mean_elapsed_time_ms": 21255.3
+  },
+  "78": {
+    "stu_idx": 78,
+    "ednet_subject_id": "u23751",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.4255,
+    "min_timestamp": 1507086875775,
+    "max_timestamp": 1526796077769,
+    "mean_elapsed_time_ms": 22074.4
+  },
+  "79": {
+    "stu_idx": 79,
+    "ednet_subject_id": "u237594",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5106,
+    "min_timestamp": 1534035700608,
+    "max_timestamp": 1551609158272,
+    "mean_elapsed_time_ms": 35617.0
+  },
+  "80": {
+    "stu_idx": 80,
+    "ednet_subject_id": "u238",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.8191,
+    "min_timestamp": 1499171338415,
+    "max_timestamp": 1572375436562,
+    "mean_elapsed_time_ms": 22095.7
+  },
+  "81": {
+    "stu_idx": 81,
+    "ednet_subject_id": "u239067",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5745,
+    "min_timestamp": 1534221684855,
+    "max_timestamp": 1544532349023,
+    "mean_elapsed_time_ms": 33276.6
+  },
+  "82": {
+    "stu_idx": 82,
+    "ednet_subject_id": "u239201",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.6489,
+    "min_timestamp": 1534235207521,
+    "max_timestamp": 1557563110617,
+    "mean_elapsed_time_ms": 20946.8
+  },
+  "83": {
+    "stu_idx": 83,
+    "ednet_subject_id": "u24184",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.3298,
+    "min_timestamp": 1499237401173,
+    "max_timestamp": 1533735344757,
+    "mean_elapsed_time_ms": 21861.7
+  },
+  "84": {
+    "stu_idx": 84,
+    "ednet_subject_id": "u242293",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.6277,
+    "min_timestamp": 1534692825513,
+    "max_timestamp": 1553330003462,
+    "mean_elapsed_time_ms": 20074.4
+  },
+  "85": {
+    "stu_idx": 85,
+    "ednet_subject_id": "u242779",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.8298,
+    "min_timestamp": 1535375823736,
+    "max_timestamp": 1572132605948,
+    "mean_elapsed_time_ms": 18659.5
+  },
+  "86": {
+    "stu_idx": 86,
+    "ednet_subject_id": "u243124",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5957,
+    "min_timestamp": 1534862011715,
+    "max_timestamp": 1543287149610,
+    "mean_elapsed_time_ms": 39595.7
+  },
+  "87": {
+    "stu_idx": 87,
+    "ednet_subject_id": "u244057",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5638,
+    "min_timestamp": 1534910913039,
+    "max_timestamp": 1566659011370,
+    "mean_elapsed_time_ms": 15702.1
+  },
+  "88": {
+    "stu_idx": 88,
+    "ednet_subject_id": "u244073",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.883,
+    "min_timestamp": 1534912019739,
+    "max_timestamp": 1542508073153,
+    "mean_elapsed_time_ms": 17883.0
+  },
+  "89": {
+    "stu_idx": 89,
+    "ednet_subject_id": "u24588",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5106,
+    "min_timestamp": 1499324949520,
+    "max_timestamp": 1534596401982,
+    "mean_elapsed_time_ms": 22382.9
+  },
+  "90": {
+    "stu_idx": 90,
+    "ednet_subject_id": "u24695",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5532,
+    "min_timestamp": 1500910287531,
+    "max_timestamp": 1509029448029,
+    "mean_elapsed_time_ms": 60361.7
+  },
+  "91": {
+    "stu_idx": 91,
+    "ednet_subject_id": "u247405",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5106,
+    "min_timestamp": 1535353794128,
+    "max_timestamp": 1543846552309,
+    "mean_elapsed_time_ms": 25287.2
+  },
+  "92": {
+    "stu_idx": 92,
+    "ednet_subject_id": "u25817",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.6383,
+    "min_timestamp": 1499646870762,
+    "max_timestamp": 1523489556346,
+    "mean_elapsed_time_ms": 38542.5
+  },
+  "93": {
+    "stu_idx": 93,
+    "ednet_subject_id": "u26103",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5957,
+    "min_timestamp": 1499697942393,
+    "max_timestamp": 1551669555776,
+    "mean_elapsed_time_ms": 32095.7
+  },
+  "94": {
+    "stu_idx": 94,
+    "ednet_subject_id": "u26350",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5426,
+    "min_timestamp": 1500092814171,
+    "max_timestamp": 1530874785040,
+    "mean_elapsed_time_ms": 33893.6
+  },
+  "95": {
+    "stu_idx": 95,
+    "ednet_subject_id": "u27139",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.6064,
+    "min_timestamp": 1499928553376,
+    "max_timestamp": 1510485222812,
+    "mean_elapsed_time_ms": 21627.6
+  },
+  "96": {
+    "stu_idx": 96,
+    "ednet_subject_id": "u27362",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.9894,
+    "min_timestamp": 1500017270952,
+    "max_timestamp": 1540111370549,
+    "mean_elapsed_time_ms": 13010.6
+  },
+  "97": {
+    "stu_idx": 97,
+    "ednet_subject_id": "u27397",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5745,
+    "min_timestamp": 1500075093848,
+    "max_timestamp": 1574171633432,
+    "mean_elapsed_time_ms": 33691.5
+  },
+  "98": {
+    "stu_idx": 98,
+    "ednet_subject_id": "u2858",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.3511,
+    "min_timestamp": 1499841906959,
+    "max_timestamp": 1565332080514,
+    "mean_elapsed_time_ms": 43478.7
+  },
+  "99": {
+    "stu_idx": 99,
+    "ednet_subject_id": "u28663",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5426,
+    "min_timestamp": 1500432411144,
+    "max_timestamp": 1516509093163,
+    "mean_elapsed_time_ms": 26829.7
+  },
+  "100": {
+    "stu_idx": 100,
+    "ednet_subject_id": "u29038",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.3298,
+    "min_timestamp": 1503573522635,
+    "max_timestamp": 1542795988564,
+    "mean_elapsed_time_ms": 10904.2
+  },
+  "101": {
+    "stu_idx": 101,
+    "ednet_subject_id": "u29653",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.6809,
+    "min_timestamp": 1500640562393,
+    "max_timestamp": 1526559559480,
+    "mean_elapsed_time_ms": 21659.5
+  },
+  "102": {
+    "stu_idx": 102,
+    "ednet_subject_id": "u29746",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.6596,
+    "min_timestamp": 1502600380604,
+    "max_timestamp": 1512810154220,
+    "mean_elapsed_time_ms": 21989.3
+  },
+  "103": {
+    "stu_idx": 103,
+    "ednet_subject_id": "u31124",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5532,
+    "min_timestamp": 1501170885727,
+    "max_timestamp": 1510279722255,
+    "mean_elapsed_time_ms": 35787.2
+  },
+  "104": {
+    "stu_idx": 104,
+    "ednet_subject_id": "u31920",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.4255,
+    "min_timestamp": 1501452464396,
+    "max_timestamp": 1531981448137,
+    "mean_elapsed_time_ms": 31000.0
+  },
+  "105": {
+    "stu_idx": 105,
+    "ednet_subject_id": "u32426",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.4149,
+    "min_timestamp": 1501580252533,
+    "max_timestamp": 1511254639199,
+    "mean_elapsed_time_ms": 21287.2
+  },
+  "106": {
+    "stu_idx": 106,
+    "ednet_subject_id": "u33013",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.6702,
+    "min_timestamp": 1501672725000,
+    "max_timestamp": 1503494515896,
+    "mean_elapsed_time_ms": 21521.3
+  },
+  "107": {
+    "stu_idx": 107,
+    "ednet_subject_id": "u33399",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.7021,
+    "min_timestamp": 1501745821207,
+    "max_timestamp": 1502420291097,
+    "mean_elapsed_time_ms": 24414.9
+  },
+  "108": {
+    "stu_idx": 108,
+    "ednet_subject_id": "u3484",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.4894,
+    "min_timestamp": 1534038683984,
+    "max_timestamp": 1574573840775,
+    "mean_elapsed_time_ms": 31287.2
+  },
+  "109": {
+    "stu_idx": 109,
+    "ednet_subject_id": "u36407",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.383,
+    "min_timestamp": 1502444264924,
+    "max_timestamp": 1506350273401,
+    "mean_elapsed_time_ms": 20212.7
+  },
+  "110": {
+    "stu_idx": 110,
+    "ednet_subject_id": "u3759",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5957,
+    "min_timestamp": 1520176270536,
+    "max_timestamp": 1571021182456,
+    "mean_elapsed_time_ms": 27095.7
+  },
+  "111": {
+    "stu_idx": 111,
+    "ednet_subject_id": "u38116",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.8404,
+    "min_timestamp": 1502801659812,
+    "max_timestamp": 1535157744919,
+    "mean_elapsed_time_ms": 25234.0
+  },
+  "112": {
+    "stu_idx": 112,
+    "ednet_subject_id": "u38798",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5532,
+    "min_timestamp": 1502956369842,
+    "max_timestamp": 1504008490968,
+    "mean_elapsed_time_ms": 18829.7
+  },
+  "113": {
+    "stu_idx": 113,
+    "ednet_subject_id": "u39424",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.4787,
+    "min_timestamp": 1503112200580,
+    "max_timestamp": 1529500760739,
+    "mean_elapsed_time_ms": 28425.5
+  },
+  "114": {
+    "stu_idx": 114,
+    "ednet_subject_id": "u39549",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.6383,
+    "min_timestamp": 1506994867026,
+    "max_timestamp": 1549359432011,
+    "mean_elapsed_time_ms": 32808.5
+  },
+  "115": {
+    "stu_idx": 115,
+    "ednet_subject_id": "u39555",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.7234,
+    "min_timestamp": 1503137966258,
+    "max_timestamp": 1526308139613,
+    "mean_elapsed_time_ms": 36265.9
+  },
+  "116": {
+    "stu_idx": 116,
+    "ednet_subject_id": "u39713",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.6702,
+    "min_timestamp": 1503196059833,
+    "max_timestamp": 1547569322590,
+    "mean_elapsed_time_ms": 26553.2
+  },
+  "117": {
+    "stu_idx": 117,
+    "ednet_subject_id": "u39718",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5532,
+    "min_timestamp": 1503196296013,
+    "max_timestamp": 1503933372936,
+    "mean_elapsed_time_ms": 15499.9
+  },
+  "118": {
+    "stu_idx": 118,
+    "ednet_subject_id": "u40500",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5,
+    "min_timestamp": 1503410482156,
+    "max_timestamp": 1508474003760,
+    "mean_elapsed_time_ms": 24074.4
+  },
+  "119": {
+    "stu_idx": 119,
+    "ednet_subject_id": "u41907",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5957,
+    "min_timestamp": 1503975061090,
+    "max_timestamp": 1511865993173,
+    "mean_elapsed_time_ms": 42723.4
+  },
+  "120": {
+    "stu_idx": 120,
+    "ednet_subject_id": "u42307",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5957,
+    "min_timestamp": 1504929411947,
+    "max_timestamp": 1527121718326,
+    "mean_elapsed_time_ms": 25063.8
+  },
+  "121": {
+    "stu_idx": 121,
+    "ednet_subject_id": "u43315",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.6383,
+    "min_timestamp": 1504621429908,
+    "max_timestamp": 1527052059240,
+    "mean_elapsed_time_ms": 22329.8
+  },
+  "122": {
+    "stu_idx": 122,
+    "ednet_subject_id": "u43714",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.6064,
+    "min_timestamp": 1504795362535,
+    "max_timestamp": 1509941572959,
+    "mean_elapsed_time_ms": 27297.8
+  },
+  "123": {
+    "stu_idx": 123,
+    "ednet_subject_id": "u46745",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5106,
+    "min_timestamp": 1506077609230,
+    "max_timestamp": 1512581211976,
+    "mean_elapsed_time_ms": 20234.0
+  },
+  "124": {
+    "stu_idx": 124,
+    "ednet_subject_id": "u47806",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.4255,
+    "min_timestamp": 1506397635970,
+    "max_timestamp": 1536975713973,
+    "mean_elapsed_time_ms": 29500.0
+  },
+  "125": {
+    "stu_idx": 125,
+    "ednet_subject_id": "u48012",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.6277,
+    "min_timestamp": 1506847869499,
+    "max_timestamp": 1528943766294,
+    "mean_elapsed_time_ms": 35414.9
+  },
+  "126": {
+    "stu_idx": 126,
+    "ednet_subject_id": "u48096",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5,
+    "min_timestamp": 1506496489571,
+    "max_timestamp": 1515711464064,
+    "mean_elapsed_time_ms": 23957.4
+  },
+  "127": {
+    "stu_idx": 127,
+    "ednet_subject_id": "u49435",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.7021,
+    "min_timestamp": 1506763689685,
+    "max_timestamp": 1513073751738,
+    "mean_elapsed_time_ms": 21968.0
+  },
+  "128": {
+    "stu_idx": 128,
+    "ednet_subject_id": "u504552",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.8191,
+    "min_timestamp": 1550747721152,
+    "max_timestamp": 1560748172072,
+    "mean_elapsed_time_ms": 24617.0
+  },
+  "129": {
+    "stu_idx": 129,
+    "ednet_subject_id": "u53801",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5638,
+    "min_timestamp": 1508520043582,
+    "max_timestamp": 1516275702435,
+    "mean_elapsed_time_ms": 25574.4
+  },
+  "130": {
+    "stu_idx": 130,
+    "ednet_subject_id": "u542316",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.8298,
+    "min_timestamp": 1553311069045,
+    "max_timestamp": 1556699679973,
+    "mean_elapsed_time_ms": 24755.3
+  },
+  "131": {
+    "stu_idx": 131,
+    "ednet_subject_id": "u54528",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5213,
+    "min_timestamp": 1509008796777,
+    "max_timestamp": 1517987330769,
+    "mean_elapsed_time_ms": 22829.7
+  },
+  "132": {
+    "stu_idx": 132,
+    "ednet_subject_id": "u5541",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.9043,
+    "min_timestamp": 1553677193765,
+    "max_timestamp": 1574692763000,
+    "mean_elapsed_time_ms": 25648.9
+  },
+  "133": {
+    "stu_idx": 133,
+    "ednet_subject_id": "u56213",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.4149,
+    "min_timestamp": 1509981044652,
+    "max_timestamp": 1528301106180,
+    "mean_elapsed_time_ms": 19925.5
+  },
+  "134": {
+    "stu_idx": 134,
+    "ednet_subject_id": "u57249",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.8511,
+    "min_timestamp": 1510214899650,
+    "max_timestamp": 1535202163166,
+    "mean_elapsed_time_ms": 29978.7
+  },
+  "135": {
+    "stu_idx": 135,
+    "ednet_subject_id": "u5855",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.4362,
+    "min_timestamp": 1531569553962,
+    "max_timestamp": 1537505706643,
+    "mean_elapsed_time_ms": 33234.0
+  },
+  "136": {
+    "stu_idx": 136,
+    "ednet_subject_id": "u59339",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5851,
+    "min_timestamp": 1510504532524,
+    "max_timestamp": 1555594907751,
+    "mean_elapsed_time_ms": 25670.1
+  },
+  "137": {
+    "stu_idx": 137,
+    "ednet_subject_id": "u60245",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5745,
+    "min_timestamp": 1510641213894,
+    "max_timestamp": 1541856568893,
+    "mean_elapsed_time_ms": 18574.4
+  },
+  "138": {
+    "stu_idx": 138,
+    "ednet_subject_id": "u60632",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.3617,
+    "min_timestamp": 1510718237597,
+    "max_timestamp": 1525690689612,
+    "mean_elapsed_time_ms": 39297.8
+  },
+  "139": {
+    "stu_idx": 139,
+    "ednet_subject_id": "u61485",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5745,
+    "min_timestamp": 1510965085843,
+    "max_timestamp": 1520404671409,
+    "mean_elapsed_time_ms": 26074.4
+  },
+  "140": {
+    "stu_idx": 140,
+    "ednet_subject_id": "u61908",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5319,
+    "min_timestamp": 1531207670092,
+    "max_timestamp": 1536928587729,
+    "mean_elapsed_time_ms": 18648.9
+  },
+  "141": {
+    "stu_idx": 141,
+    "ednet_subject_id": "u64114",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5532,
+    "min_timestamp": 1521521493886,
+    "max_timestamp": 1527379330754,
+    "mean_elapsed_time_ms": 33723.4
+  },
+  "142": {
+    "stu_idx": 142,
+    "ednet_subject_id": "u66408",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5319,
+    "min_timestamp": 1511666301763,
+    "max_timestamp": 1530252096028,
+    "mean_elapsed_time_ms": 20627.6
+  },
+  "143": {
+    "stu_idx": 143,
+    "ednet_subject_id": "u67",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.6064,
+    "min_timestamp": 1547800845084,
+    "max_timestamp": 1564372289999,
+    "mean_elapsed_time_ms": 18223.4
+  },
+  "144": {
+    "stu_idx": 144,
+    "ednet_subject_id": "u68263",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.383,
+    "min_timestamp": 1511873198957,
+    "max_timestamp": 1532075176881,
+    "mean_elapsed_time_ms": 19946.8
+  },
+  "145": {
+    "stu_idx": 145,
+    "ednet_subject_id": "u70611",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5213,
+    "min_timestamp": 1512220636118,
+    "max_timestamp": 1546964032348,
+    "mean_elapsed_time_ms": 47521.3
+  },
+  "146": {
+    "stu_idx": 146,
+    "ednet_subject_id": "u7175",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5851,
+    "min_timestamp": 1516116807897,
+    "max_timestamp": 1574454949000,
+    "mean_elapsed_time_ms": 13553.2
+  },
+  "147": {
+    "stu_idx": 147,
+    "ednet_subject_id": "u71967",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5213,
+    "min_timestamp": 1512448653806,
+    "max_timestamp": 1521567818102,
+    "mean_elapsed_time_ms": 31648.9
+  },
+  "148": {
+    "stu_idx": 148,
+    "ednet_subject_id": "u7230",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5426,
+    "min_timestamp": 1501503598015,
+    "max_timestamp": 1574032787700,
+    "mean_elapsed_time_ms": 19744.7
+  },
+  "149": {
+    "stu_idx": 149,
+    "ednet_subject_id": "u7272",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.9787,
+    "min_timestamp": 1566788325742,
+    "max_timestamp": 1571066407037,
+    "mean_elapsed_time_ms": 23244.7
+  },
+  "150": {
+    "stu_idx": 150,
+    "ednet_subject_id": "u73059",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5532,
+    "min_timestamp": 1512977258577,
+    "max_timestamp": 1546602343075,
+    "mean_elapsed_time_ms": 27755.3
+  },
+  "151": {
+    "stu_idx": 151,
+    "ednet_subject_id": "u7326",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.766,
+    "min_timestamp": 1519150758583,
+    "max_timestamp": 1573313306000,
+    "mean_elapsed_time_ms": 13329.7
+  },
+  "152": {
+    "stu_idx": 152,
+    "ednet_subject_id": "u73359",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.6489,
+    "min_timestamp": 1512687495948,
+    "max_timestamp": 1548667156482,
+    "mean_elapsed_time_ms": 37010.6
+  },
+  "153": {
+    "stu_idx": 153,
+    "ednet_subject_id": "u7336",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.734,
+    "min_timestamp": 1501760308916,
+    "max_timestamp": 1574405393781,
+    "mean_elapsed_time_ms": 81457.4
+  },
+  "154": {
+    "stu_idx": 154,
+    "ednet_subject_id": "u73388",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.6064,
+    "min_timestamp": 1512803713208,
+    "max_timestamp": 1541733300238,
+    "mean_elapsed_time_ms": 18702.1
+  },
+  "155": {
+    "stu_idx": 155,
+    "ednet_subject_id": "u78072",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.3085,
+    "min_timestamp": 1513513352342,
+    "max_timestamp": 1546834871689,
+    "mean_elapsed_time_ms": 21148.9
+  },
+  "156": {
+    "stu_idx": 156,
+    "ednet_subject_id": "u78261",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.9043,
+    "min_timestamp": 1513608850474,
+    "max_timestamp": 1544103672605,
+    "mean_elapsed_time_ms": 20680.8
+  },
+  "157": {
+    "stu_idx": 157,
+    "ednet_subject_id": "u79759",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.6809,
+    "min_timestamp": 1514410565408,
+    "max_timestamp": 1526596942028,
+    "mean_elapsed_time_ms": 22361.7
+  },
+  "158": {
+    "stu_idx": 158,
+    "ednet_subject_id": "u80542",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5319,
+    "min_timestamp": 1514098425089,
+    "max_timestamp": 1518649929805,
+    "mean_elapsed_time_ms": 13085.0
+  },
+  "159": {
+    "stu_idx": 159,
+    "ednet_subject_id": "u81438",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.6277,
+    "min_timestamp": 1514353552153,
+    "max_timestamp": 1543352781908,
+    "mean_elapsed_time_ms": 25180.8
+  },
+  "160": {
+    "stu_idx": 160,
+    "ednet_subject_id": "u81481",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5319,
+    "min_timestamp": 1514359101669,
+    "max_timestamp": 1534413021254,
+    "mean_elapsed_time_ms": 42404.2
+  },
+  "161": {
+    "stu_idx": 161,
+    "ednet_subject_id": "u82282",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.3298,
+    "min_timestamp": 1514526164263,
+    "max_timestamp": 1535180834780,
+    "mean_elapsed_time_ms": 21702.1
+  },
+  "162": {
+    "stu_idx": 162,
+    "ednet_subject_id": "u83665",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5106,
+    "min_timestamp": 1514861462390,
+    "max_timestamp": 1524542521429,
+    "mean_elapsed_time_ms": 23797.8
+  },
+  "163": {
+    "stu_idx": 163,
+    "ednet_subject_id": "u84789",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5851,
+    "min_timestamp": 1514999391498,
+    "max_timestamp": 1530034822921,
+    "mean_elapsed_time_ms": 22712.7
+  },
+  "164": {
+    "stu_idx": 164,
+    "ednet_subject_id": "u84894",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.4574,
+    "min_timestamp": 1515031019766,
+    "max_timestamp": 1561135720291,
+    "mean_elapsed_time_ms": 33755.3
+  },
+  "165": {
+    "stu_idx": 165,
+    "ednet_subject_id": "u84918",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.617,
+    "min_timestamp": 1515048815421,
+    "max_timestamp": 1531900745206,
+    "mean_elapsed_time_ms": 47383.0
+  },
+  "166": {
+    "stu_idx": 166,
+    "ednet_subject_id": "u8618",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.6489,
+    "min_timestamp": 1498913341192,
+    "max_timestamp": 1569485193541,
+    "mean_elapsed_time_ms": 18457.4
+  },
+  "167": {
+    "stu_idx": 167,
+    "ednet_subject_id": "u86679",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.3617,
+    "min_timestamp": 1515223569700,
+    "max_timestamp": 1526978012890,
+    "mean_elapsed_time_ms": 28180.8
+  },
+  "168": {
+    "stu_idx": 168,
+    "ednet_subject_id": "u87388",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5106,
+    "min_timestamp": 1515293230039,
+    "max_timestamp": 1548519913289,
+    "mean_elapsed_time_ms": 28914.8
+  },
+  "169": {
+    "stu_idx": 169,
+    "ednet_subject_id": "u88698",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.6915,
+    "min_timestamp": 1515386448985,
+    "max_timestamp": 1525837192016,
+    "mean_elapsed_time_ms": 38978.7
+  },
+  "170": {
+    "stu_idx": 170,
+    "ednet_subject_id": "u89780",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.9255,
+    "min_timestamp": 1515417939299,
+    "max_timestamp": 1536282039765,
+    "mean_elapsed_time_ms": 20499.9
+  },
+  "171": {
+    "stu_idx": 171,
+    "ednet_subject_id": "u9105",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 1.0,
+    "min_timestamp": 1531114689037,
+    "max_timestamp": 1536933248141,
+    "mean_elapsed_time_ms": 23425.5
+  },
+  "172": {
+    "stu_idx": 172,
+    "ednet_subject_id": "u91055",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.266,
+    "min_timestamp": 1515471083192,
+    "max_timestamp": 1521532574642,
+    "mean_elapsed_time_ms": 23638.2
+  },
+  "173": {
+    "stu_idx": 173,
+    "ednet_subject_id": "u91119",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5,
+    "min_timestamp": 1515472942650,
+    "max_timestamp": 1550889508550,
+    "mean_elapsed_time_ms": 23489.4
+  },
+  "174": {
+    "stu_idx": 174,
+    "ednet_subject_id": "u9120",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.5745,
+    "min_timestamp": 1546058746888,
+    "max_timestamp": 1571654204964,
+    "mean_elapsed_time_ms": 21234.0
+  },
+  "175": {
+    "stu_idx": 175,
+    "ednet_subject_id": "u9547",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.6383,
+    "min_timestamp": 1516982248896,
+    "max_timestamp": 1571057594092,
+    "mean_elapsed_time_ms": 30414.9
+  },
+  "176": {
+    "stu_idx": 176,
+    "ednet_subject_id": "u95568",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.6064,
+    "min_timestamp": 1515621576075,
+    "max_timestamp": 1524133367372,
+    "mean_elapsed_time_ms": 28936.1
+  },
+  "177": {
+    "stu_idx": 177,
+    "ednet_subject_id": "u96761",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.3617,
+    "min_timestamp": 1515657843316,
+    "max_timestamp": 1535101689202,
+    "mean_elapsed_time_ms": 24638.3
+  },
+  "178": {
+    "stu_idx": 178,
+    "ednet_subject_id": "u98535",
+    "observed_count": 94,
+    "imputed_count": 0,
+    "accuracy": 0.4574,
+    "min_timestamp": 1515769003413,
+    "max_timestamp": 1534822620006,
+    "mean_elapsed_time_ms": 44308.5
+  }
+}

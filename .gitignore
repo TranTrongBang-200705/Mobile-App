@@ -1,0 +1,50 @@
+# ========================================================
+# Git Ignore - GetGoals TOEIC (Flutter Mobile + PCAT AI)
+# ========================================================
+
+# Old legacy project, backups and archives
+GetGoalsProject/
+scratch/
+*.zip
+*.rar
+*.bak
+*.log
+
+# Python Virtual Environments & Caches
+.venv/
+*/.venv/
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+*.egg-info/
+dist/
+
+# Large raw benchmark data files (>25MB) from unrelated research datasets
+pcat/data/**/TotalData.csv
+pcat/data.rar
+
+# Flutter & Dart Build Artifacts
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+frontend/build/
+frontend/.dart_tool/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/ios/Flutter/Generated.xcconfig
+frontend/ios/Flutter/app.framework
+frontend/ios/Flutter/Flutter.framework
+frontend/ios/Flutter/Flutter.podspec
+frontend/android/.gradle/
+frontend/android/app/build/
+frontend/android/local.properties
+
+# IDE & OS Artifacts
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+.vscode/

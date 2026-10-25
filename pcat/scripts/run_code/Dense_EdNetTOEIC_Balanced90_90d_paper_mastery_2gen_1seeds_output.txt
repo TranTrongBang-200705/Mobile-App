@@ -1,0 +1,5 @@
+The dataset for the current output file is:Dense_EdNetTOEIC_Balanced90_90d
+Disjoint Held-out Evaluation Questions (20 items): [0, 8, 9, 15, 16, 17, 30, 31, 32, 39, 40, 41, 64, 65, 66, 67, 81, 82, 83, 84]
+seed:20 | Split: Train=242, Test=61
+The selected final paper (max training AUC+ACC):[85, 86, 87, 88, 89, 18, 19, 20, 10, 13, 76, 77, 78, 79, 80, 72, 73, 74, 75, 2, 68, 69, 70, 71, 27, 28, 29, 5, 11, 6]
+The evaluation results on the test set: Heldout20_AUC:0.6733 Heldout20_ACC:0.6492 Untested70_AUC:0.7018 Untested70_ACC:0.6564 COV:0.7097, EXP:2.4100, assembly:6.05s, inference:0.6225s

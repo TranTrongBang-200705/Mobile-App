@@ -1,0 +1,52 @@
+{
+  "method": "Original fixed 20-item query set used in the three-seed Dense_EdNetTOEIC benchmark",
+  "question_indices": [
+    10,
+    11,
+    12,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    92,
+    93
+  ],
+  "ednet_question_ids": [
+    "q3411",
+    "q3412",
+    "q3413",
+    "q6156",
+    "q6183",
+    "q6185",
+    "q6187",
+    "q6188",
+    "q6189",
+    "q6225",
+    "q6243",
+    "q6255",
+    "q6390",
+    "q6442",
+    "q6494",
+    "q6501",
+    "q6502",
+    "q6525",
+    "q8098",
+    "q9578"
+  ],
+  "part_distribution": {
+    "Part_1": 1,
+    "Part_4": 3,
+    "Part_5": 16
+  }
+}
