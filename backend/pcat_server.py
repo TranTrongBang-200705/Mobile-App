@@ -49,15 +49,29 @@ CKPT_PATH = os.path.join(ROOT_DIR, "model", "ckpt", f"model_{DATASET_NAME}_seed2
 QUESTIONS_JSON_PATH = os.path.join(ROOT_DIR, "pcat_live_questions.json")
 AUDIO_DIR = os.path.join(ROOT_DIR, "audio_cache")
 IMAGE_DIR = os.path.join(ROOT_DIR, "image_cache")
+RESULT_7PART_PATH = os.path.join(
+    ROOT_DIR, "scripts", "run_code",
+    "optimized_7part_paper_seed20.json",
+)
 RESULT_PATH = os.path.join(
     ROOT_DIR, "scripts", "run_code",
     f"{DATASET_NAME}_paper_query_100gen_80pop_seeds20-21-22-23-24_balancedLR_benchmark_evaluation_results.json",
 )
 PAPER_SEED = 20  # Matches the NCD checkpoint used by this live service.
-PAPER_SOURCE = "optimized_balanced_lr_seed20"
+PAPER_SOURCE = "optimized_7part_balanced_seed20"
 
 
 def load_optimized_paper():
+    if os.path.exists(RESULT_7PART_PATH):
+        with open(RESULT_7PART_PATH, encoding="utf-8") as source:
+            data = json.load(source)
+        stages = data["stages"]
+        if len(data["full_30"]) != 30 or set(data["full_30"]) != {
+            q for ids in stages.values() for q in ids
+        }:
+            raise RuntimeError("Optimized paper's full_30 disagrees with its stages")
+        return stages
+
     with open(RESULT_PATH, encoding="utf-8") as source:
         benchmark = json.load(source)
     method = benchmark.get("methodology", {})

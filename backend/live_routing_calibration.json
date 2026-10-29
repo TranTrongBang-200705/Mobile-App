@@ -4,18 +4,18 @@
   "cohort": "training_only",
   "student_count": 242,
   "stage1_medium_10": [
-    24,
-    25,
-    26,
-    12,
-    1,
-    85,
-    86,
-    87,
-    88,
-    89
+    15,
+    16,
+    17,
+    2,
+    8,
+    68,
+    69,
+    70,
+    71,
+    39
   ],
   "model_sha256": "daabba8da9ecc3008e3d4061e865611ed93cf9a6dc3d895cdcde60e2a3d50b58",
-  "training_median_mastery": 0.5345640480518341,
+  "training_median_mastery": 0.5293946862220764,
   "method": "individual 10-epoch NCD adaptation, tau=0; mean sigmoid mastery on medium-paper concepts"
 }
