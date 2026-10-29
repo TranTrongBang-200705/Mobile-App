@@ -15,10 +15,10 @@ from docx.oxml.ns import nsdecls
 
 ROOT = Path(__file__).resolve().parents[1]
 SCRIPTS_DIR = ROOT / 'scripts'
+DOCX_FINAL_ROOT = ROOT.parent / 'BaoCao_PCAT_NCD_GetGoals_Final.docx'
+DOCX_FINAL_BACKEND = ROOT / 'BaoCao_PCAT_NCD_GetGoals_Final.docx'
 DOCX_RUTGON_ROOT = ROOT.parent / 'BaoCao_HocThuat_PCAT_RutGon.docx'
 DOCX_RUTGON_BACKEND = ROOT / 'BaoCao_HocThuat_PCAT_RutGon.docx'
-DOCX_OUT_ROOT = ROOT.parent / 'BaoCao_HocThuat_PCAT_NCD_GetGoals.docx'
-DOCX_OUT_BACKEND = ROOT / 'BaoCao_HocThuat_PCAT_NCD_GetGoals.docx'
 FLOWCHART_IMG = SCRIPTS_DIR / 'pcat_detailed_workflow.png'
 
 
@@ -272,10 +272,16 @@ def build_compact_word_report():
     add_p("Khi thí sinh làm bài, hệ thống đóng băng tham số câu hỏi (Frozen Weights) và chỉ cập nhật e_s bằng hàm mất mát Binary Cross-Entropy qua 10 epochs Adam, cho phép chẩn đoán tức thì trong 0.2 giây.")
 
     # --- SECTION 4: THUẬT TOÁN TỔ HỢP ĐỀ VÀ RÀNG BUỘC 7 PART ---
-    add_h1("4. Thuật toán Tổ hợp Đề Đa mục tiêu & Ràng buộc Sư phạm TOEIC")
-    add_p("Quá trình chọn lọc bộ đề 30 câu (10 Medium, 10 Easy, 10 Hard) từ ngân hàng 90 câu được giải quyết bằng thuật toán di truyền NSGA-II kết hợp kỹ thuật Cắt tỉa Ràng buộc Miền (Heuristic Pruning) nhằm đồng thời thỏa mãn 3 hàm mục tiêu: (1) Tối đa hóa AUC/ACC chẩn đoán, (2) Tối đa hóa độ bao phủ tri thức (Coverage), (3) Tối thiểu hóa độ phơi nhiễm câu hỏi (Exposure).")
+    add_h1("4. Thuật toán Di truyền Đa mục tiêu NSGA-II & Ràng buộc Sư phạm TOEIC")
+    add_p("Bài toán tổ hợp bộ đề thi thích ứng 30 câu (10 Medium, 10 Easy, 10 Hard) từ ngân hàng 90 câu là bài toán tối ưu hóa đa mục tiêu với các hàm mục tiêu mâu thuẫn: vừa phải tối đa hóa độ chính xác chẩn đoán (AUC/ACC), vừa phải tối đa hóa độ phủ kỹ năng (Coverage), đồng thời phải kiểm soát độ trùng lặp câu hỏi (Item Exposure Rate) nhằm chống lộ đề thi.")
 
-    add_h2("Bảng phân bổ chi tiết bộ đề 30 câu đáp ứng 100% cấu trúc 7 Part TOEIC:")
+    add_h2("a. Nguyên lý & Cơ chế Vận hành của Thuật toán NSGA-II:")
+    add_bullet("Mỗi cá thể trong quần thể (Population N=80) biểu diễn một bộ đề 30 câu. Qua 100 thế hệ (Generations), các toán tử lai ghép (crossover) và đột biến (mutation) liên tục tạo ra các thế hệ đề thi mới đa dạng.", "Mã hóa & Tiến hóa di truyền: ")
+    add_bullet("NSGA-II phân tầng các bộ đề vào các mặt trận Pareto (Fronts). Một bộ đề được xem là tối ưu Pareto nếu không tồn tại bộ đề nào khác vượt trội hơn nó trên tất cả các mục tiêu đồng thời.", "Sắp xếp Không bị Thống trị (Non-dominated Sorting): ")
+    add_bullet("Đo lường mật độ xung quanh mỗi cá thể để ưu tiên giữ lại các bộ đề ở vùng thưa thớt, giúp duy trì sự đa dạng của ngân hàng đề và chống co cụm cục bộ.", "Khoảng cách Dồn cụm (Crowding Distance): ")
+    add_bullet("Trong chu trình tiến hóa, NSGA-II đóng vai trò là 'Nhà thiết kế đề', còn mô hình mạng nơ-ron NCD đóng vai trò là 'Giám khảo chấm thử' (chạy mô phỏng 242 học sinh làm bài để tính điểm hàm Fitness AUC/ACC trả về cho NSGA-II chọn lọc).", "Mối liên kết giữa NSGA-II và NCD: ")
+
+    add_h2("b. Bảng phân bổ chi tiết bộ đề 30 câu đáp ứng 100% cấu trúc 7 Part TOEIC:")
     t_alloc = doc.add_table(rows=4, cols=4)
     t_alloc.alignment = WD_TABLE_ALIGNMENT.CENTER
     alloc_headers = ["Giai đoạn", "Số câu", "Phần thi TOEIC (Parts)", "Chi tiết chùm & Câu hỏi ngân hàng"]
@@ -373,18 +379,18 @@ def build_compact_word_report():
     for ref in refs:
         add_p(ref, italic=True)
 
-    # Save to RutGon files (always safe)
-    doc.save(str(DOCX_RUTGON_ROOT))
-    doc.save(str(DOCX_RUTGON_BACKEND))
-    print(f"Compact report saved successfully:\n  - {DOCX_RUTGON_ROOT}\n  - {DOCX_RUTGON_BACKEND}")
+    # 1. Always save to Final version
+    doc.save(str(DOCX_FINAL_ROOT))
+    doc.save(str(DOCX_FINAL_BACKEND))
+    print(f"Final report saved successfully:\n  - {DOCX_FINAL_ROOT}\n  - {DOCX_FINAL_BACKEND}")
 
-    # Also attempt to overwrite the original file if not locked by WINWORD
+    # 2. Try to update RutGon files if not locked
     try:
-        doc.save(str(DOCX_OUT_ROOT))
-        doc.save(str(DOCX_OUT_BACKEND))
-        print(f"Updated original report files successfully!")
-    except Exception as e:
-        print(f"Note: Original file is currently open in Word. Saved to {DOCX_RUTGON_ROOT.name} instead.")
+        doc.save(str(DOCX_RUTGON_ROOT))
+        doc.save(str(DOCX_RUTGON_BACKEND))
+        print(f"Updated RutGon report files successfully!")
+    except Exception:
+        pass
 
 
 if __name__ == '__main__':
