@@ -1,0 +1,52 @@
+STAGE 1 QUESTIONS (10 ITEMS):
+
+Câu 1 (q_idx=15, Part 3):
+  Nội dung: Where is the digital marketing session taking place?
+  Đáp án ĐÚNG (Hard case): B. B. In Room 204.
+  Đáp án SAI  (Easy case): C. C. In the exhibition gallery.
+
+Câu 2 (q_idx=16, Part 3):
+  Nội dung: Why was the location changed?
+  Đáp án ĐÚNG (Hard case): B. B. Many people registered for the event.
+  Đáp án SAI  (Easy case): C. C. The presenter arrived late.
+
+Câu 3 (q_idx=17, Part 3):
+  Nội dung: How will attendees receive the presentation materials?
+  Đáp án ĐÚNG (Hard case): B. B. Via email later this evening.
+  Đáp án SAI  (Easy case): C. C. By downloading an app.
+
+Câu 4 (q_idx=2, Part 1):
+  Nội dung: Look at the picture and select the best statement.
+  Đáp án ĐÚNG (Hard case): B. B. People are standing on a train platform.
+  Đáp án SAI  (Easy case): C. C. Bags are being loaded into a truck.
+
+Câu 5 (q_idx=8, Part 2):
+  Nội dung: Why hasn't the quarterly financial summary been distributed yet?
+  Đáp án ĐÚNG (Hard case): B. B. Mr. Patel is still verifying the audit figures.
+  Đáp án SAI  (Easy case): C. C. Yes, we received fifty copies.
+
+Câu 6 (q_idx=68, Part 6):
+  Nội dung: Select the best sentence to fill in blank [68]:
+  Đáp án ĐÚNG (Hard case): C. C. All floors will experience intermittent power outages during this period.
+  Đáp án SAI  (Easy case): D. D. Parking spaces are available on a first-come, first-served basis.
+
+Câu 7 (q_idx=69, Part 6):
+  Nội dung: Select the best word to complete blank [69]:
+  Đáp án ĐÚNG (Hard case): C. C. consult
+  Đáp án SAI  (Easy case): D. D. consultation
+
+Câu 8 (q_idx=70, Part 6):
+  Nội dung: Select the best word to complete blank [70]:
+  Đáp án ĐÚNG (Hard case): A. A. cooperation
+  Đáp án SAI  (Easy case): B. B. cooperative
+
+Câu 9 (q_idx=71, Part 6):
+  Nội dung: Select the best word to complete blank [71]:
+  Đáp án ĐÚNG (Hard case): B. B. hesitate
+  Đáp án SAI  (Easy case): C. C. postpone
+
+Câu 10 (q_idx=39, Part 5):
+  Nội dung: The executive board agreed that _____ international market expansion requires careful fiscal assessment.
+  Đáp án ĐÚNG (Hard case): A. A. further
+  Đáp án SAI  (Easy case): B. B. farther
+

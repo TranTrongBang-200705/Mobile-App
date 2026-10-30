@@ -1,6 +1,6 @@
 """
 Generate a concise ~3-page academic Word report (.docx) for the GetGoals PCAT + NCD module,
-with an ultra-clean, intuitive workflow diagram and no redundant glossary table.
+with native Word mathematical equations (OMML), clean flowchart, and NSGA-II explanation.
 """
 
 from pathlib import Path
@@ -140,10 +140,10 @@ def build_compact_word_report():
 
     # Narrow margins to comfortably fit in ~3 pages
     for section in doc.sections:
-        section.top_margin = Inches(0.75)
-        section.bottom_margin = Inches(0.75)
-        section.left_margin = Inches(0.8)
-        section.right_margin = Inches(0.8)
+        section.top_margin = Inches(0.7)
+        section.bottom_margin = Inches(0.7)
+        section.left_margin = Inches(0.75)
+        section.right_margin = Inches(0.75)
 
     # Normal Style
     normal = doc.styles['Normal']
@@ -167,7 +167,7 @@ def build_compact_word_report():
     def add_subtitle(text):
         p = doc.add_paragraph()
         p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-        p.paragraph_format.space_after = Pt(8)
+        p.paragraph_format.space_after = Pt(7)
         r = p.add_run(text)
         r.font.name = 'Times New Roman'
         r.font.size = Pt(10.5)
@@ -176,7 +176,7 @@ def build_compact_word_report():
 
     def add_h1(text):
         p = doc.add_paragraph()
-        p.paragraph_format.space_before = Pt(9)
+        p.paragraph_format.space_before = Pt(8)
         p.paragraph_format.space_after = Pt(2)
         r = p.add_run(text)
         r.font.name = 'Times New Roman'
@@ -186,7 +186,7 @@ def build_compact_word_report():
 
     def add_h2(text):
         p = doc.add_paragraph()
-        p.paragraph_format.space_before = Pt(6)
+        p.paragraph_format.space_before = Pt(5)
         p.paragraph_format.space_after = Pt(1.5)
         r = p.add_run(text)
         r.font.name = 'Times New Roman'
@@ -210,6 +210,15 @@ def build_compact_word_report():
             r_b = p.add_run(bold_pre)
             r_b.font.bold = True
         p.add_run(text)
+        return p
+
+    def add_math_para(omml_str):
+        p = doc.add_paragraph()
+        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        p.paragraph_format.space_before = Pt(2)
+        p.paragraph_format.space_after = Pt(2)
+        xml = f'<m:oMathPara xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math"><m:oMath>{omml_str}</m:oMath></m:oMathPara>'
+        p._p.append(parse_xml(xml))
         return p
 
     # --- TITLE & METADATA ---
@@ -252,36 +261,153 @@ def build_compact_word_report():
 
         p_cap = doc.add_paragraph()
         p_cap.alignment = WD_ALIGN_PARAGRAPH.CENTER
-        p_cap.paragraph_format.space_after = Pt(5)
+        p_cap.paragraph_format.space_after = Pt(4)
         r_cap = p_cap.add_run("Hình 1: Sơ đồ luồng kiểm tra thích ứng 2 giai đoạn (PCAT) và chẩn đoán tri thức (NCD) trong GetGoals")
         r_cap.font.italic = True
         r_cap.font.size = Pt(9)
         r_cap.font.color.rgb = RGBColor(0x47, 0x55, 0x69)
 
-    add_bullet("Thí sinh bắt đầu với 10 câu có độ khó trung bình (0.00), gồm 5 câu Listening (Part 1, 2, 3) và 5 câu Reading (Part 5, 6) để đo phân vị trình độ ban đầu.", "Bước 1 - Thực hiện Đề Cơ sở (Stage 1): ")
-    add_bullet("Khi thí sinh gửi 10 câu trả lời, mô hình NCD tối ưu gradient cục bộ (10 epoch Adam) để ước lượng vector năng lực tiềm ẩn e_s. Điểm năng lực được đối chiếu với Ngưỡng trung vị hiệu chuẩn (Threshold = 0.5294).", "Bước 2 - Định tuyến Thích ứng NCD (Adaptive Routing): ")
-    add_bullet("Nếu điểm năng lực < 0.5294, thí sinh được chuyển sang Chặng 2A (Đề Cơ bản - Easy, độ khó -0.032). Nếu >= 0.5294, chuyển sang Chặng 2B (Đề Nâng cao - Hard, độ khó +0.185). Cả 2 nhánh đều bổ sung câu hỏi của Part 4 và Part 7.", "Bước 3 - Phân nhánh Thích ứng (Stage 2): ")
-    add_bullet("Thí sinh hoàn thành đủ 20 câu. Mạng NCD đóng băng trọng số câu hỏi, tinh chỉnh (fine-tuning) vector embedding học sinh e_s trên toàn bộ 20 câu và giải mã thành Báo cáo 3 lớp: Bảng điểm 7 Part TOEIC (0 - 100%), Biểu đồ Radar 24 kỹ năng và Top 3 Điểm mạnh/Yếu.", "Bước 4 - Chẩn đoán Tri thức Đa chiều: ")
+    add_bullet("Thí sinh bắt đầu với 10 câu có độ khó trung bình, gồm 5 câu Listening (Part 1, 2, 3) và 5 câu Reading (Part 5, 6) để đo phân vị trình độ ban đầu.", "Bước 1 - Thực hiện Đề Cơ sở (Stage 1): ")
+    add_bullet("Khi thí sinh gửi 10 câu trả lời, mô hình NCD tối ưu gradient cục bộ (10 epoch Adam) để ước lượng vector năng lực tiềm ẩn e_s. Điểm năng lực trung bình trên các khái niệm của Stage 1 được tính theo công thức:", "Bước 2 - Định tuyến Thích ứng NCD (Adaptive Routing): ")
+
+    # Math: Mastery formula
+    add_math_para('''
+    <m:r><m:t>Mastery(s, </m:t></m:r>
+    <m:sSub><m:e><m:r><m:t>S</m:t></m:r></m:e><m:sub><m:r><m:t>1</m:t></m:r></m:sub></m:sSub>
+    <m:r><m:t>) = </m:t></m:r>
+    <m:f><m:num><m:r><m:t>1</m:t></m:r></m:num><m:den><m:r><m:t>|C</m:t></m:r><m:sSub><m:e><m:r><m:t></m:t></m:r></m:e><m:sub><m:r><m:t>S1</m:t></m:r></m:sub></m:sSub><m:r><m:t>|</m:t></m:r></m:den></m:f>
+    <m:nary><m:naryPr><m:chr m:val="∑"/></m:naryPr><m:sub><m:r><m:t>k ∈ C_S1</m:t></m:r></m:sub><m:sup><m:r><m:t></m:t></m:r></m:sup><m:e><m:sSub><m:e><m:r><m:t>α</m:t></m:r></m:e><m:sub><m:r><m:t>sk</m:t></m:r></m:sub></m:sSub></m:e></m:nary>
+    ''')
+
+    add_p("Quyết định định tuyến được thực thi tức thì bằng cách đối chiếu với ngưỡng trung vị hiệu chuẩn (τ_median = 0.5294):")
+
+    # Math: Branch formula
+    add_math_para('''
+    <m:r><m:t>Branch(s) = </m:t></m:r>
+    <m:d><m:dPr><m:begChr m:val="{"/><m:endChr m:val=""/></m:dPr><m:e>
+      <m:eqArr>
+        <m:e><m:r><m:t>Stage 2B (Hard),  nếu Mastery(s, S</m:t></m:r><m:sSub><m:e><m:r><m:t></m:t></m:r></m:e><m:sub><m:r><m:t>1</m:t></m:r></m:sub></m:sSub><m:r><m:t>) ≥ τ</m:t></m:r><m:sSub><m:e><m:r><m:t></m:t></m:r></m:e><m:sub><m:r><m:t>median</m:t></m:r></m:sub></m:sSub></m:e>
+        <m:e><m:r><m:t>Stage 2A (Easy),  nếu Mastery(s, S</m:t></m:r><m:sSub><m:e><m:r><m:t></m:t></m:r></m:e><m:sub><m:r><m:t>1</m:t></m:r></m:sub></m:sSub><m:r><m:t>) &lt; τ</m:t></m:r><m:sSub><m:e><m:r><m:t></m:t></m:r></m:e><m:sub><m:r><m:t>median</m:t></m:r></m:sub></m:sSub></m:e>
+      </m:eqArr>
+    </m:e></m:d>
+    ''')
+
+    add_bullet("Thí sinh làm tiếp 10 câu Stage 2 tương ứng với năng lực thực tế. Cả 2 nhánh đều bổ sung câu hỏi của Part 4 và Part 7 để hoàn tất phổ kỹ năng.", "Bước 3 - Phân nhánh Thích ứng (Stage 2): ")
+    add_bullet("Khi thí sinh nộp đủ 20 câu, mạng NCD đóng băng tham số câu hỏi, tinh chỉnh vector năng lực e_s và giải mã thành Báo cáo 3 lớp: Bảng điểm 7 Part TOEIC (0 - 100%), Biểu đồ Radar 24 kỹ năng và Top 3 Điểm mạnh/Yếu.", "Bước 4 - Chẩn đoán Tri thức Đa chiều: ")
 
     # --- SECTION 3: MÔ HÌNH TOÁN HỌC NCD ---
     add_h1("3. Mô hình Toán học NCD & Cập nhật Trực tuyến")
-    add_p("Khác với lý thuyết khảo thí cổ điển (IRT) chỉ đo lường năng lực trên một biến số vô hướng đơn chiều (theta), mô hình NCD biểu diễn học sinh qua vector tiềm ẩn e_s thuộc R^K (với K = 24 chiều: 7 Part TOEIC + 17 thẻ kỹ năng EdNet). Mức độ thành thạo kỹ năng được ánh xạ qua hàm Sigmoid:")
-    add_p("alpha_s = Sigmoid(e_s) in [0, 1]^K", italic=True)
-    add_p("Xác suất thí sinh s trả lời đúng câu hỏi j được tính qua mạng nơ-ron đa tầng với Ràng buộc Đơn điệu (Monotonicity Constraint - các trọng số mạng luôn dương để bảo đảm khi năng lực tăng thì xác suất làm đúng tăng):")
-    add_p("P(Y_sj = 1) = NCD(alpha_s, k_j, d_j)  (k_j: độ phân biệt, d_j: độ khó)", italic=True)
-    add_p("Khi thí sinh làm bài, hệ thống đóng băng tham số câu hỏi (Frozen Weights) và chỉ cập nhật e_s bằng hàm mất mát Binary Cross-Entropy qua 10 epochs Adam, cho phép chẩn đoán tức thì trong 0.2 giây.")
+    add_p("Khác với lý thuyết khảo thí cổ điển (IRT) chỉ đo lường năng lực trên một tham số vô hướng đơn chiều θ, mô hình NCD biểu diễn học sinh qua vector tiềm ẩn e_s thuộc R^K (với K = 24 chiều gồm 7 Part TOEIC và 17 thẻ kỹ năng EdNet). Vector mức độ thuần thục kỹ năng α_s được ánh xạ qua hàm Sigmoid:")
+
+    # Math: Alpha mapping
+    add_math_para('''
+    <m:sSub><m:e><m:r><m:t>α</m:t></m:r></m:e><m:sub><m:r><m:t>s</m:t></m:r></m:sub></m:sSub>
+    <m:r><m:t> = σ(</m:t></m:r>
+    <m:sSub><m:e><m:r><m:t>e</m:t></m:r></m:e><m:sub><m:r><m:t>s</m:t></m:r></m:sub></m:sSub>
+    <m:r><m:t>) ∈ [0, 1]</m:t></m:r>
+    <m:sSup><m:e><m:r><m:t></m:t></m:r></m:e><m:sup><m:r><m:t>K</m:t></m:r></m:sup></m:sSup>
+    <m:r><m:t>   (K = 24)</m:t></m:r>
+    ''')
+
+    add_p("Xác suất thí sinh s trả lời đúng câu hỏi j được tính qua mạng tương tác phi tuyến PredictNet với Ràng buộc Tính Đơn điệu (Monotonicity Constraint - toàn bộ trọng số mạng luôn không âm W_1 ≥ 0, W_2 ≥ 0 để bảo đảm tính sư phạm: khi năng lực học sinh tăng thì xác suất làm đúng câu hỏi luôn tăng):")
+
+    # Math: PredictNet
+    add_math_para('''
+    <m:r><m:t>P(</m:t></m:r>
+    <m:sSub><m:e><m:r><m:t>Y</m:t></m:r></m:e><m:sub><m:r><m:t>sj</m:t></m:r></m:sub></m:sSub>
+    <m:r><m:t> = 1) = σ(</m:t></m:r>
+    <m:sSub><m:e><m:r><m:t>W</m:t></m:r></m:e><m:sub><m:r><m:t>2</m:t></m:r></m:sub></m:sSub>
+    <m:r><m:t> · ReLU(</m:t></m:r>
+    <m:sSub><m:e><m:r><m:t>W</m:t></m:r></m:e><m:sub><m:r><m:t>1</m:t></m:r></m:sub></m:sSub>
+    <m:r><m:t>(</m:t></m:r>
+    <m:sSub><m:e><m:r><m:t>α</m:t></m:r></m:e><m:sub><m:r><m:t>s</m:t></m:r></m:sub></m:sSub>
+    <m:r><m:t> - </m:t></m:r>
+    <m:sSub><m:e><m:r><m:t>d</m:t></m:r></m:e><m:sub><m:r><m:t>j</m:t></m:r></m:sub></m:sSub>
+    <m:r><m:t>) ∘ </m:t></m:r>
+    <m:sSub><m:e><m:r><m:t>k</m:t></m:r></m:e><m:sub><m:r><m:t>j</m:t></m:r></m:sub></m:sSub>
+    <m:r><m:t> + </m:t></m:r>
+    <m:sSub><m:e><m:r><m:t>b</m:t></m:r></m:e><m:sub><m:r><m:t>1</m:t></m:r></m:sub></m:sSub>
+    <m:r><m:t>) + </m:t></m:r>
+    <m:sSub><m:e><m:r><m:t>b</m:t></m:r></m:e><m:sub><m:r><m:t>2</m:t></m:r></m:sub></m:sSub>
+    <m:r><m:t>)</m:t></m:r>
+    ''')
+
+    add_p("Trong đó, d_j là vector độ khó, k_j là vector độ phân biệt của câu hỏi j. Khi thí sinh làm bài, toàn bộ tham số câu hỏi được đóng băng (Frozen Weights). Hệ thống chỉ tối ưu duy nhất vector e_s bằng hàm mất mát Binary Cross-Entropy qua 10 epochs Adam:")
+
+    # Math: Loss
+    add_math_para('''
+    <m:r><m:t>ℒ(</m:t></m:r>
+    <m:sSub><m:e><m:r><m:t>e</m:t></m:r></m:e><m:sub><m:r><m:t>s</m:t></m:r></m:sub></m:sSub>
+    <m:r><m:t>) = - </m:t></m:r>
+    <m:nary><m:naryPr><m:chr m:val="∑"/></m:naryPr><m:sub><m:r><m:t>j ∈ S_tested</m:t></m:r></m:sub><m:sup><m:r><m:t></m:t></m:r></m:sup><m:e>
+      <m:r><m:t>[ </m:t></m:r>
+      <m:sSub><m:e><m:r><m:t>y</m:t></m:r></m:e><m:sub><m:r><m:t>sj</m:t></m:r></m:sub></m:sSub>
+      <m:r><m:t> ln P(</m:t></m:r>
+      <m:sSub><m:e><m:r><m:t>Y</m:t></m:r></m:e><m:sub><m:r><m:t>sj</m:t></m:r></m:sub></m:sSub>
+      <m:r><m:t> = 1) + (1 - </m:t></m:r>
+      <m:sSub><m:e><m:r><m:t>y</m:t></m:r></m:e><m:sub><m:r><m:t>sj</m:t></m:r></m:sub></m:sSub>
+      <m:r><m:t>) ln (1 - P(</m:t></m:r>
+      <m:sSub><m:e><m:r><m:t>Y</m:t></m:r></m:e><m:sub><m:r><m:t>sj</m:t></m:r></m:sub></m:sSub>
+      <m:r><m:t> = 1)) ]</m:t></m:r>
+    </m:e></m:nary>
+    ''')
 
     # --- SECTION 4: THUẬT TOÁN TỔ HỢP ĐỀ VÀ RÀNG BUỘC 7 PART ---
     add_h1("4. Thuật toán Di truyền Đa mục tiêu NSGA-II & Ràng buộc Sư phạm TOEIC")
-    add_p("Bài toán tổ hợp bộ đề thi thích ứng 30 câu (10 Medium, 10 Easy, 10 Hard) từ ngân hàng 90 câu là bài toán tối ưu hóa đa mục tiêu với các hàm mục tiêu mâu thuẫn: vừa phải tối đa hóa độ chính xác chẩn đoán (AUC/ACC), vừa phải tối đa hóa độ phủ kỹ năng (Coverage), đồng thời phải kiểm soát độ trùng lặp câu hỏi (Item Exposure Rate) nhằm chống lộ đề thi.")
+    add_p("Quá trình tổ hợp bộ đề 30 câu (10 Medium, 10 Easy, 10 Hard) từ ngân hàng 90 câu là bài toán Tối ưu hóa Đa mục tiêu có ràng buộc (Constrained Multi-Objective Optimization). Mỗi cá thể (nhiễm sắc thể x) biểu diễn một bộ đề 30 câu:")
 
-    add_h2("a. Nguyên lý & Cơ chế Vận hành của Thuật toán NSGA-II:")
-    add_bullet("Mỗi cá thể trong quần thể (Population N=80) biểu diễn một bộ đề 30 câu. Qua 100 thế hệ (Generations), các toán tử lai ghép (crossover) và đột biến (mutation) liên tục tạo ra các thế hệ đề thi mới đa dạng.", "Mã hóa & Tiến hóa di truyền: ")
-    add_bullet("NSGA-II phân tầng các bộ đề vào các mặt trận Pareto (Fronts). Một bộ đề được xem là tối ưu Pareto nếu không tồn tại bộ đề nào khác vượt trội hơn nó trên tất cả các mục tiêu đồng thời.", "Sắp xếp Không bị Thống trị (Non-dominated Sorting): ")
-    add_bullet("Đo lường mật độ xung quanh mỗi cá thể để ưu tiên giữ lại các bộ đề ở vùng thưa thớt, giúp duy trì sự đa dạng của ngân hàng đề và chống co cụm cục bộ.", "Khoảng cách Dồn cụm (Crowding Distance): ")
-    add_bullet("Trong chu trình tiến hóa, NSGA-II đóng vai trò là 'Nhà thiết kế đề', còn mô hình mạng nơ-ron NCD đóng vai trò là 'Giám khảo chấm thử' (chạy mô phỏng 242 học sinh làm bài để tính điểm hàm Fitness AUC/ACC trả về cho NSGA-II chọn lọc).", "Mối liên kết giữa NSGA-II và NCD: ")
+    # Math: Chromosome
+    add_math_para('''
+    <m:r><m:t>x = [ </m:t></m:r>
+    <m:sSub><m:e><m:r><m:t>S</m:t></m:r></m:e><m:sub><m:r><m:t>1</m:t></m:r></m:sub></m:sSub>
+    <m:r><m:t>,  </m:t></m:r>
+    <m:sSub><m:e><m:r><m:t>S</m:t></m:r></m:e><m:sub><m:r><m:t>2A</m:t></m:r></m:sub></m:sSub>
+    <m:r><m:t>,  </m:t></m:r>
+    <m:sSub><m:e><m:r><m:t>S</m:t></m:r></m:e><m:sub><m:r><m:t>2B</m:t></m:r></m:sub></m:sSub>
+    <m:r><m:t> ] ∈ ℕ</m:t></m:r>
+    <m:sSup><m:e><m:r><m:t></m:t></m:r></m:e><m:sup><m:r><m:t>30</m:t></m:r></m:sup></m:sSup>
+    ''')
 
-    add_h2("b. Bảng phân bổ chi tiết bộ đề 30 câu đáp ứng 100% cấu trúc 7 Part TOEIC:")
+    add_p("Hệ thống áp dụng thuật toán NSGA-II nhằm đồng thời tối ưu hóa 3 hàm mục tiêu Pareto:")
+
+    # Math: Objectives
+    add_math_para('''
+    <m:r><m:t>max </m:t></m:r>
+    <m:sSub><m:e><m:r><m:t>f</m:t></m:r></m:e><m:sub><m:r><m:t>1</m:t></m:r></m:sub></m:sSub>
+    <m:r><m:t>(x) = AUC(x),    max </m:t></m:r>
+    <m:sSub><m:e><m:r><m:t>f</m:t></m:r></m:e><m:sub><m:r><m:t>2</m:t></m:r></m:sub></m:sSub>
+    <m:r><m:t>(x) = Coverage(x),    min </m:t></m:r>
+    <m:sSub><m:e><m:r><m:t>f</m:t></m:r></m:e><m:sub><m:r><m:t>3</m:t></m:r></m:sub></m:sSub>
+    <m:r><m:t>(x) = Exposure(x)</m:t></m:r>
+    ''')
+
+    add_h2("a. Cơ chế vận hành của NSGA-II trong hệ thống:")
+    add_bullet("Quần thể N=80 cá thể tiến hóa qua 100 thế hệ bằng các toán tử lai ghép và đột biến.", "Tiến hóa di truyền: ")
+    add_bullet("Phân tầng các bộ đề vào các mặt trận Pareto (Fronts) dựa trên quan hệ không bị thống trị.", "Sắp xếp Pareto (Non-dominated Sorting): ")
+    add_bullet("Duy trì độ phân tán của các bộ đề bằng khoảng cách dồn cụm, ngăn ngừa co cụm cục bộ.", "Khoảng cách Dồn cụm (Crowding Distance): ")
+    add_bullet("NSGA-II sinh đề và gửi sang mô hình NCD. Mạng NCD mô phỏng 242 học sinh kiểm định để tính hàm mục tiêu AUC/ACC trả về cho NSGA-II chọn lọc.", "Tương hỗ giữa NSGA-II và NCD: ")
+
+    add_h2("b. Bốn ràng buộc sư phạm TOEIC chuẩn hóa:")
+    add_bullet("Bắt buộc cả 2 nhánh Dễ và Khó khi kết hợp với Stage 1 đều phủ trọn vẹn 7 Part:", "1. Ràng buộc Bao phủ Toàn diện (Full Part Coverage): ")
+
+    # Math: Part constraint
+    add_math_para('''
+    <m:r><m:t>𝒫(S</m:t></m:r>
+    <m:sSub><m:e><m:r><m:t></m:t></m:r></m:e><m:sub><m:r><m:t>1</m:t></m:r></m:sub></m:sSub>
+    <m:r><m:t> ∪ S</m:t></m:r>
+    <m:sSub><m:e><m:r><m:t></m:t></m:r></m:e><m:sub><m:r><m:t>2A</m:t></m:r></m:sub></m:sSub>
+    <m:r><m:t>) = 𝒫(S</m:t></m:r>
+    <m:sSub><m:e><m:r><m:t></m:t></m:r></m:e><m:sub><m:r><m:t>1</m:t></m:r></m:sub></m:sSub>
+    <m:r><m:t> ∪ S</m:t></m:r>
+    <m:sSub><m:e><m:r><m:t></m:t></m:r></m:e><m:sub><m:r><m:t>2B</m:t></m:r></m:sub></m:sSub>
+    <m:r><m:t>) = {1, 2, 3, 4, 5, 6, 7}</m:t></m:r>
+    ''')
+
+    add_bullet("Mỗi stage 10 câu có đúng 5 câu Nghe và 5 câu Đọc: |S_i ∩ Listening| = 5, |S_i ∩ Reading| = 5 (∀ i ∈ {1, 2A, 2B}).", "2. Cân bằng Nghe - Đọc: ")
+    add_bullet("Độ khó trung bình bảo đảm: d(S_2A) = -0.032 < d(S_1) = 0.000 < d(S_2B) = +0.185.", "3. Phân tầng Độ khó Thích ứng: ")
+    add_bullet("Bảo toàn 100% ngữ cảnh đoạn văn Part 6, 7 và audio Part 3, 4, tuyệt đối không xé lẻ chùm.", "4. Bảo toàn Chùm câu hỏi (Bundle Integrity): ")
+
+    add_h2("c. Bảng phân bổ chi tiết bộ đề 30 câu đáp ứng 100% cấu trúc 7 Part TOEIC:")
     t_alloc = doc.add_table(rows=4, cols=4)
     t_alloc.alignment = WD_TABLE_ALIGNMENT.CENTER
     alloc_headers = ["Giai đoạn", "Số câu", "Phần thi TOEIC (Parts)", "Chi tiết chùm & Câu hỏi ngân hàng"]
@@ -318,9 +444,8 @@ def build_compact_word_report():
             if i == 0:
                 r.font.bold = True
 
-    doc.add_paragraph().paragraph_format.space_after = Pt(3)
-
-    add_p("Cải tiến kỹ thuật: Bài báo gốc KDD 2025 không ràng buộc sự hiện diện của 7 Part, dẫn đến nhánh Dễ bị khuyết Part 4, 5, 6 (trả về điểm N/A). GetGoals bổ sung Ràng buộc Bao phủ Sư phạm: P(S1 U S2A) = P(S1 U S2B) = {1..7}, đồng thời bảo toàn trọn vẹn ngữ cảnh đoạn văn và audio (Bundle Integrity). Bằng cách lọc trước 1.440 cấu hình hợp lệ, thời gian tối ưu hóa giảm từ 2.4 giờ xuống còn 26 giây.", bold_pre="Đóng góp kỹ thuật cốt lõi: ")
+    doc.add_paragraph().paragraph_format.space_after = Pt(2)
+    add_p("Đóng góp kỹ thuật: Bài báo gốc KDD 2025 không có ràng buộc 7 Part dẫn đến nhánh Dễ bị khuyết Part 4, 5, 6 (trả về điểm N/A). GetGoals bổ sung Ràng buộc Sư phạm 7 Part và kỹ thuật Cắt tỉa Không gian Ràng buộc (Heuristic Pruning), lọc trước 1.440 cấu hình hợp lệ giúp rút ngắn thời gian tìm kiếm từ 2.4 giờ xuống còn 26 giây.", bold_pre="Tối ưu hóa thời gian thực: ")
 
     # --- SECTION 5: KẾT QUẢ THỰC NGHIỆM ---
     add_h1("5. Kết quả Thực nghiệm & Đối sánh Hiệu năng")
@@ -362,11 +487,10 @@ def build_compact_word_report():
             if r_idx == 2:
                 r.font.bold = True
 
-    doc.add_paragraph().paragraph_format.space_after = Pt(3)
-
-    add_bullet("Độ chính xác chẩn đoán đạt AUC = 0.7190, ACC = 0.6778 (dự đoán chính xác 70 câu còn lại trong ngân hàng).", "Về chất lượng AI: ")
-    add_bullet("Độ bao phủ tri thức đạt 89.48%, thí sinh làm bài xong nhận ngay báo cáo toàn diện 7 Part và 24 kỹ năng, không còn điểm mù N/A.", "Về tính sư phạm: ")
-    add_bullet("Thời gian làm bài chỉ 20 câu (~15 phút), giảm 70% so với bài test cố định nhưng vẫn đảm bảo tính khoa học cao nhất.", "Về trải nghiệm người dùng: ")
+    doc.add_paragraph().paragraph_format.space_after = Pt(2)
+    add_bullet("Độ chính xác chẩn đoán đạt AUC = 0.7190, ACC = 0.6778 (dự đoán chính xác 70 câu còn lại trong ngân hàng đề).", "Độ chính xác AI: ")
+    add_bullet("Độ bao phủ tri thức đạt 89.48%, thí sinh làm bài xong nhận ngay báo cáo toàn diện 7 Part và 24 kỹ năng, không còn điểm mù N/A.", "Tính toàn diện: ")
+    add_bullet("Thời gian làm bài chỉ 20 câu (~15 phút), giảm 70% so với bài test cố định nhưng vẫn đảm bảo tính khoa học cao nhất.", "Tính thực tiễn: ")
 
     # --- SECTION 6: TÀI LIỆU THAM KHẢO ---
     add_h1("6. Tài liệu Tham khảo Chính")
@@ -379,16 +503,16 @@ def build_compact_word_report():
     for ref in refs:
         add_p(ref, italic=True)
 
-    # 1. Always save to Final version
+    # 1. Save to Final
     doc.save(str(DOCX_FINAL_ROOT))
     doc.save(str(DOCX_FINAL_BACKEND))
     print(f"Final report saved successfully:\n  - {DOCX_FINAL_ROOT}\n  - {DOCX_FINAL_BACKEND}")
 
-    # 2. Try to update RutGon files if not locked
+    # 2. Save to RutGon
     try:
         doc.save(str(DOCX_RUTGON_ROOT))
         doc.save(str(DOCX_RUTGON_BACKEND))
-        print(f"Updated RutGon report files successfully!")
+        print("RutGon report saved successfully!")
     except Exception:
         pass
 
