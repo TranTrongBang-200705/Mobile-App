@@ -391,13 +391,13 @@ def build_compact_word_report():
 
     # Math: Chromosome
     add_math_para('''
-    <m:r><m:t>x = [ </m:t></m:r>
+    <m:r><m:t>x = [</m:t></m:r>
     <m:sSub><m:e><m:r><m:t>S</m:t></m:r></m:e><m:sub><m:r><m:t>1</m:t></m:r></m:sub></m:sSub>
-    <m:r><m:t>,  </m:t></m:r>
+    <m:r><m:t>, </m:t></m:r>
     <m:sSub><m:e><m:r><m:t>S</m:t></m:r></m:e><m:sub><m:r><m:t>2A</m:t></m:r></m:sub></m:sSub>
-    <m:r><m:t>,  </m:t></m:r>
+    <m:r><m:t>, </m:t></m:r>
     <m:sSub><m:e><m:r><m:t>S</m:t></m:r></m:e><m:sub><m:r><m:t>2B</m:t></m:r></m:sub></m:sSub>
-    <m:r><m:t> ] ∈ </m:t></m:r>
+    <m:r><m:t>] ∈ </m:t></m:r>
     <m:sSup><m:e><m:r><m:t>ℕ</m:t></m:r></m:e><m:sup><m:r><m:t>30</m:t></m:r></m:sup></m:sSup>
     ''')
 
