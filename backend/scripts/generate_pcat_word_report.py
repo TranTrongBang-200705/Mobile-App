@@ -275,8 +275,24 @@ def build_compact_word_report():
     <m:r><m:t>Mastery(s, </m:t></m:r>
     <m:sSub><m:e><m:r><m:t>S</m:t></m:r></m:e><m:sub><m:r><m:t>1</m:t></m:r></m:sub></m:sSub>
     <m:r><m:t>) = </m:t></m:r>
-    <m:f><m:num><m:r><m:t>1</m:t></m:r></m:num><m:den><m:r><m:t>|C</m:t></m:r><m:sSub><m:e><m:r><m:t></m:t></m:r></m:e><m:sub><m:r><m:t>S1</m:t></m:r></m:sub></m:sSub><m:r><m:t>|</m:t></m:r></m:den></m:f>
-    <m:nary><m:naryPr><m:chr m:val="∑"/></m:naryPr><m:sub><m:r><m:t>k ∈ C_S1</m:t></m:r></m:sub><m:sup><m:r><m:t></m:t></m:r></m:sup><m:e><m:sSub><m:e><m:r><m:t>α</m:t></m:r></m:e><m:sub><m:r><m:t>sk</m:t></m:r></m:sub></m:sSub></m:e></m:nary>
+    <m:f>
+      <m:num><m:r><m:t>1</m:t></m:r></m:num>
+      <m:den>
+        <m:r><m:t>|</m:t></m:r>
+        <m:sSub><m:e><m:r><m:t>C</m:t></m:r></m:e><m:sub><m:r><m:t>S1</m:t></m:r></m:sub></m:sSub>
+        <m:r><m:t>|</m:t></m:r>
+      </m:den>
+    </m:f>
+    <m:nary>
+      <m:naryPr><m:chr m:val="∑"/><m:supHide m:val="1"/></m:naryPr>
+      <m:sub>
+        <m:r><m:t>k ∈ </m:t></m:r>
+        <m:sSub><m:e><m:r><m:t>C</m:t></m:r></m:e><m:sub><m:r><m:t>S1</m:t></m:r></m:sub></m:sSub>
+      </m:sub>
+      <m:e>
+        <m:sSub><m:e><m:r><m:t>α</m:t></m:r></m:e><m:sub><m:r><m:t>sk</m:t></m:r></m:sub></m:sSub>
+      </m:e>
+    </m:nary>
     ''')
 
     add_p("Quyết định định tuyến được thực thi tức thì bằng cách đối chiếu với ngưỡng trung vị hiệu chuẩn (τ_median = 0.5294):")
@@ -286,8 +302,18 @@ def build_compact_word_report():
     <m:r><m:t>Branch(s) = </m:t></m:r>
     <m:d><m:dPr><m:begChr m:val="{"/><m:endChr m:val=""/></m:dPr><m:e>
       <m:eqArr>
-        <m:e><m:r><m:t>Stage 2B (Hard),  nếu Mastery(s, S</m:t></m:r><m:sSub><m:e><m:r><m:t></m:t></m:r></m:e><m:sub><m:r><m:t>1</m:t></m:r></m:sub></m:sSub><m:r><m:t>) ≥ τ</m:t></m:r><m:sSub><m:e><m:r><m:t></m:t></m:r></m:e><m:sub><m:r><m:t>median</m:t></m:r></m:sub></m:sSub></m:e>
-        <m:e><m:r><m:t>Stage 2A (Easy),  nếu Mastery(s, S</m:t></m:r><m:sSub><m:e><m:r><m:t></m:t></m:r></m:e><m:sub><m:r><m:t>1</m:t></m:r></m:sub></m:sSub><m:r><m:t>) &lt; τ</m:t></m:r><m:sSub><m:e><m:r><m:t></m:t></m:r></m:e><m:sub><m:r><m:t>median</m:t></m:r></m:sub></m:sSub></m:e>
+        <m:e>
+          <m:r><m:t>Stage 2B (Hard),  nếu Mastery(s, </m:t></m:r>
+          <m:sSub><m:e><m:r><m:t>S</m:t></m:r></m:e><m:sub><m:r><m:t>1</m:t></m:r></m:sub></m:sSub>
+          <m:r><m:t>) ≥ </m:t></m:r>
+          <m:sSub><m:e><m:r><m:t>τ</m:t></m:r></m:e><m:sub><m:r><m:t>median</m:t></m:r></m:sub></m:sSub>
+        </m:e>
+        <m:e>
+          <m:r><m:t>Stage 2A (Easy),  nếu Mastery(s, </m:t></m:r>
+          <m:sSub><m:e><m:r><m:t>S</m:t></m:r></m:e><m:sub><m:r><m:t>1</m:t></m:r></m:sub></m:sSub>
+          <m:r><m:t>) &lt; </m:t></m:r>
+          <m:sSub><m:e><m:r><m:t>τ</m:t></m:r></m:e><m:sub><m:r><m:t>median</m:t></m:r></m:sub></m:sSub>
+        </m:e>
       </m:eqArr>
     </m:e></m:d>
     ''')
@@ -304,9 +330,9 @@ def build_compact_word_report():
     <m:sSub><m:e><m:r><m:t>α</m:t></m:r></m:e><m:sub><m:r><m:t>s</m:t></m:r></m:sub></m:sSub>
     <m:r><m:t> = σ(</m:t></m:r>
     <m:sSub><m:e><m:r><m:t>e</m:t></m:r></m:e><m:sub><m:r><m:t>s</m:t></m:r></m:sub></m:sSub>
-    <m:r><m:t>) ∈ [0, 1]</m:t></m:r>
-    <m:sSup><m:e><m:r><m:t></m:t></m:r></m:e><m:sup><m:r><m:t>K</m:t></m:r></m:sup></m:sSup>
-    <m:r><m:t>   (K = 24)</m:t></m:r>
+    <m:r><m:t>) ∈ </m:t></m:r>
+    <m:sSup><m:e><m:r><m:t>[0, 1]</m:t></m:r></m:e><m:sup><m:r><m:t>K</m:t></m:r></m:sup></m:sSup>
+    <m:r><m:t>   (với K = 24: 7 Parts + 17 Tags)</m:t></m:r>
     ''')
 
     add_p("Xác suất thí sinh s trả lời đúng câu hỏi j được tính qua mạng tương tác phi tuyến PredictNet với Ràng buộc Tính Đơn điệu (Monotonicity Constraint - toàn bộ trọng số mạng luôn không âm W_1 ≥ 0, W_2 ≥ 0 để bảo đảm tính sư phạm: khi năng lực học sinh tăng thì xác suất làm đúng câu hỏi luôn tăng):")
@@ -339,17 +365,24 @@ def build_compact_word_report():
     <m:r><m:t>ℒ(</m:t></m:r>
     <m:sSub><m:e><m:r><m:t>e</m:t></m:r></m:e><m:sub><m:r><m:t>s</m:t></m:r></m:sub></m:sSub>
     <m:r><m:t>) = - </m:t></m:r>
-    <m:nary><m:naryPr><m:chr m:val="∑"/></m:naryPr><m:sub><m:r><m:t>j ∈ S_tested</m:t></m:r></m:sub><m:sup><m:r><m:t></m:t></m:r></m:sup><m:e>
-      <m:r><m:t>[ </m:t></m:r>
-      <m:sSub><m:e><m:r><m:t>y</m:t></m:r></m:e><m:sub><m:r><m:t>sj</m:t></m:r></m:sub></m:sSub>
-      <m:r><m:t> ln P(</m:t></m:r>
-      <m:sSub><m:e><m:r><m:t>Y</m:t></m:r></m:e><m:sub><m:r><m:t>sj</m:t></m:r></m:sub></m:sSub>
-      <m:r><m:t> = 1) + (1 - </m:t></m:r>
-      <m:sSub><m:e><m:r><m:t>y</m:t></m:r></m:e><m:sub><m:r><m:t>sj</m:t></m:r></m:sub></m:sSub>
-      <m:r><m:t>) ln (1 - P(</m:t></m:r>
-      <m:sSub><m:e><m:r><m:t>Y</m:t></m:r></m:e><m:sub><m:r><m:t>sj</m:t></m:r></m:sub></m:sSub>
-      <m:r><m:t> = 1)) ]</m:t></m:r>
-    </m:e></m:nary>
+    <m:nary>
+      <m:naryPr><m:chr m:val="∑"/><m:supHide m:val="1"/></m:naryPr>
+      <m:sub>
+        <m:r><m:t>j ∈ </m:t></m:r>
+        <m:sSub><m:e><m:r><m:t>S</m:t></m:r></m:e><m:sub><m:r><m:t>tested</m:t></m:r></m:sub></m:sSub>
+      </m:sub>
+      <m:e>
+        <m:r><m:t>[ </m:t></m:r>
+        <m:sSub><m:e><m:r><m:t>y</m:t></m:r></m:e><m:sub><m:r><m:t>sj</m:t></m:r></m:sub></m:sSub>
+        <m:r><m:t> ln P(</m:t></m:r>
+        <m:sSub><m:e><m:r><m:t>Y</m:t></m:r></m:e><m:sub><m:r><m:t>sj</m:t></m:r></m:sub></m:sSub>
+        <m:r><m:t> = 1) + (1 - </m:t></m:r>
+        <m:sSub><m:e><m:r><m:t>y</m:t></m:r></m:e><m:sub><m:r><m:t>sj</m:t></m:r></m:sub></m:sSub>
+        <m:r><m:t>) ln (1 - P(</m:t></m:r>
+        <m:sSub><m:e><m:r><m:t>Y</m:t></m:r></m:e><m:sub><m:r><m:t>sj</m:t></m:r></m:sub></m:sSub>
+        <m:r><m:t> = 1)) ]</m:t></m:r>
+      </m:e>
+    </m:nary>
     ''')
 
     # --- SECTION 4: THUẬT TOÁN TỔ HỢP ĐỀ VÀ RÀNG BUỘC 7 PART ---
@@ -364,8 +397,8 @@ def build_compact_word_report():
     <m:sSub><m:e><m:r><m:t>S</m:t></m:r></m:e><m:sub><m:r><m:t>2A</m:t></m:r></m:sub></m:sSub>
     <m:r><m:t>,  </m:t></m:r>
     <m:sSub><m:e><m:r><m:t>S</m:t></m:r></m:e><m:sub><m:r><m:t>2B</m:t></m:r></m:sub></m:sSub>
-    <m:r><m:t> ] ∈ ℕ</m:t></m:r>
-    <m:sSup><m:e><m:r><m:t></m:t></m:r></m:e><m:sup><m:r><m:t>30</m:t></m:r></m:sup></m:sSup>
+    <m:r><m:t> ] ∈ </m:t></m:r>
+    <m:sSup><m:e><m:r><m:t>ℕ</m:t></m:r></m:e><m:sup><m:r><m:t>30</m:t></m:r></m:sup></m:sSup>
     ''')
 
     add_p("Hệ thống áp dụng thuật toán NSGA-II nhằm đồng thời tối ưu hóa 3 hàm mục tiêu Pareto:")
@@ -390,21 +423,32 @@ def build_compact_word_report():
     add_h2("b. Bốn ràng buộc sư phạm TOEIC chuẩn hóa:")
     add_bullet("Bắt buộc cả 2 nhánh Dễ và Khó khi kết hợp với Stage 1 đều phủ trọn vẹn 7 Part:", "1. Ràng buộc Bao phủ Toàn diện (Full Part Coverage): ")
 
-    # Math: Part constraint
+    # Math: Part constraint (Clean without empty placeholders)
     add_math_para('''
-    <m:r><m:t>𝒫(S</m:t></m:r>
-    <m:sSub><m:e><m:r><m:t></m:t></m:r></m:e><m:sub><m:r><m:t>1</m:t></m:r></m:sub></m:sSub>
-    <m:r><m:t> ∪ S</m:t></m:r>
-    <m:sSub><m:e><m:r><m:t></m:t></m:r></m:e><m:sub><m:r><m:t>2A</m:t></m:r></m:sub></m:sSub>
-    <m:r><m:t>) = 𝒫(S</m:t></m:r>
-    <m:sSub><m:e><m:r><m:t></m:t></m:r></m:e><m:sub><m:r><m:t>1</m:t></m:r></m:sub></m:sSub>
-    <m:r><m:t> ∪ S</m:t></m:r>
-    <m:sSub><m:e><m:r><m:t></m:t></m:r></m:e><m:sub><m:r><m:t>2B</m:t></m:r></m:sub></m:sSub>
+    <m:r><m:t>𝒫(</m:t></m:r>
+    <m:sSub><m:e><m:r><m:t>S</m:t></m:r></m:e><m:sub><m:r><m:t>1</m:t></m:r></m:sub></m:sSub>
+    <m:r><m:t> ∪ </m:t></m:r>
+    <m:sSub><m:e><m:r><m:t>S</m:t></m:r></m:e><m:sub><m:r><m:t>2A</m:t></m:r></m:sub></m:sSub>
+    <m:r><m:t>) = 𝒫(</m:t></m:r>
+    <m:sSub><m:e><m:r><m:t>S</m:t></m:r></m:e><m:sub><m:r><m:t>1</m:t></m:r></m:sub></m:sSub>
+    <m:r><m:t> ∪ </m:t></m:r>
+    <m:sSub><m:e><m:r><m:t>S</m:t></m:r></m:e><m:sub><m:r><m:t>2B</m:t></m:r></m:sub></m:sSub>
     <m:r><m:t>) = {1, 2, 3, 4, 5, 6, 7}</m:t></m:r>
     ''')
 
     add_bullet("Mỗi stage 10 câu có đúng 5 câu Nghe và 5 câu Đọc: |S_i ∩ Listening| = 5, |S_i ∩ Reading| = 5 (∀ i ∈ {1, 2A, 2B}).", "2. Cân bằng Nghe - Đọc: ")
     add_bullet("Độ khó trung bình bảo đảm: d(S_2A) = -0.032 < d(S_1) = 0.000 < d(S_2B) = +0.185.", "3. Phân tầng Độ khó Thích ứng: ")
+
+    # Math: Difficulty hierarchy
+    add_math_para('''
+    <m:sSub><m:e><m:r><m:t>d</m:t></m:r></m:e><m:sub><m:r><m:t>S2A</m:t></m:r></m:sub></m:sSub>
+    <m:r><m:t> &lt; </m:t></m:r>
+    <m:sSub><m:e><m:r><m:t>d</m:t></m:r></m:e><m:sub><m:r><m:t>S1</m:t></m:r></m:sub></m:sSub>
+    <m:r><m:t> &lt; </m:t></m:r>
+    <m:sSub><m:e><m:r><m:t>d</m:t></m:r></m:e><m:sub><m:r><m:t>S2B</m:t></m:r></m:sub></m:sSub>
+    <m:r><m:t>    (-0.032 &lt; 0.000 &lt; +0.185)</m:t></m:r>
+    ''')
+
     add_bullet("Bảo toàn 100% ngữ cảnh đoạn văn Part 6, 7 và audio Part 3, 4, tuyệt đối không xé lẻ chùm.", "4. Bảo toàn Chùm câu hỏi (Bundle Integrity): ")
 
     add_h2("c. Bảng phân bổ chi tiết bộ đề 30 câu đáp ứng 100% cấu trúc 7 Part TOEIC:")
@@ -503,18 +547,22 @@ def build_compact_word_report():
     for ref in refs:
         add_p(ref, italic=True)
 
-    # 1. Save to Final
-    doc.save(str(DOCX_FINAL_ROOT))
-    doc.save(str(DOCX_FINAL_BACKEND))
-    print(f"Final report saved successfully:\n  - {DOCX_FINAL_ROOT}\n  - {DOCX_FINAL_BACKEND}")
+    # Save to all target locations safely
+    save_targets = [
+        ("BaoCao_PCAT_NCD_GetGoals_Final.docx (Root)", DOCX_FINAL_ROOT),
+        ("BaoCao_PCAT_NCD_GetGoals_Final.docx (Backend)", DOCX_FINAL_BACKEND),
+        ("BaoCao_HocThuat_PCAT_RutGon.docx (Root)", DOCX_RUTGON_ROOT),
+        ("BaoCao_HocThuat_PCAT_RutGon.docx (Backend)", DOCX_RUTGON_BACKEND),
+        ("BaoCao_HocThuat_PCAT_NCD_GetGoals.docx (Root)", ROOT.parent / 'BaoCao_HocThuat_PCAT_NCD_GetGoals.docx'),
+        ("BaoCao_HocThuat_PCAT_NCD_GetGoals.docx (Backend)", ROOT / 'BaoCao_HocThuat_PCAT_NCD_GetGoals.docx'),
+    ]
 
-    # 2. Save to RutGon
-    try:
-        doc.save(str(DOCX_RUTGON_ROOT))
-        doc.save(str(DOCX_RUTGON_BACKEND))
-        print("RutGon report saved successfully!")
-    except Exception:
-        pass
+    for label, target_path in save_targets:
+        try:
+            doc.save(str(target_path))
+            print(f"  [OK] Saved: {label} -> {target_path}")
+        except Exception as e:
+            print(f"  [LOCKED/ERROR] Could not save {label}: {e}")
 
 
 if __name__ == '__main__':
