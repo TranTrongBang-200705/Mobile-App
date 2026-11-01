@@ -53,7 +53,7 @@ def create_diagram():
     # Box 1: NCD Huấn luyện trước
     draw_box(0.7, 5.5, 3.2, 3.5, "BƯỚC 1: NCD TRAIN TRƯỚC", [
         "• Mục tiêu: Học tri thức 90 câu hỏi",
-        "• Dữ liệu: Dense EdNet TOEIC",
+        "• Dữ liệu: 242 Train / 61 Test (303 HS)",
         "• Học ra các tham số câu hỏi:",
         "  - Vector độ khó d_j (24 chiều)",
         "  - Vector độ phân biệt k_j",
